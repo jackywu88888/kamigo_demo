@@ -25,9 +25,9 @@ class VideosController < ApplicationController
            # "連結3": "line://oaMessage/@032okdnb/?%40填寫問卷 ",
         },
         {
-            "活動": "BF_上方_遊戲_簽到簿",
-            "連結": "每週一中午12時開抽500元零用金",
-         #   "連結2": "https://lihi1.com/nUlLa",
+              "活動": "BF_上方_遊戲_簽到簿",
+              "連結": "每週一中午12時開抽500元零用金",
+           #  "連結2": "https://lihi1.com/nUlLa",
         },
         ]
         
