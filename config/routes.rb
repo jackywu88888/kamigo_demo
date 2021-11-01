@@ -19,6 +19,9 @@ Rails.application.routes.draw do
   # todo
   resources :todos
 
+  #搜
+  get "簽到系列", to: "videos#index"
+
   # menu
   get "index", to: "home#index"
   get "menu", to: "home#menu"
