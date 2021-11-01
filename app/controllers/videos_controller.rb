@@ -15,14 +15,14 @@ class VideosController < ApplicationController
             "連結": "https://pse.is/S9UZ2",
         },
         {
-            "活動": "[tada台灣車主協會]每天打卡",
-            "連結": "line://oaMessage/@tada_car/%23我要打卡",
+           # "活動": "[tada台灣車主協會]每天打卡",
+           # "連結": "line://oaMessage/@tada_car/%23我要打卡",
         },
         {
-            "活動": "[商略問卷代發]",
-            "連結": "line://oaMessage/@032okdnb/?%40兌換抽獎/活動",
-            "連結2": "line://oaMessage/@032okdnb/?%40試試手氣 ",
-            "連結3": "line://oaMessage/@032okdnb/?%40填寫問卷 ",
+           # "活動": "[商略問卷代發]",
+           # "連結": "line://oaMessage/@032okdnb/?%40兌換抽獎/活動",
+           # "連結2": "line://oaMessage/@032okdnb/?%40試試手氣 ",
+           # "連結3": "line://oaMessage/@032okdnb/?%40填寫問卷 ",
         },
         {
             "活動": "BF_上方_遊戲_簽到簿",
