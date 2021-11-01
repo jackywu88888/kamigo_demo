@@ -1,6 +1,6 @@
 class VidoesController < ApplicationController
     def index
-        @vidoes =[
+        @vidoes = [
         {
             "活動": "蝦幣寶箱&每日簽到",
             "連結": "https://shp.ee/ii4iivjsxey",
