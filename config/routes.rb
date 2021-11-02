@@ -20,8 +20,8 @@ Rails.application.routes.draw do
   resources :todos
 
   #搜
-  get "簽到", to: "videos#index"
-
+  get "簽到系列", to: "videos#index"
+  get "APP簽到系列", to: "videos2#index"
   # menu
   get "index", to: "home#index"
   get "menu", to: "home#menu"
