@@ -60,6 +60,11 @@ class VideosController < ApplicationController
           "連結": "2021/08/01~2021/12/31 ",
           "完美": "https://insightctbcsec.page.link/tqgE",
         },
+        {
+          "活動": "特力屋簽到11/1-11，最高 110 點！",
+          "連結": "https://www.trplus.com.tw/event/trplus/211101_signt",
+          "完美": "",
+        },
         ]
           end
         end
