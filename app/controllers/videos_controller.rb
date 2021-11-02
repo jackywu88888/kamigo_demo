@@ -4,7 +4,7 @@ class VideosController < ApplicationController
         {
             "活動": "蝦幣寶箱/每日簽到",
             "連結": "https://shp.ee/ii4iivjsxey",
-            "連結2": "https://risu.io/yUrX",
+            "連動": "https://risu.io/yUrX",
         },
       #  {
       #      "活動": "[飛比簽到]",
