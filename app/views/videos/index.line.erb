@@ -1,6 +1,6 @@
 {
-"type": "text",
-"text": "<% = @videos.map do |video|
-    "#{video[:活動]}\\n#{video[:連結]}" 
-end.join("\\n\\n") %>"
+    "type": "text",
+    "text": "<%= @videos.map do |video|
+        "#{video[:活動]}\\n#{video[:連結]}" 
+        end.join("\\n\\n") %>"
 }
