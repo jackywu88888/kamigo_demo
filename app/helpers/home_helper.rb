@@ -72,15 +72,15 @@ module HomeHelper
 # 分享機器人
 def kamiflex_share_bot
   Kamiflex.hash(self) do
-    alt_text "賺點數社群 向您傳送了聯絡資訊"
+    alt_text "賺點數社群官方 向您傳送了聯絡資訊"
     bubble do
       body do
         horizontal_box do
-          text "眾多官方帳號與商家優惠資訊活動", wrap: true, weight: :bold
+          text "賺點數社群官方", wrap: true, weight: :bold
           url_button "分享此訊息", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
         end
         separator
-        text "賺點數社群歡迎分享", wrap: true, size: :sm, margin: :lg
+        text "眾多官方帳號與商家優惠資訊活動", wrap: true, size: :sm, margin: :lg
         horizontal_box action: uri_action("https://line.me/R/ti/p/#{ENV["BOT_ID"]}"), borderColor: "#AAAAAA", borderWidth: :light, cornerRadius: :lg, margin: :xl do
           horizontal_box paddingAll: "10px" do
             horizontal_box cornerRadius: :xxl, width: "40px", height: "40px" do
