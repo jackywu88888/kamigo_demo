@@ -86,7 +86,7 @@ def kamiflex_share_bot
             horizontal_box cornerRadius: :xxl, width: "40px", height: "40px" do
               image "https://#{request.host}/images/IMG_20211002_200712.jpg", size: :full
             end
-            text "賺點數社群", wrap: true, size: :lg, margin: :md, gravity: :center, weight: :bold, flex: 3
+            text "賺點數社群官方", wrap: true, size: :lg, margin: :md, gravity: :center, weight: :bold, flex: 3
             text ">", color: "#AAAAAA", wrap: true, size: :md, gravity: :center, align: :end
           end
         end
