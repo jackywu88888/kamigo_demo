@@ -21,7 +21,7 @@ Rails.application.routes.draw do
 
   #搜
   get "簽到系列", to: "videos#index"
-  get "APP簽到系列", to: "videos2#index"
+  get "MOMO簽到", to: "videos2#index"
   # menu
   get "index", to: "home#index"
   get "menu", to: "home#menu"
