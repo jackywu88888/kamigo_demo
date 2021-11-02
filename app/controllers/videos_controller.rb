@@ -8,7 +8,7 @@ class VideosController < ApplicationController
         },
         {
           "活動": "[飛比簽到]",
-          "連結": "https://rotf.lol/Feebee",,
+          "連結": "https://rotf.lol/Feebee",
         },
         {
           "活動": "[H5點就玩]",
@@ -18,12 +18,12 @@ class VideosController < ApplicationController
         {
           "活動": "[tada台灣車主協會]",
           "連結": "每天打卡",
-          "完美": "line://oaMessage/@tada_car/%23我要打卡",
+          "完美": "http://line.me/R/oaMessage/@tada_car/%23我要打卡",
         },
         {
           "活動": "[商略問卷代發]",
-          "連結": "line://oaMessage/@032okdnb/?%40填寫問卷",
-          "完美": "line://oaMessage/@032okdnb/?%40試試手氣",
+          "連結": "http://line.me/R/oaMessage/@032okdnb/?%40填寫問卷",
+          "完美": "http://line.me/R/oaMessage/@032okdnb/?%40試試手氣",
         },
         {
           "活動": "BF.上方.遊戲.簽到簿",
