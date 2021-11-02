@@ -72,7 +72,7 @@ module HomeHelper
 # 分享機器人
 def kamiflex_share_bot
   Kamiflex.hash(self) do
-    alt_text "Kamigo Demo 向您傳送了聯絡資訊"
+    alt_text "賺點數社群 向您傳送了聯絡資訊"
     bubble do
       body do
         horizontal_box do
