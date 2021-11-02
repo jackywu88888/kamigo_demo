@@ -2,7 +2,7 @@ class VideosController < ApplicationController
     def index
         @videos = [
         {
-            "活動": "蝦幣寶箱&每日簽到",
+            "活動": "蝦幣寶箱/每日簽到",
             "連結": "https://shp.ee/ii4iivjsxey",
             "連結2": "https://risu.io/yUrX",
         },
@@ -28,7 +28,7 @@ class VideosController < ApplicationController
       #      "活動": "BF_上方_遊戲_簽到簿",
       #      "連結": "每週一中午12時開抽500元零用金",
       #      "連結2": "https://lihi1.com/nUlLa",
-        },
+      #  },
         ]
           end
         end
