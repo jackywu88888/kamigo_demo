@@ -1,10 +1,6 @@
-<%= raw(Kamiflex.build(self) do
-  bubble do
-    body do
-      horizontal_box do
-        text "Hello, world"
-      end
-    end
-  end
-end 
-)%>
+<%= raw {
+  type: "text",
+  text: "Hello, world""//"ㄙ"Hello, world"
+}.to_json %>
+o_json %>
+
