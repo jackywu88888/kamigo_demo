@@ -1,4 +1,10 @@
-<%= raw(
-      text "功能目錄"
-
+<%= raw(Kamiflex.build(self) do
+  bubble do
+    body do
+      horizontal_box do
+        text "Hello, world"
+      end
+    end
+  end
+end 
 )%>
