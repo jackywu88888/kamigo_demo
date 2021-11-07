@@ -1,10 +1,39 @@
-ENV['RAILS_ENV'] ||= 'test'
-require_relative '../config/environment'
-require 'rails/test_help'
+# Example of opening a specified URL in LINE's in-app browser
+{
+   "type": "action",
+   "action": {
+         "type": "uri",
+         "label": "Menu",
+         "uri": "https://example.com/menu"
+   }
+}
 
-class ActiveSupport::TestCase
-  # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-  fixtures :all
+# Example of opening different URLs for smartphone and desktop versions of LINE
+{
+   "type": "uri",
+   "label": "View details",
+   "uri": "http://example.com/page/222",
+   "altUri": {
+      "desktop" : "http://example.com/pc/page/222"
+   }
+}
 
-  # Add more helper methods to be used by all tests here...
-end
+# Example of opening a call app by specifying a phone number
+{
+   "type": "action",
+   "action": {
+         "type": "uri",
+         "label": "Phone order",
+         "uri": "tel:09001234567"
+   }
+}
+
+# Example of sharing LINE Official Account through LINE URL scheme
+{
+   "type": "action",
+   "action": {
+         "type": "uri",
+         "label": "Recommend to friends",
+         "uri": "https://line.me/R/nv/recommendOA/@linedevelopers"
+   }
+}
