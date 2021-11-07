@@ -8,10 +8,10 @@ Rails.application.routes.draw do
   }
 
   # 加入好友時的自我介紹訊息
-  get "follow", to: "home#follow"
+ # get "follow", to: "home#follow"
 
   # 加入群組時的自我介紹訊息
-  get "join", to: "home#follow"
+ # get "join", to: "home#follow"
 
   # 有人加入群組時的歡迎訊息
   get "memberJoined", to: "home#member_join"
@@ -25,13 +25,13 @@ Rails.application.routes.draw do
   get "momo", to: "videos2#index"
 
   # menu
-  get "index", to: "home#index"
+ # get "index", to: "home#index"
   get "menu", to: "home#menu"
   get "目錄", to: "home#menu"
 
   # 查天氣
-  get "*location天氣", to: "weather#show"
-  get "(*location)天氣(*other)", to: "weather#show"
+  # get "*location天氣", to: "weather#show"
+  # get "(*location)天氣(*other)", to: "weather#show"
 
   # 測試用
   get "test", to: "home#test"
