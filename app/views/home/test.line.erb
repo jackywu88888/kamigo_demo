@@ -1,18 +1,16 @@
 [
   {"type":"text","text": "<%= safe_liff_path(path: '/menu', liff_size: :full) %>" },
   {"type":"text","text":"test"},
-  // Text input
-  page.fill("#name", "Peter");
-  
-  // Date input
-  page.fill("#date", "2020-02-02");
-  
-  // Time input
-  page.fill("#time", "13-15");
-  
-  // Local datetime input
-  page.fill("#local", "2020-03-02T05:15");
-  
-  // Input through label
-  page.fill("text=First Name", "Peter");
+ #!/usr/bin/ruby -w
+# -*- coding : utf-8 -*-
+ 
+print <<EOF
+这是第一种方式创建here document 。
+多行字符串。
+EOF
+
+print <<"EOF";                # 与上面相同
+这是第二种方式创建here document 。
+多行字符串。
+EOF
 ]
