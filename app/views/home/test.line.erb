@@ -1,11 +1,17 @@
 [
   {"type":"text","text": "<%= safe_liff_path(path: '/menu', liff_size: :full) %>" },
   {"type":"text","text":"test"},
- {
-  page.navigate("https://www.wikipedia.org/");
-  page.click("input[name="search"]");
-  page.fill("input[name="search"]", "playwright");
-  page.press("input[name="search"]", "Enter");
-  assertEquals("https://en.wikipedia.org/wiki/Playwright", page.url());
-},
-]
+  // Text input
+  page.fill("#name", "Peter");
+  
+  // Date input
+  page.fill("#date", "2020-02-02");
+  
+  // Time input
+  page.fill("#time", "13-15");
+  
+  // Local datetime input
+  page.fill("#local", "2020-03-02T05:15");
+  
+  // Input through label
+  page.fill("text=First Name", "Peter");
