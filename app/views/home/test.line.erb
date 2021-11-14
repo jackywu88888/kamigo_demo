@@ -3,9 +3,9 @@
   {"type":"text","text":"test"},
  {
   page.navigate("https://www.wikipedia.org/");
-  page.click("input[name=\"search\"]");
-  page.fill("input[name=\"search\"]", "playwright");
-  page.press("input[name=\"search\"]", "Enter");
+  page.click("input[name="search"]");
+  page.fill("input[name="search"]", "playwright");
+  page.press("input[name="search"]", "Enter");
   assertEquals("https://en.wikipedia.org/wiki/Playwright", page.url());
 },
 ]
