@@ -1,8 +1,14 @@
 [
   {"type":"text","text": "<%= safe_liff_path(path: '/menu', liff_size: :full) %>" },
   {"type":"text","text":"test"},
-  {
-   "type":"camera",
-   "label":"Camera"
+
+
+@Test
+void shouldSearchWiki() {
+  page.navigate("https://www.wikipedia.org/");
+  page.click("input[name=\"search\"]");
+  page.fill("input[name=\"search\"]", "playwright");
+  page.press("input[name=\"search\"]", "Enter");
+  assertEquals("https://en.wikipedia.org/wiki/Playwright", page.url());
 },
 ]
