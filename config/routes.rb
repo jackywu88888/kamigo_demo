@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   get "memberJoined", to: "home#member_join"
 
   # todo
-  resources : todos
+  resources :todos
 
   #搜
 
