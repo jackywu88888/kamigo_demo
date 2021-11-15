@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   }
 
   # 加入好友時的自我介紹訊息
- # get "follow", to: "home#follow"
+  get "follow", to: "home#follow"
 
   # 加入群組時的自我介紹訊息
  # get "join", to: "home#follow"
@@ -17,9 +17,10 @@ Rails.application.routes.draw do
   get "memberJoined", to: "home#member_join"
 
   # todo
-  resources :todos
+  get "resources" : to "todos#index"
 
   #搜
+
   get "簽到系列", to: "videos#index"
   get "MOMO簽到", to: "videos2#index"
   get "momo", to: "videos2#index"
