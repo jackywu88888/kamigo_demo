@@ -1,3 +1,4 @@
-def index
-      puts 'Hello everyone'   
-      puts "Hello everyone"
+#!/usr/bin/ruby   
+
+puts 'Hello everyone'   
+puts "Hello everyone"
