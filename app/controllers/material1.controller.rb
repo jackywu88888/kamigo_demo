@@ -2,14 +2,12 @@ class Material1Controller < ApplicationController
     def index
 @material1s = [
     {
-      "網址" => "全家一暖好茶轉轉樂",
-      "影片" => "https://line.me/R/app/1655769181-xePA5be5?gid=bV4JNa4n",
-      "成果" => 300,
+      "活動" : "全家一暖好茶轉轉樂\n\n全家一暖好茶轉轉樂",
+      "連結" : "https://line.me/R/app/1655769181-xePA5be5?gid=bV4JNa4n",
     },
       {
-      "網址" => 100,
-      "影片" => 200,
-      "成果" => 300,
+        "活動" : "全家一暖好茶轉轉樂",
+        "連結" : "https://line.me/R/app/1655769181-xePA5be5?gid=bV4JNa4n",
     },
     ]
 end
