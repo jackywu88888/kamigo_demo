@@ -1,17 +1,7 @@
-material1s = [
-  {
-    "網址" => "全家一暖好茶轉轉樂",
-    "影片" => "https://line.me/R/app/1655769181-xePA5be5?gid=bV4JNa4n",
-    "成果" => 300,
-  },
-    {
-    "網址" => 100,
-    "影片" => 200,
-    "成果" => 300,
-  },
-  ]
-  material1s.each {|material1|
+{"type": "text",
+"text": "<%= @material1s.each {|material1|
   material1.each{|key,value|
-  puts "#{value}\n\n" 
+  puts #{value}\n\n %>"
+}
 }
 }
