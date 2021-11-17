@@ -22,14 +22,14 @@ Rails.application.routes.draw do
   #搜
 
   get "簽到系列", to: "videos#index"
-#  get "MOMO簽到", to: "videos#index"
-#  get "momo", to: "videos2#index"
+# get "MOMO簽到", to: "videos#index"
+# get "momo", to: "videos2#index"
   get "MOMO簽到", to: "home#material"
   get "momo", to: "home#material"
   get "簽到", to: "home#points1"
   
   # menu
-  # get "index", to: "home#index"
+# get "index", to: "home#index"
   get "menu", to: "home#menu"
   get "目錄", to: "home#menu"
 
