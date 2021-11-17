@@ -37,7 +37,7 @@ Rails.application.routes.draw do
   # 測試用
   get "test", to: "home#test"
 
-  get "*love", to: "weather2#show2"
+  get "*love", to: "home#material"
 
 
   # 查詢當下的使用者
