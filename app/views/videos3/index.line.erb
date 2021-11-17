@@ -1,6 +1,6 @@
 {
     "type": "text",
-    "text": "<%= @videos3.each {|videos|
+    "text": "<%= @videos3.map {|videos|
     videos.each {|key ,value|
     puts #{videos[value]} }}
     %>"
