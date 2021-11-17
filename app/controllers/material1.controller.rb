@@ -1,4 +1,4 @@
-class material1Controller < ApplicationController
+class Material1Controller < ApplicationController
     def index
 @material1s = [
     {
