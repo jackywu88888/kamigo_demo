@@ -20,10 +20,11 @@ Rails.application.routes.draw do
   resources :todos
 
   #搜
-
-  get "簽到系列", to: "videos#index"
 # get "MOMO簽到", to: "videos#index"
 # get "momo", to: "videos2#index"
+  get "簽到系列", to: "videos#index"
+  get "簽到系列2", to: "home#points2"
+  get "簽到系列3", to: "home#points3"
   get "MOMO簽到", to: "home#material"
   get "momo", to: "home#material"
   get "測試", to: "videos3#index"
@@ -34,6 +35,11 @@ Rails.application.routes.draw do
   get "目錄", to: "home#menu"
   get "簽到彙集", to: "home#menu2"
   get "line_tv", to: "home#line_tv"
+
+
+
+
+
   # 查天氣
   # get "*location天氣", to: "weather#show"
   # get "(*location)天氣(*other)", to: "weather#show"
