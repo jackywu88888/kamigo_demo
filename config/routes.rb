@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   # LINE Login 登入
   devise_for :users, controllers: {
-    omniauth_callbacks: 'omniauth_callbacks'
+  omniauth_callbacks: 'omniauth_callbacks'
   }
 
   # 加入好友時的自我介紹訊息
