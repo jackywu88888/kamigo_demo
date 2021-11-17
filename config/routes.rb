@@ -32,6 +32,7 @@ Rails.application.routes.draw do
 # get "index", to: "home#index"
   get "menu", to: "home#menu"
   get "目錄", to: "home#menu"
+  get "簽到彙整", to "home#menu2"
 
   # 查天氣
   # get "*location天氣", to: "weather#show"

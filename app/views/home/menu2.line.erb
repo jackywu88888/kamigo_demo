@@ -1,0 +1,26 @@
+<%= raw(
+Kamiflex.json(self) do
+  alt_text "簽到彙整"
+  bubble size: :giga do
+    body do
+      text "簽到彙整"
+
+      separator color: "#eeeeee"
+
+      horizontal_box margin: :lg do
+          message_button "簽到系列", "簽到系列", style: :primary
+          url_button "簽到系列2", "簽到系列2", style: :primary, margin: :md
+        end
+      horizontal_box margin: :lg do  
+
+          url_button "簽到系列3", "簽到系列3", style: :primary
+        
+          url_button "MOMO簽到", "MOMO簽到", style: :primary, margin: :md
+        end
+      horizontal_box margin: :lg do
+          url_button "LINE_TV觀看", "LINE_TV觀看", style: :primary
+          url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
+      end
+    end
+  end
+)%>
