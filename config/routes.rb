@@ -26,7 +26,7 @@ Rails.application.routes.draw do
 #  get "momo", to: "videos2#index"
   get "MOMO簽到", to: "home#material"
   get "momo", to: "home#material"
-  get "簽到整理", to:"home#points1"
+  get "簽到整理", to: "home#points1"
   
   # menu
   # get "index", to: "home#index"
