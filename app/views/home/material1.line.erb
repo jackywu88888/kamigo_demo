@@ -1,6 +1,6 @@
 {"type": "text",
-"text": "<%= @material1s.each {|material1|
-  material1.each{|key,value|
+"text": "<%= @material1s.map do {|material1|
+  material1.map do{|key,value|
   end.join #{value}\n\n %>"
 }
 }
