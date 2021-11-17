@@ -1,9 +1,11 @@
-<%= raw(Kamiflex.build(self) do
-  bubble do
-    body do
-      horizontal_box do
-        text "Hello, world"
-      end
-    end
-  end
-end )%>
+videos = [
+  {"1"=>Test,},
+  {"2"=>Test,},
+  {"3"=>Test,},
+]
+
+videos.each {|video|
+  videos.each{|key ,value|
+  pust "#{key} is #{value}"
+}
+}
