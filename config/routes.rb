@@ -22,11 +22,14 @@ Rails.application.routes.draw do
   #搜
 
   get "簽到系列", to: "videos#index"
-  get "MOMO簽到", to: "videos2#index"
-  get "momo", to: "videos2#index"
-
+#  get "MOMO簽到", to: "videos#index"
+#  get "momo", to: "videos2#index"
+  get "MOMO簽到", to: "home#material"
+  get "momo", to: "home#material"
+  get "簽到彙整", to:"home#points_card"
+  
   # menu
- # get "index", to: "home#index"
+  # get "index", to: "home#index"
   get "menu", to: "home#menu"
   get "目錄", to: "home#menu"
 
@@ -37,7 +40,7 @@ Rails.application.routes.draw do
   # 測試用
   get "test", to: "home#test"
 
-  get "*love", to: "home#material"
+  get "love", to: "home#material"
 
 
   # 查詢當下的使用者
