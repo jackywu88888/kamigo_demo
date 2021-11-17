@@ -2,7 +2,7 @@ class Videos3Controller < ApplicationController
   def index
       @videos3 = [
       {
-        "活動": "11/12-11/21 簽到分享最高送$40momo幣, momo幣將於簽到後立刻歸戶,使用期限至 11/21 23:59,momo-年終感恩季-天天簽到 - momo購物網" ,
+        "活動": "11/12-11/21 簽到分享最高送$40momo幣,momo幣將於簽到後立刻歸戶,使用期限至11/2123:59,momo-年終感恩季-天天簽到-momo購物網" ,
         "連結": "https://momo.dm/Fu3EIU" ,
       },
       {
@@ -24,6 +24,9 @@ class Videos3Controller < ApplicationController
         "活動": "折價券天 天免費領",
         "連結": "https://momo.dm/qRb2j3",
         "完美": "",
+      },
+      {
+        "type":"活動","活動":"11/12-11/21 簽到分享最高送$40momo幣,momo幣將於簽到後立刻歸戶,使用期限至 11/21 23:59,momo-年終感恩季-天天簽到-momo購物網。\n\nhttps://momo.dm/Fu3EIU"},
       },
       ]
         end
