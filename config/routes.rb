@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   get "memberJoined", to: "home#member_join"
 
   # todo
- # resources :todos
+  resources :todos
 
   #搜
 
@@ -26,7 +26,7 @@ Rails.application.routes.draw do
 # get "momo", to: "videos2#index"
   get "MOMO簽到", to: "home#material"
   get "momo", to: "home#material"
-  get "lov", to: "home#points"
+  get "lov", to: "home#point"
   
   # menu
 # get "index", to: "home#index"
