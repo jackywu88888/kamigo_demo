@@ -33,7 +33,7 @@ Rails.application.routes.draw do
   get "menu", to: "home#menu"
   get "目錄", to: "home#menu"
   get "簽到彙集", to: "home#menu2"
-
+  get "line_tv", to: "home#line_tv"
   # 查天氣
   # get "*location天氣", to: "weather#show"
   # get "(*location)天氣(*other)", to: "weather#show"
