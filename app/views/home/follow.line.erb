@@ -7,13 +7,12 @@
 
         separator color: "#eeeeee"
 
-        text "眾多官方帳號與商家優惠資訊活動", wrap: true, size: :sm, margin: :lg
+        text "眾多官方帳號與商家優惠資訊活動", wrap: true, size: :sm, margin: :md
 
         separator color: "#eeeeee"
 
         horizontal_box margin: :lg do
         message_button "功能目錄", "目錄", style: :primary
-          #url_button "查看原始碼", "https://github.com/etrex/kamigo_demo", style: :primary, margin: :md
         url_button "賺點數社群", "http://line.me/ti/g2/pouCYoNQTEsXxN_hX7yhkg", style: :primary, margin: :md
         end
 
@@ -25,10 +24,8 @@
         end
 
         horizontal_box margin: :lg do
-          #url_button "聯絡作者", "https://www.facebook.com/the.kamiger", style: :primary
           url_button "橘子支付社群", "http://line.me/ti/g2/JnYgYIxtSxYLK3oor2ttPA", style: :primary
           url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
-          #safe_liff_path(path: "/share_bot", liff_size: :compact), style: :primary, margin: :md
         end
       end
     end
