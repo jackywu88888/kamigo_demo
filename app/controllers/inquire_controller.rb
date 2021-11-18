@@ -14,13 +14,9 @@ class InquireController < ApplicationController
       @keyword = parmas[:keyword]
 
       if @keyword.present?
-        filtered_inquire = []
-          @inquires.each do |inquire|
-      if inquire [:題目].include? @keyword
-        filtered_inquires << inquire  
+          @inquires.filter! do |inquire|
+             inquire [:題目].include? @keyword
+      end
     end
   end
-        @inquires = filtered_inquires
-        end
-    end
 end
