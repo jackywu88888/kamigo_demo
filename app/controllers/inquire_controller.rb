@@ -15,12 +15,12 @@ class InquireController < ApplicationController
 
       if @keyword.present?
         filtered_inquire = []
-        @inquires.each do |inquire|
-          if inquire [:題目].include? @keyword
+          @inquires.each do |inquire|
+      if inquire [:題目].include? @keyword
         filtered_inquires << inquire  
     end
   end
         @inquires = filtered_inquires
-end
-end
+        end
+    end
 end
