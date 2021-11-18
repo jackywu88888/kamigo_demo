@@ -1,0 +1,14 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "您所查詢的關鍵字 <%= @keyword %> , 以下為符合查詢答案。"
+  }
+  <% end %>
+  {
+    "type": "text",
+    "text": "<%= @inquire.map do |video|
+        "#{video[:題目]}\\n#{video[:答案]}}" 
+        end.join("\\n\\n") %>"
+  }
+]
