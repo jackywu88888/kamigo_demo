@@ -1,6 +1,6 @@
 class InquireController < ApplicationController
     def index
-      @inquires = [
+      @inquire = [
         {
           "題目": "那種不是珠仙的屬性？",
           "答案": "防禦",
@@ -14,8 +14,8 @@ class InquireController < ApplicationController
       @keyword = parmas[:keyword]
 
       if @keyword.present?
-          @inquires.filter! do |inquire|
-             inquire[:題目].include? @keyword
+          @inquire.filter! do |i|
+             i[:題目].include? @keyword
       end
     end
   end

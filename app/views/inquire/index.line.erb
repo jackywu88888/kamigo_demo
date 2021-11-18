@@ -7,8 +7,8 @@
   <% end %>
   {
     "type": "text",
-    "text": "<%= @inquires.map do |inquire|
-        "#{inquire[:題目]}\\n#{inquire[:答案]}" 
+    "text": "<%= @inquire.map do |i|
+        "#{i[:題目]}\\n#{i[:答案]}" 
         end.join("\\n\\n") %>"
   }
 ]
