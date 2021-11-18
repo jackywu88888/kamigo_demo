@@ -3,12 +3,12 @@
   {
     "type": "text",
     "text": "您所查詢的關鍵字 <%= @keyword %> , 以下為符合查詢答案。"
-  }
+  },
   <% end %>
   {
     "type": "text",
     "text": "<%= @inquires.map do |inquire|
-        "#{inquire[:題目]}\\n#{inquire[:答案]}}" 
+        "#{inquire[:題目]}\\n#{inquire[:答案]}" 
         end.join("\\n\\n") %>"
   }
 ]

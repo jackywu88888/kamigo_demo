@@ -20,7 +20,7 @@ class InquireController < ApplicationController
         filtered_inquires << inquire  
     end
   end
-        @inquires = filtered_inquire
+        @inquires = filtered_inquires
 end
 end
 end
