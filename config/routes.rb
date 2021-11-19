@@ -23,6 +23,7 @@ Rails.application.routes.draw do
 # get "MOMO簽到", to: "videos#index"
 # get "momo", to: "videos2#index"
   get "簽到系列", to: "videos#index"
+  get "簽到系列/*keyword", to: "videos#index"
   get "簽到系列2", to: "home#points2"
   get "簽到系列3", to: "home#points3"
   get "MOMO簽到", to: "home#material"

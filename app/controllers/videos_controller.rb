@@ -66,5 +66,13 @@ class VideosController < ApplicationController
           "完美": "",
         },
         ]
-          end
+
+        @keyword = parmas[:keyword]
+
+        if @keyword.present?
+            @videos.filter! do |video|
+               video[:活動].include? @keyword
         end
+      end
+   end
+ end
