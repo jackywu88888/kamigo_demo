@@ -11,7 +11,7 @@ class InquiresController < ApplicationController
         },
       ]
 
-      @keyword = parmas[:keyword]
+      @keyword = params[:keyword]
 
       if @keyword.present?
           @inquires.filter! do |inquire|

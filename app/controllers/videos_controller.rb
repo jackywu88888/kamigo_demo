@@ -67,7 +67,7 @@ class VideosController < ApplicationController
         },
         ]
 
-        @keyword = parmas[:keyword]
+        @keyword = params[:keyword]
 
         if @keyword.present?
             @videos.filter! do |video|
