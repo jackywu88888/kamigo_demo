@@ -1,6 +1,6 @@
 class VideosController < ApplicationController
     def index
-        @videos = [
+      @videos = [
         {
           "活動": "蝦幣寶箱/每日簽到",
           "連結": "https://shp.ee/ii4iivjsxey",
@@ -65,13 +65,8 @@ class VideosController < ApplicationController
           "連結": "https://www.trplus.com.tw/event/trplus/211101_signt",
           "完美": "",
         },
-        ]
+    ]
 
-        @keyword = params[:keyword]
-
-        if @keyword.present?
-            @videos.filter! do |video|
-               video[:活動].include? @keyword
         end
       end
    end

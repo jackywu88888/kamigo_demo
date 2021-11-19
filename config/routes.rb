@@ -23,7 +23,7 @@ Rails.application.routes.draw do
 # get "MOMO簽到", to: "videos#index"
 # get "momo", to: "videos2#index"
   get "簽到系列", to: "videos#index"
-  get "簽到系列/*keyword", to: "videos#index"
+  get "簽到查詢/*keyword", to: "videos#index"
   get "簽到系列2", to: "home#points2"
   get "簽到系列3", to: "home#points3"
   get "MOMO簽到", to: "home#material"
@@ -32,7 +32,7 @@ Rails.application.routes.draw do
   get "H5查詢/*keyword", to: "inquires#index"
   get "H5查詢", to: "inquires#index"
   # menu
-# get "index", to: "home#index"
+  # get "index", to: "home#index"
   get "menu", to: "home#menu"
   get "目錄", to: "home#menu"
   get "簽到彙集", to: "home#menu2"
