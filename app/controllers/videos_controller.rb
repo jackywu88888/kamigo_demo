@@ -67,6 +67,11 @@ class VideosController < ApplicationController
         },
     ]
 
+    @keyword = params[:keyword]
+
+    if @keyword.present?
+        @videos.filter! do |video|
+           video[:活動].include? @keyword
         end
       end
    end
