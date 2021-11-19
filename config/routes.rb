@@ -28,7 +28,7 @@ Rails.application.routes.draw do
   get "MOMO簽到", to: "home#material"
   get "momo", to: "home#material"
   get "測試", to: "videos3#index"
-  get "H5查詢/*keyword", to: "inquire#index"
+  get "H5查詢/*keyword", to: "inquires#index"
   
   # menu
 # get "index", to: "home#index"
