@@ -30,6 +30,7 @@ Rails.application.routes.draw do
   get "momo", to: "home#material"
   get "測試", to: "videos3#index"
   get "H5點就玩查詢/*keyword", to: "inquires#index"
+  get "Y5遊戲查詢/*keyword", to: "inquires2#index"
 # get "H5查詢", to: "inquires#index"
   # menu
   # get "index", to: "home#index"
