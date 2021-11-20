@@ -32,6 +32,7 @@ Rails.application.routes.draw do
   get "H5點就玩查詢/*keyword", to: "inquires#index"
   get "Y5遊戲查詢/*keyword", to: "inquires2#index"
 # get "H5查詢", to: "inquires#index"
+  
   # menu
   # get "index", to: "home#index"
   get "menu", to: "home#menu"
@@ -39,7 +40,7 @@ Rails.application.routes.draw do
   get "簽到彙集", to: "home#menu2"
   get "line_tv", to: "home#line_tv"
 
-
+  get "簽到系列4", to: "home#points4"
 
 
 
