@@ -8,7 +8,7 @@ class Inquires3Controller < ApplicationController
           "活動4": "4.進入QPP APP背包→點選振興捕魚券→點選虛寶兌換並套用到自創的新角色身上。",
           "活動5": "5.至網頁星城(步驟3.的網址和角色畫面)的信箱領振興幣→點選振興捕魚區用自動9999和+2將振興幣花光。",
           "活動6": "6.20分鐘後振興幣花完畫面會提示QPP APP的背包領取全家100元購物金。",
-        #  "活動7": "https://#{request.host}/images/IMG_20211002_200712.jpg",
+          "活動7": "https://#{request.host}/images/IMG_20211002_200712.jpg",
         },  
         ]
 
