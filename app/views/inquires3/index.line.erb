@@ -7,8 +7,8 @@
   <% end %>
   {
     "type": "text",
-    "text": "<%= @inquires2.map do|inquire|
-      "#{inquire[:題目]}\\n#{inquire[:答案]}"
+    "text": "<%= @inquires3.map do|inquire|
+      "#{inquire[:活動1]}\\n#{inquire[:活動2]}\\n#{inquire[:活動3]}\\n#{inquire[:活動4]}\\n#{inquire[:活動5]}\\n#{inquire[:活動6]}\\nhttps://#{request.host}/images/IMG_20211002_200712.jpg"
         end.join("\\n\\n") %>"
   }
 ]
