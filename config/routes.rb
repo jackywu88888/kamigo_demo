@@ -32,7 +32,7 @@ Rails.application.routes.draw do
   get "H5點就玩查詢/*keyword", to: "inquires#index"
   get "Y5遊戲查詢/*keyword", to: "inquires2#index"
 # get "H5查詢", to: "inquires#index"
-  get "星城/*全家購物金", to: "inquires3#index"  
+  get "星城/*keyword", to: "inquires3#index"  
 
   # menu
   # get "index", to: "home#index"
