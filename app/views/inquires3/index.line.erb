@@ -10,5 +10,30 @@
     "text": "<%= @inquires3.map do|inquire|
       "#{inquire[:活動1]}\\n\\n#{inquire[:活動2]}\\n\\n#{inquire[:活動3]}\\n\\n#{inquire[:活動4]}\\n\\n#{inquire[:活動5]}\\n\\n#{inquire[:活動6]}\\n\\n#{inquire[:url]}"
         end.join("\\n\\n") %>"
+  },
+  {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            <%= @inquires3.each do|inquire| %>
+            {
+              "type": "image",
+              "url": "<%= inquire[:圖片說明]%>",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            }
+            <% end %>
+          ],
+          "paddingAll": "0px"
+        }
+      }
+    ]
   }
 ]
