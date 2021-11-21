@@ -9,9 +9,6 @@ class Inquires3Controller < ApplicationController
           "活動5": "5.至網頁星城(步驟3.的網址和角色畫面)的信箱領振興幣→點選振興捕魚區用自動9999和+2將振興幣花光。",
           "活動6": "6.20分鐘後振興幣花完畫面會提示QPP APP的背包領取全家100元購物金。",
         },
-        {
-          "圖片說明": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip1.jpg" 
-        },
         ]
 
         @keyword = params[:keyword]
