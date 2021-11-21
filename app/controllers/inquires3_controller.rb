@@ -1,4 +1,4 @@
-class Inquires2Controller < ApplicationController
+class Inquires3Controller < ApplicationController
     def index
       @inquires3 = [
         {
@@ -14,7 +14,7 @@ class Inquires2Controller < ApplicationController
         @keyword = params[:keyword]
     
         if @keyword.present?
-            @inquires2.filter! do |inquire|
+            @inquires3.filter! do |inquire|
                inquire[:活動1].include? @keyword
           end
         end
