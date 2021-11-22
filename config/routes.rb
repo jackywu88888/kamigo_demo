@@ -20,8 +20,8 @@ Rails.application.routes.draw do
   resources :todos
 
   #搜
-   get "MOMO簽到", to: "videos2#index"
-   get "momo", to: "videos2#index"
+  get "MOMO簽到", to: "videos2#index"
+  get "momo", to: "videos2#index"
   get "簽到系列", to: "videos#index"
   get "簽到查詢/*keyword", to: "videos#index"
   get "簽到系列2", to: "home#points2"
@@ -50,9 +50,9 @@ Rails.application.routes.draw do
   # get "(*location)天氣(*other)", to: "weather#show"
 
   # 測試用
-  get "test", to: "home#test"
+ # get "test", to: "home#test"
 
-  get "love", to: "home#material"
+ # get "love", to: "home#material"
 
 
   # 查詢當下的使用者
