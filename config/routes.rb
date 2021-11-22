@@ -39,7 +39,7 @@ Rails.application.routes.draw do
   get "menu", to: "home#menu"
   get "目錄", to: "home#menu"
   get "簽到彙集分享活動", to: "home#menu2"
-  get "line_tv", to: "home#line_tv"
+  get "line_tv", to: "inquires4#index"
 
   get "簽到系列4", to: "home#points4"
 

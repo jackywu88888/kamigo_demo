@@ -1,0 +1,14 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
+  },
+  <% end %>
+  {
+    "type": "text",
+    "text": "<%= @inquires4.map do|inquire|
+      "#{inquire[:活動]}\\n\\n#{inquire[:影片]}"
+        end.join("\\n\\n") %>"
+  }
+]
