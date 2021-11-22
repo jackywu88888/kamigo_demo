@@ -21,7 +21,6 @@ class Videos2Controller < ApplicationController
           "活動": "活動總覽",
           "連結": "https://momo.dm/ejmjva",
         },
-        ]
         {
           "活動": "折價券天天免費領",
           "連結": "https://momo.dm/qRb2j3",
