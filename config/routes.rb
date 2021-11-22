@@ -20,7 +20,7 @@ Rails.application.routes.draw do
   resources :todos
 
   #搜
-   get "MOMO簽到", to: "videos#index"
+   get "MOMO簽到", to: "videos2#index"
    get "momo", to: "videos2#index"
   get "簽到系列", to: "videos#index"
   get "簽到查詢/*keyword", to: "videos#index"
