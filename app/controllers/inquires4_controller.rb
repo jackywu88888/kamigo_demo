@@ -1,4 +1,4 @@
-class Inquires3Controller < ApplicationController
+class Inquires4Controller < ApplicationController
     def index
       @inquires4 = [
         {
