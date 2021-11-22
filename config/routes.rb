@@ -26,6 +26,8 @@ Rails.application.routes.draw do
   get "簽到查詢/*keyword", to: "videos#index"
   get "簽到系列2", to: "home#points2"
   get "簽到系列3", to: "home#points3"
+  get "簽到系列4", to: "home#points4"
+  get "關鍵字", to: "home#points5"
 #  get "MOMO簽到", to: "home#material"
 #  get "momo", to: "home#material"
   get "測試", to: "videos3#index"
@@ -41,7 +43,7 @@ Rails.application.routes.draw do
   get "簽到彙集分享活動", to: "home#menu2"
   get "line_tv", to: "inquires4#index"
 
-  get "簽到系列4", to: "home#points4"
+
 
 
 
