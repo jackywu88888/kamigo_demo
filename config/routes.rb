@@ -20,14 +20,14 @@ Rails.application.routes.draw do
   resources :todos
 
   #搜
-# get "MOMO簽到", to: "videos#index"
-# get "momo", to: "videos2#index"
+   get "MOMO簽到", to: "videos#index"
+   get "momo", to: "videos2#index"
   get "簽到系列", to: "videos#index"
   get "簽到查詢/*keyword", to: "videos#index"
   get "簽到系列2", to: "home#points2"
   get "簽到系列3", to: "home#points3"
-  get "MOMO簽到", to: "home#material"
-  get "momo", to: "home#material"
+#  get "MOMO簽到", to: "home#material"
+#  get "momo", to: "home#material"
   get "測試", to: "videos3#index"
   get "H5點就玩查詢/*keyword", to: "inquires#index"
   get "Y5遊戲查詢/*keyword", to: "inquires2#index"
