@@ -28,6 +28,8 @@ Rails.application.routes.draw do
   get "簽到系列3", to: "home#points3"
   get "簽到系列4", to: "home#points4"
   get "關鍵字", to: "home#points5"
+  get "環保集點", to: "home#points6"
+  get "序號儲值", to: "home#points7"
 #  get "MOMO簽到", to: "home#material"
 #  get "momo", to: "home#material"
   get "測試", to: "videos3#index"
@@ -35,13 +37,16 @@ Rails.application.routes.draw do
   get "Y5遊戲查詢/*keyword", to: "inquires2#index"
 # get "H5查詢", to: "inquires#index"
   get "星城", to: "inquires3#index"  
+  get "line_tv", to: "inquires4#index"
+
 
   # menu
   # get "index", to: "home#index"
   get "menu", to: "home#menu"
   get "目錄", to: "home#menu"
   get "簽到彙集分享活動", to: "home#menu2"
-  get "line_tv", to: "inquires4#index"
+  get "推薦碼活動資訊", to: "home#menu3"
+
 
 
 
