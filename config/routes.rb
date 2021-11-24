@@ -45,7 +45,7 @@ Rails.application.routes.draw do
   get "menu", to: "home#menu"
   get "目錄", to: "home#menu"
   get "簽到彙集分享活動", to: "home#menu2"
-  get "推薦碼活動資訊", to: "home#menu3"
+  get "推薦碼", to: "home#menu3"
 
 
 
