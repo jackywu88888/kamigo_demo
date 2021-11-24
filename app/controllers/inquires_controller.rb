@@ -2,6 +2,10 @@ class InquiresController < ApplicationController
     def index
       @inquires = [
         {
+          "題目": "《鬥塔英雄傳》請問高級祭祀10次需要多少鑽石？",
+          "答案": "30000",
+        },
+        {
           "題目": "關於《皇者天下》背景的三國時代敘述何者正確？",
           "答案": "劉關張，桃園三結義",
         },
