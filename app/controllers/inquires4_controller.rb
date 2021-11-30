@@ -2,7 +2,7 @@ class Inquires4Controller < ApplicationController
     def index
       @inquires4 = [
         {
-          "活動": "1.【追劇贈點】《茶金》最美時代劇！完成追劇任務得20點！",
+          "活動": "1.【追劇贈點】《茶金》最美時代劇！連續三天完整觀看下方指定戲劇任一集，完成追劇任務得20點！",
           "影片": "活動期間：2021/11/30~2021/12/05\\n\\n《茶金》\\n\\n➡️ https://bnc.lt/MuAd/0NugzzHprlb",
         },
         {
