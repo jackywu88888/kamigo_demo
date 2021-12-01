@@ -2,7 +2,7 @@ class Inquires4Controller < ApplicationController
     def index
       @inquires4 = [
         {
-          "活動": "1.【追劇贈點】2021 動漫大賞，觀劇為愛應援!活動期間內，完整觀看下方指定戲劇任一集，就送 LINE POINTS1點，每人每天最多得1點最高7點",
+          "活動": "1.【追劇贈點】2021 動漫大賞，觀劇為愛應援!活動期間內，完整觀看下方指定戲劇任一集，就送 LINE POINTS1點，每人每天最多得1點，活動期間最高7點。",
           "影片": "活動期間：2021/12/02~2021/12/08\\n\\n《國王排名》\\n\\n➡️ https://bnc.lt/MuAd/yrVkL28Nplb",
         },
         {
