@@ -6,7 +6,7 @@ class Videos4Controller < ApplicationController
           "連結": "momo購物網消費筆記 12/01更新" ,
         },
         {
-          "活動": "不限金額下單抽11/14-12/31年終感恩季-下單抽SONY影音娛樂組",
+          "活動": "不限金額下單抽11/14-12/31年終感恩季-\\n下單抽SONY影音娛樂組",
           "連結": "https://momo.dm/mmyVze",
         },
         {
@@ -18,15 +18,15 @@ class Videos4Controller < ApplicationController
           "連結": "12.12年終盛典-12元清空購物車\\n\\nhttps://momo.dm/rnvrvZ",
         },
         {
-          "活動": "12/01-12/15超商取貨活動-momo購物網",
+          "活動": "12/01-12/15超商取貨活動\\nmomo購物網",
           "連結": "https://momo.dm/3zJmmy",
         },
         {
-          "活動": "11/14-12/31集點加價購momo-年終感恩季-集點加購 ",
+          "活動": "11/14-12/31集點加價購momo\\n年終感恩季-集點加購 ",
           "連結": "https://momo.dm/RRrueE",
         },
         {
-          "活動": "11/14-12/31消費滿額登記送momo-年終感恩季-滿額送$5500",
+          "活動": "11/14-12/31消費滿額登記送momo\\n年終感恩季-滿額送$5500",
           "連結": "https://momo.dm/22BrVm",
         },
         {
