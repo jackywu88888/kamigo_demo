@@ -14,7 +14,7 @@ class Videos1Controller < ApplicationController
           "連結": "積分可以兌換商品、咖啡、LINE POINTS。\\n\\nhttps://pse.is/S9UZ2",
         },
         {
-          "活動": "【Y5遊戲】 （H5/Yahoo版）簽到、任務中心回答問題累積積分。",
+          "活動": "【Y5遊戲】(H5/Yahoo版)簽到、任務中心回答問題累積積分。",
           "連結": "積分可以兌換商品、咖啡、LINE POINTS。\\n\\nhttps://yahoo.wakool.net/welfare-center/quest",
         },
         {
