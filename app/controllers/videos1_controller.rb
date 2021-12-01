@@ -30,15 +30,15 @@ class Videos1Controller < ApplicationController
           "連結": "https://m.yes123.com.tw/admin/freego_2019/activity.asp",
         },
         {
-          "活動": "BF.上方.遊戲.簽到簿\\n\\n每週一中午12時開抽500元零用金",
+          "活動": "BF.上方.遊戲.簽到簿\\n每週一中午12時開抽500元零用金",
           "連結": "https://lihi1.com/nUlLa",
         },
         {
           "活動": "[HappyGo每日簽到]",
-          "連結": "https://bit.ly/HappyGo每日簽到—LINEPOINTS賺點數社群分享\\n\\nhttps://bit.ly/HAPPYGO點點出任務-快樂簽到簿",
+          "連結": "https://bit.ly/HappyGo每日簽到—LINEPOINTS賺點數社群分享",
         },
         {
-          "活動": "康是美簽到任務～連續7天登入，即可獲得OPEN POINT1點！（1點=台幣1元）",
+          "活動": "康是美簽到任務～連續7天登入，即可獲得OPEN POINT1點！\\n（1點=台幣1元）",
           "連結": "https://us9e5.app.goo.gl/SKrcB",
         },
         {
