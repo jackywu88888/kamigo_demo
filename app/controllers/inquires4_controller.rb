@@ -49,10 +49,6 @@ class Inquires4Controller < ApplicationController
           "活動": "12.【追劇贈點】11月新劇速報 快來完成限時追劇任務！\\n\\nVIP會員加碼再抽 Nespresso Lattissima one膠囊咖啡機",
           "影片": "恭喜會員編號後五碼 63e7a 會員中獎，12/1前將所需資料寄至service@linetv.tw\\n\\nhttps://campaign-static.linetv.tw/post/20211110113638.html",
         },
-        {
-          "活動": "13.【追劇贈點】《茶金》客家女兒的商戰之道！完成追劇任務得5點！\\n\\n會員加碼再抽Samsung Galaxy Tab A 8.0 T295 LTE版",
-          "影片": "中獎名單（會員編號後五碼）5a13e請得獎者於2021/11/30前繫客服單位：service@linetv.tw\\n\\nhttps://campaign-static.linetv.tw/post/20211014111039.html",
-        },
         ]
 
         @keyword = params[:keyword]
