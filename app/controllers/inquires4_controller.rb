@@ -53,10 +53,6 @@ class Inquires4Controller < ApplicationController
           "活動": "13.【觀劇得點】感謝有你！限時登入LINE TV app觀劇，LINE POINTS免費送給你！\\n\\n活動期間，首次以「LINE帳號」登入「LINE TV app」且觀看LINE TV app架上任一「節目正片」得5點！（每人活動期間限參加一次）",
           "影片": "活動期間：2021/11/19 00:00 - 2021/11/26\\n\\n此活動僅限活動期間登入「LINE TV Mobile app」之用戶參加",
         },
-        {
-          "活動": "14.【追劇贈點】制服控必看！ 讓你無法拒絕の制服誘惑！\\n\\n完成任務得LINE POINTS 5點！\\n\\nVIP會員加碼再抽Dyson Supersonic™ 吹風機",
-          "影片": "尚未開獎\\n\\活動期間：2021/11/18~2021/11/24\\n\\https://campaign-static.linetv.tw/post/20210909063457.html",
-        },
         ]
 
         @keyword = params[:keyword]
