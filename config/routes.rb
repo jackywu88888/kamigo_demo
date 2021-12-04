@@ -27,9 +27,11 @@ Rails.application.routes.draw do
   get "簽到查詢/*keyword", to: "videos1#index"
   get "期限簽到活動", to: "videos2#index"
   get "期限簽到活動/*keyword", to: "videos2#index"
-#  get "簽到系列2", to: "home#points2"
-#  get "簽到系列3", to: "home#points3"
-#  get "簽到系列4", to: "home#points4"
+
+  get "安麗每日簽到", to: "home#points2"
+  get "聖誕老公公交換禮物", to: "home#points3"
+
+  get "立即簽到資訊", to: "home#points4"
   get "關鍵字", to: "home#points5"
   get "環保集點", to: "home#points6"
   get "序號儲值", to: "home#points7"

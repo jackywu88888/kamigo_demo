@@ -8,26 +8,29 @@ Kamiflex.json(self) do
       separator color: "#eeeeee"
 
       horizontal_box margin: :lg do
-          message_button "簽到系列", "簽到系列", style: :primary
-        end
-      horizontal_box margin: :lg do  
-         message_button "期限簽到活動", "期限簽到活動", style: :primary
-        end
-        horizontal_box margin: :lg do
-          message_button "MOMO簽到", "MOMO簽到", style: :primary
-          message_button "MOMO活動登記", "MOMO活動登記", style: :primary, margin: :md
-        end
-        horizontal_box margin: :lg do
-          message_button "序號儲值", "序號儲值", style: :primary
-        end
+        message_button "簽到系列", "簽到系列", style: :primary 
+        message_button "期限簽到活動", "期限簽到活動", style: :primary, margin: :md
+      end
       horizontal_box margin: :lg do
-          message_button "推薦碼活動資訊(請多支持)", "推薦碼", style: :primary
-        end
+        message_button "MOMO簽到", "MOMO簽到", style: :primary
+        message_button "MOMO活動登記", "MOMO活動登記", style: :primary, margin: :md
+      end
       horizontal_box margin: :lg do
-          message_button "LINE_TV課表", "line_tv", style: :primary
-          url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
-        end
+        message_button "立即簽到資訊", "立即簽到資訊", style: :primary
+        message_button "LINE_TV課表", "line_tv", style: :primary, margin: :md
+      end
+      horizontal_box margin: :lg do
+        message_button "安麗每日簽到", "安麗每日簽到", style: :primary
+        message_button "聖誕老公公交換禮物", "聖誕老公公交換禮物", style: :primary, margin: :md
+      end
+    horizontal_box margin: :lg do
+        message_button "推薦碼活動資訊(請多支持)", "推薦碼", style: :primary
+      end
+    horizontal_box margin: :lg do
+        message_button "序號儲值", "序號儲值", style: :primary
+        url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
       end
     end
   end
+end
 )%>
