@@ -10,8 +10,8 @@ class Videos5Controller < ApplicationController
         @keyword = params[:keyword]
 
         if @keyword.present?
-            @videos2.filter! do |video|
-               video[:活動].include? @keyword
+            @videos5.filter! do |video|
+               video[:題目].include? @keyword
             end
           end
        end
