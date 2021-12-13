@@ -7,7 +7,7 @@ class Inquires4Controller < ApplicationController
         },
         {
           "活動": "2.【追劇贈點】《婚禮歌手》為新人圓夢！完整觀看指定戲劇任一集，完成追劇任務得10點！",
-          "影片": "活動期間：2021/12/12~2021/12/17\\n\\n《婚禮歌手》\\n\\n➡️ https://bnc.lt/MuAd/jpcSSXcaskb",
+          "影片": "活動期間：2021/12/12~2021/12/17\\n\\n《婚禮歌手》\\n\\n➡️https://bnc.lt/MuAd/D9iCHhMprlb",
         },
         {
           "活動": "3.【追劇贈點】追劇就是我的日常！連續五天每天完整觀看下方指定戲劇完成追劇任務得 LINE POINTS 5 點！",
