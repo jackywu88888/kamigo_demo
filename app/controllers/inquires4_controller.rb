@@ -7,11 +7,11 @@ class Inquires4Controller < ApplicationController
         },
         {
           "活動": "2.追劇贈點】經典回味，值得N刷！完成任務得LINE POINTS 5點！\\n\\nVIP會員加碼再抽任天堂 Nintendo Switch(動森版主機)",
-          "影片": "活動期間：2021/12/16~2021/12/22\\n\\n《台灣新思路》\\n\\n➡️https://bnc.lt/MuAd/U5pC6PNGulb",
+          "影片": "活動期間：2021/12/16~2021/12/22\\n\\n《台灣新思路》\\n\\nhttps://bnc.lt/MuAd/U5pC6PNGulb",
         },
         {
           "活動": "3.【追劇贈點】雙12年終狂歡GO，必看清單一次推！連續五天觀看指定戲劇一集得10點！",
-          "影片": "活動期間：2021/12/12~2021/12/18\\n\\n《My Sweet Dear 美味羅曼史》\\n\\n➡️ https://bnc.lt/MuAd/Y9pqv63vNlb",
+          "影片": "活動期間：2021/12/12~2021/12/18\\n\\n《My Sweet Dear 美味羅曼史》\\n\\n➡️https://bnc.lt/MuAd/Y9pqv63vNlb",
         },
         {
           "活動": "4.【追劇贈點】《婚禮歌手》為新人圓夢！完整觀看指定戲劇任一集，完成追劇任務得10點！",
