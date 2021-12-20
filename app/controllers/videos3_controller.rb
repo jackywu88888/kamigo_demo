@@ -6,7 +6,7 @@ class Videos3Controller < ApplicationController
           "連結": "整點搶mo幣 - momo購物網\\n\\nhttps://momo.dm/InrbFn" ,
         },
         {
-          "活動": "2/20-12/26 簽到分享最高送$28+$7=$35 momo幣momo幣將於簽到後立刻歸戶使用期限至 12/26 23:59",
+          "活動": "12/20-12/26 簽到分享最高送$28+$7=$35 momo幣momo幣將於簽到後立刻歸戶使用期限至 12/26 23:59",
           "連結": "momo-年終感恩季-天天簽到\\n\\nhttps://momo.dm/yRRyRy",
         },
         {
