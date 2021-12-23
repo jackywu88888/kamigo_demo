@@ -69,10 +69,6 @@ class Videos2Controller < ApplicationController
           "活動": "12.1~12.31 PCHOME簽到",
           "連結": "https://reurl.cc/Q6K7VM",
         },
-        {
-          "活動": "生活市集簽到\\n⏰12/1～12/9\\n🎁滿9天送$50",
-          "連結": "https://ms7.tw/pGstv",
-        },
         ]
 
         @keyword = params[:keyword]
