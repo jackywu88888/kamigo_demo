@@ -2,6 +2,10 @@ class Videos3Controller < ApplicationController
     def index
         @videos3 = [
         {
+          "活動": "❗12/28-12/30每日09:10、11:10、15:10、17:10、19:10、21:10 每人每日限搶一次" ,
+          "連結": "整點搶mo幣\\n\\nhttps://momo.dm/VAyYjn" ,
+        },
+        {
           "活動": "❗12/27-01/02簽到分享最高送$28+$7=$35 momo幣momo幣將於簽到後立刻歸戶使用期限至 01/02 23:59" ,
           "連結": "momo-年終感恩季-天天簽到\\n\\nhttps://momo.dm/BQfjEm" ,
         },
