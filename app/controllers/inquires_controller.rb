@@ -2,7 +2,7 @@ class InquiresController < ApplicationController
     def index
       @inquires = [
         {
-          "題目": "《全民穿越之宮》創建一個家族需要花費多少鑽石? ",
+          "題目": "《全民穿越之宮》創建一個家族需要花費多少鑽石?",
           "答案": "300鑽",
         },
         {
@@ -229,6 +229,7 @@ class InquiresController < ApplicationController
           "題目": "《妖靈物語》活躍值可從哪裡獲得?",
           "答案": "以上皆是",
         },
+        {
           "題目": "《守衛主公變態版》以下敘述,何者為”非“？",
           "答案": "莊園種子分為3種,分別產出銀兩、焙元丹和包子",
         },
@@ -272,7 +273,6 @@ class InquiresController < ApplicationController
           "題目": "《守衛主公變態版》奪旗副本開啟等級?",
           "答案": "27級",
         },
-        {
         {
           "題目": "《天竺鼠骰骰》熱賣商店中的免費寶箱可以如何獲得?",
           "答案": "看廣告",
