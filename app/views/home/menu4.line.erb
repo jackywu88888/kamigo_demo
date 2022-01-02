@@ -1,0 +1,52 @@
+<%= raw(
+Kamiflex.json(self) do
+  alt_text "信用卡彙整"
+  bubble size: :giga do
+    body do
+      text "信用卡彙整"
+
+      separator color: "#eeeeee"
+
+      horizontal_box margin: :lg do
+        message_button "國內消費", "國內消費", style: :primary 
+        message_button "國外消費", "國外消費",  style: :primary, margin: :md
+        end
+      horizontal_box margin: :lg do  
+        message_button "行動支付", "行動支付", style: :primary
+        end
+      horizontal_box margin: :lg do  
+        message_button "網購", "網購(網購能行動支付參照行動支付)", style: :primary 
+				message_button "餐廳", "餐廳(手機感應刷卡請參照國內消費,可行動支付參照行動支付)", style: :primary, margin: :md
+				end
+			horizontal_box margin: :lg do  
+				message_button "Foodpanda", "外送Foodpanda", style: :primary 
+				message_button "Uber eats", "外送Uber eats", style: :primary, margin: :md
+				end
+			horizontal_box margin: :lg do  
+				message_button "Wemo", "共享機車Wemo", style: :primary  
+				message_button "Goshare", "共享機車Goshare", style: :primary, margin: :md
+				end
+			horizontal_box margin: :lg do  
+				message_button "iRent", "共享機車iRente", style: :primary
+				end
+			horizontal_box margin: :lg do  
+				message_button "悠遊卡", "悠遊卡自動加值", style: :primary
+				message_button "一卡通", "一卡通自動加值", style: :primary, margin: :md
+				end
+			horizontal_box margin: :lg do  
+				message_button "icash", "icash自動加值", style: :primary
+				end
+			horizontal_box margin: :lg do  
+				message_button "7-11", "7-11超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付)", style: :primary
+				message_button "全家", "全家超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付)", style: :primary, margin: :md
+				end
+			horizontal_box margin: :lg do  
+				message_button "萊爾富&OK", "萊爾富&OK超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付)", style: :primary
+				end
+      horizontal_box margin: :lg do
+        url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary
+        end
+      end
+    end
+  end
+)%>

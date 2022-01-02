@@ -28,9 +28,28 @@ Rails.application.routes.draw do
   get "簽到查詢/*keyword", to: "videos1#index"
   get "期限簽到活動", to: "videos2#index"
   get "期限簽到活動/*keyword", to: "videos2#index"
+  get "2022外送整理", to: "videos6#index"
 
-  get "安麗每日簽到", to: "home#points2"
-  get "聖誕老公公交換禮物", to: "home#points3"
+
+  get "國內消費", to: "videos7#index"
+  get "國外消費", to: "videos8#index"
+  get "行動支付", to: "videos9#index"
+  get "網購(網購能行動支付參照行動支付)", to: "videos10#index"
+  get "餐廳(手機感應刷卡請參照國內消費,可行動支付參照行動支付", to: "videos11#index"
+  get "外送Foodpanda", to: "videos12#index"
+  get "外送Uber eats", to: "video13#index"
+  get "共享機車Wemo", to: "video14#index"
+  get "共享機車Goshare", to: "video15#index"
+  get "共享機車iRente", to: "video16#index"
+  get "悠遊卡自動加值", to: "video17#index"
+  get "一卡通自動加值", to: "video18#index"
+  get "icash自動加值", to: "video19#index"
+  get "7-11超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付", to: "video20#index"
+  get "全家超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付", to: "video21#index"
+  get "萊爾富&OK超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付)", to: "video22#index"
+
+#  get "安麗每日簽到", to: "home#points2"
+#  get "聖誕老公公交換禮物", to: "home#points3"
 
   get "立即簽到資訊", to: "home#points4"
   get "關鍵字", to: "home#points5"
@@ -53,7 +72,7 @@ Rails.application.routes.draw do
   get "目錄", to: "home#menu"
   get "簽到彙集分享活動", to: "home#menu2"
   get "推薦碼", to: "home#menu3"
-
+  get "信用卡彙整", to: "home#menu4"
 
 
 
