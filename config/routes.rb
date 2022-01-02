@@ -44,9 +44,9 @@ Rails.application.routes.draw do
   get "悠遊卡自動加值", to: "video17#index"
   get "一卡通自動加值", to: "video18#index"
   get "icash自動加值", to: "video19#index"
-  get "7-11超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付", to: "video20#index"
-  get "全家超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付", to: "video21#index"
-  get "萊爾富&OK超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付)", to: "video22#index"
+  get "7-11超商(電子票證可參照自動加值,各項行動支付可參照行動支付)", to: "video20#index"
+  get "全家超商(電子票證可參照自動加值,各項行動支付可參照行動支付)", to: "video21#index"
+  get "萊爾富&OK超商(電子票證可參照自動加值,各項行動支付可參照行動支付)", to: "video22#index"
 
 #  get "安麗每日簽到", to: "home#points2"
 #  get "聖誕老公公交換禮物", to: "home#points3"
