@@ -1,9 +1,9 @@
 <%= raw(
 Kamiflex.json(self) do
-  alt_text "信用卡彙整"
+  alt_text "信用卡查詢"
   bubble size: :giga do
     body do
-      text "信用卡彙整PTT【cokelon大】整理"
+      text "信用卡查詢~來源PTT【cokelon大】整理"
 
       separator color: "#eeeeee"
 
@@ -19,32 +19,20 @@ Kamiflex.json(self) do
 				message_button "餐廳", "餐廳/手機感應刷卡請參照國內消費,可行動支付參照行動支付", style: :primary, margin: :md
 				end
 			horizontal_box margin: :lg do  
-				message_button "Foodpanda", "Foodpanda外送", style: :primary 
-				message_button "Uber eats", "Uber外送", style: :primary, margin: :md
+				message_button "外送平台", "外送平台", style: :primary 
+				message_button "共享機車", "共享機車", style: :primary, margin: :md
 				end
 			horizontal_box margin: :lg do  
-				message_button "Wemo", "共享機車Wemo", style: :primary  
-				message_button "Goshare", "共享機車Goshare", style: :primary, margin: :md
+				message_button "自動加值", "自動加值", style: :primary
+				message_button "超商自動加值", "超商/電子票證可參照自動加值各項行動支付可參照行動支付", style: :primary, margin: :md
 				end
 			horizontal_box margin: :lg do  
-				message_button "iRent", "共享機車iRente", style: :primary
+				message_button "加油", "加油/電子票證可參照自動加值,手機感應刷卡可參照國內消費,各項行動支付可參照行動支付", style: :primary
+        message_button "大眾運輸", "大眾運輸記得電子票證綁環保集點https://www.greenpoint.org.tw/GPHome/", style: :primary, margin: :md
 				end
-			horizontal_box margin: :lg do  
-				message_button "悠遊卡", "悠遊卡自動加值", style: :primary
-				message_button "一卡通", "一卡通自動加值", style: :primary, margin: :md
-				end
-			horizontal_box margin: :lg do  
-				message_button "icash", "icash自動加值", style: :primary
-				end
-			horizontal_box margin: :lg do  
-				message_button "7-11", "7-11超商/電子票證可參照自動加值各項行動支付可參照行動支付", style: :primary
-				message_button "全家", "全家超商/電子票證可參照自動加值各項行動支付可參照行動支付", style: :primary, margin: :md
-				end
-			horizontal_box margin: :lg do  
-				message_button "萊爾富OK", "萊爾富OK超商/電子票證可參照自動加值各項行動支付可參照行動支付", style: :primary
-				end
-      horizontal_box margin: :lg do
-        url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary
+      horizontal_box margin: :lg do  
+        message_button "繳費", "繳費", style: :primary
+        url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
         end
       end
     end

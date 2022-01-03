@@ -47,6 +47,14 @@ Rails.application.routes.draw do
   get "7-11超商/電子票證可參照自動加值各項行動支付可參照行動支付", to: "videos20#index"
   get "全家超商/電子票證可參照自動加值各項行動支付可參照行動支付", to: "videos21#index"
   get "萊爾富OK超商/電子票證可參照自動加值各項行動支付可參照行動支付", to: "videos22#index"
+  get "加油", to: "videos23#index"
+  get "北捷/公車", to: "videos24#index"
+  get "台鐵/手機感應刷卡可參照國內消費,電子票證可參照自動加值,711取票可用icash", to: "videos25#index"
+  get "高鐵/手機感應刷卡可參照國內消費,電子票證可參照自動加值,711取票可用icash", to: "videos26#index"
+  get "超商代收", to: "videos27#index"
+  get "電費/街口繳費可參照綁定支付,超商繳費可參照超商代收,icash繳費在7-11", to: "videos28#index"
+  get "北水/街口繳費可參照綁定支付,超商繳費可參照超商代收,icash繳費在7-11,悠遊卡繳費在全家", to: "videos29#index"
+  get "台水/街口繳費可參照綁定支付,超商繳費可參照超商代收,icash繳費在7-11", to: "videos30#index"
 
 #  get "安麗每日簽到", to: "home#points2"
 #  get "聖誕老公公交換禮物", to: "home#points3"
@@ -72,8 +80,13 @@ Rails.application.routes.draw do
   get "目錄", to: "home#menu"
   get "簽到彙集分享活動", to: "home#menu2"
   get "推薦碼", to: "home#menu3"
-  get "信用卡彙整", to: "home#menu4"
-
+  get "信用卡查詢", to: "home#menu4"
+  get "外送平台", to: "home#menu5"
+  get "共享機車", to: "home#menu6"
+  get "自動加值", to: "home#menu7"
+  get "超商自動加值", to: "home#menu8"
+  get "大眾運輸", to: "home#menu9"
+  get "繳費", to: "home#menu10"
 
 
 

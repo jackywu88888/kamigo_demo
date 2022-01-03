@@ -1,0 +1,21 @@
+<%= raw(
+Kamiflex.json(self) do
+  alt_text "外送平台"
+  bubble size: :giga do
+    body do
+      text "外送平台查詢~來源PTT【cokelon大】整理"
+
+      separator color: "#eeeeee"
+
+			horizontal_box margin: :lg do  
+				message_button "Foodpanda", "Foodpanda外送", style: :primary 
+				message_button "Uber eats", "Uber外送", style: :primary, margin: :md
+				end
+     horizontal_box margin: :lg do  
+        message_button "信用卡查詢", "信用卡查詢", style: :primary
+        url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
+          end
+        end
+      end
+    end
+  )%>

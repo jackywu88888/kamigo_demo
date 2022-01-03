@@ -1,0 +1,26 @@
+<%= raw(
+Kamiflex.json(self) do
+  alt_text "大眾運輸"
+  bubble size: :giga do
+    body do
+      text "大眾運輸查詢~來源PTT【cokelon大】整理"
+
+      separator color: "#eeeeee"
+
+    horizontal_box margin: :lg do  
+        message_button "北捷/公車", "北捷/公車", style: :primary  
+        end
+    horizontal_box margin: :lg do     
+        message_button "台鐵", "台鐵/手機感應刷卡可參照國內消費,電子票證可參照自動加值,711取票可用icash", style: :primary
+        end
+    horizontal_box margin: :lg do  
+        message_button "高鐵", "高鐵/手機感應刷卡可參照國內消費,電子票證可參照自動加值,711取票可用icash", style: :primary
+        end
+     horizontal_box margin: :lg do  
+        message_button "信用卡查詢", "信用卡查詢", style: :primary
+        url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
+          end
+        end
+      end
+    end
+  )%>
