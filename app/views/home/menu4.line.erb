@@ -32,6 +32,14 @@ Kamiflex.json(self) do
 				end
       horizontal_box margin: :lg do  
         message_button "繳費", "繳費", style: :primary
+        message_button "電信費", "電信費", style: :primary, margin: :md
+        end
+      horizontal_box margin: :lg do  
+        message_button "瓦斯費", "瓦斯費", style: :primary
+        message_button "第四台", "第四台", style: :primary, margin: :md
+        end
+      horizontal_box margin: :lg do  
+        message_button "保險", "保險", style: :primary
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
         end
       end

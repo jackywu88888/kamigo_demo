@@ -55,6 +55,14 @@ Rails.application.routes.draw do
   get "電費", to: "videos28#index"
   get "北水", to: "videos29#index"
   get "台水", to: "videos30#index"
+  get "中華電信", to: "videos31#index"
+  get "台灣大哥大", to: "videos32#index"
+  get "遠傳", to: "videos33#index"
+  get "亞太", to: "videos34#index"
+  get "台灣之星", to: "videos35#index"
+  get "瓦斯費", to: "videos36#index"
+  get "第四台", to: "videos37#index"
+  get "保險", to: "videos38#index"
 
 #  get "安麗每日簽到", to: "home#points2"
 #  get "聖誕老公公交換禮物", to: "home#points3"
@@ -87,6 +95,7 @@ Rails.application.routes.draw do
   get "超商自動加值", to: "home#menu8"
   get "大眾運輸", to: "home#menu9"
   get "繳費", to: "home#menu10"
+  get "電信費", to: "home#menu11"
 
 
 
