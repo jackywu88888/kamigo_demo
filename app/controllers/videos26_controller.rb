@@ -34,18 +34,6 @@ class Videos26Controller < ApplicationController
         {
           "活動": "華南i網購 3.5%",
         },
-        {
-          "活動": "國泰蝦皮購物ICASH聯名卡每月搭乘捷運/公車20次可以拿 50 openpoint (需登錄)",
-        },
-        {
-          "活動": "國泰KOKO COMBO ICASH每月搭乘捷運/公車20次可以拿 50 openpoint (需登錄)",
-        },
-        {
-          "活動": "國泰KOKO (COMBO) 悠遊聯名卡每月搭乘捷運/公車20次可以拿50刷卡金 (需登錄)",
-        },
-        {
-          "活動": "如搭乘時扣款金額為0元(如搭乘台中公車前10公里免費)、或上/下車時其中一次僅感應卡片未扣款，則該次紀錄不列入本活動搭乘次數計算。",
-        },
     ]
 
     @keyword = params[:keyword]
