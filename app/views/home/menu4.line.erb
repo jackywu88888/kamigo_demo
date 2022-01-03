@@ -15,8 +15,8 @@ Kamiflex.json(self) do
         message_button "行動支付", "行動支付", style: :primary
         end
       horizontal_box margin: :lg do  
-        message_button "網購", "網購(網購能行動支付參照行動支付)", style: :primary 
-				message_button "餐廳", "餐廳(手機感應刷卡請參照國內消費,可行動支付參照行動支付)", style: :primary, margin: :md
+        message_button "網購", "網購/網購能行動支付參照行動支付", style: :primary 
+				message_button "餐廳", "餐廳/手機感應刷卡請參照國內消費,可行動支付參照行動支付", style: :primary, margin: :md
 				end
 			horizontal_box margin: :lg do  
 				message_button "Foodpanda", "外送Foodpanda", style: :primary 
@@ -37,11 +37,11 @@ Kamiflex.json(self) do
 				message_button "icash", "icash自動加值", style: :primary
 				end
 			horizontal_box margin: :lg do  
-				message_button "7-11", "7-11超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付)", style: :primary
-				message_button "全家", "全家超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付)", style: :primary, margin: :md
+				message_button "7-11", "7-11超商/電子票證可參照自動加值 ,各項行動支付可參照行動支付", style: :primary
+				message_button "全家", "全家超商/電子票證可參照自動加值 ,各項行動支付可參照行動支付", style: :primary, margin: :md
 				end
 			horizontal_box margin: :lg do  
-				message_button "萊爾富&OK", "萊爾富&OK超商(電子票證可參照自動加值 ,各項行動支付可參照行動支付)", style: :primary
+				message_button "萊爾富OK", "萊爾富&OK超商/電子票證可參照自動加值 ,各項行動支付可參照行動支付/", style: :primary
 				end
       horizontal_box margin: :lg do
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary
