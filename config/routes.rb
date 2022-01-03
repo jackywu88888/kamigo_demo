@@ -37,7 +37,7 @@ Rails.application.routes.draw do
   get "網購/網購能行動支付參照行動支付", to: "videos10#index"
   get "餐廳/手機感應刷卡請參照國內消費,可行動支付參照行動支付", to: "videos11#index"
   get "Foodpanda外送", to: "videos12#index"
-  get "Uber外送", to: "vides13#index"
+  get "Uber外送", to: "videos13#index"
   get "共享機車Wemo", to: "videos14#index"
   get "共享機車Goshare", to: "videos15#index"
   get "共享機車iRente", to: "videos16#index"
