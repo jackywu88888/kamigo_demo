@@ -63,7 +63,9 @@ Rails.application.routes.draw do
   get "瓦斯費", to: "videos36#index"
   get "第四台", to: "videos37#index"
   get "保險", to: "videos38#index"
+  get "Uber", to: "videos39#index"
 
+  
 #  get "安麗每日簽到", to: "home#points2"
 #  get "聖誕老公公交換禮物", to: "home#points3"
 
