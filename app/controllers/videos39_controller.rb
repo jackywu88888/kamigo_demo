@@ -4,6 +4,9 @@ class Videos39Controller < ApplicationController
         {
           "活動": "華南i網購 8%\\n(每月上限2500)",
         },
+        {
+          "活動": "永豐大戶卡 7%  )\\n(需有大戶資格)",
+        },
     ]
 
     @keyword = params[:keyword]

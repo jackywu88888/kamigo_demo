@@ -8,7 +8,7 @@ class Videos10Controller < ApplicationController
           "活動": "KOKO COMBO icash5%\\n單月新增帳金5000,上限6000,需符合指定通路",
         },
         {
-          "活動": "上海Teresa卡3.8%\\n每月上限10000,需符合指定",
+          "活動": "上海Teresa卡3.8%\\n每月上限10000,需符合指定通路",
         },
         {
           "活動": "玉山UBear3.8%\\n每月回饋上限200,刷卡上限5263",
@@ -27,6 +27,9 @@ class Videos10Controller < ApplicationController
         },
         {
           "活動": "合庫藍兔3%(上限15000)",
+        },
+        {
+          "活動": "兆豐e秒刷 3%~4% \\n(加碼0.5%需本行自動扣繳成功,新戶再額外加碼1%)",
         },
         {
           "活動": "富邦J JU卡2%",

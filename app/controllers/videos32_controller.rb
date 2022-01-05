@@ -29,7 +29,7 @@ class Videos32Controller < ApplicationController
           "活動": "遠銀樂家+卡自動扣繳 6%\\n(每月回饋上限600,需遠銀帳戶自扣成功後次期帳單)",
         },
         {
-          "活動": "富邦Open Possible卡自動扣繳 4G資費 3%\\n5G資費 5%\\n(新辦myMoney數位帳戶扣繳多0.5%)",
+          "活動": "富邦Open Possible卡自動扣繳\\n4G資費 3%\\n5G資費 5%\\n(新辦myMoney數位帳戶扣繳多0.5%)",
         },
         {
           "活動": "富邦台哥大悠遊聯名卡自動扣繳 3%\\n(限扣繳本人號碼)",

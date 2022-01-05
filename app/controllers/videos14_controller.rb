@@ -26,7 +26,7 @@ class Videos14Controller < ApplicationController
           "活動": "國泰 KOKO COMBO ICASH 5%",
         },
         {
-          "活動": "彰銀My購卡4%\\n網購2%+上市首年1%合併每月刷卡上限10000",
+          "活動": "彰銀My購卡4%\\n網購2%+上市首年1%\\n合併每月刷卡上限10000",
         },
         {
           "活動": "玉山Ubear 3.8%",
