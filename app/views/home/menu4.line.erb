@@ -40,6 +40,13 @@ Kamiflex.json(self) do
         end
       horizontal_box margin: :lg do  
         message_button "保險", "保險", style: :primary
+        message_button "勞健保費", "勞健保費", style: :primary, margin: :md  
+        end
+      horizontal_box margin: :lg do  
+        message_button "學費", "學費", style: :primary
+        message_button "地方稅/國稅", "地方稅/國稅", style: :primary, margin: :md  
+        end
+        horizontal_box margin: :lg do 
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
         end
       end

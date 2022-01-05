@@ -64,6 +64,9 @@ Rails.application.routes.draw do
   get "第四台", to: "videos37#index"
   get "保險", to: "videos38#index"
   get "Uber", to: "videos39#index"
+  get "勞健保費", to: "videos40#index"
+  get "學費", to: "videos41#index"
+  get "地方稅/國稅", to: "videos42#index"
 
   
 #  get "安麗每日簽到", to: "home#points2"
