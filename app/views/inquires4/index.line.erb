@@ -59,5 +59,54 @@
             <% end %>
           ]
         }
+      },
+      {
+        "type": "flex",
+        "altText": "This is a Flex Message",
+        "contents": {  
+  "type": "carousel",
+  "contents": [
+    {
+      <% @inquires4.each do|inquire| %>
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "url": "<%= inquire[:圖片] %>"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "<%= inquire[:活動] %>",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl",
+            "color": "#0000C6"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "action": {
+              "type": "uri",
+              "label": "連結影片",
+              "uri": "<%= inquire[:影片] %>"
+            }
+          }<%= "," if inquire != @inquires4.last %>
+          <% end %>
+        ]
       }
+    } 
 ]
