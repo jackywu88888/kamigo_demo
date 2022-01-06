@@ -4,26 +4,45 @@
       "altText": "This is a Flex Message",
       "contents": {  
       "type": "carousel",
-      "contents": [
-      {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
-            "url": "https://github.dev/jackywu88888/kamigo_demo/blob/d8467963479f74aee1d0c7e9a643fd26b16628de/public/images/kamigo.png",
-            "size": "full",
-            "aspectMode": "cover",
-            "aspectRatio": "2:3",
-            "gravity": "top"
+          "contents": [
+            {
+              "type": "bubble",
+              "size": "micro",
+              "hero": {
+                "type": "image",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip10.jpg",
+                "size": "full",
+                "aspectMode": "cover",
+                "aspectRatio": "320:213"
+              },
+              "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Brown Cafe",
+                    "weight": "bold",
+                    "size": "sm",
+                    "wrap": true
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "連結影片",
+                      "uri": "http://linecorp.com/"
+                    },
+                    "margin": "100px",
+                    "style": "primary",
+                    "height": "sm"
+                  }
+                ],
+                "spacing": "sm",
+                "paddingAll": "13px"
+              }
+            }
           }
-        ],
-        "paddingAll": "0px"
         }
       }
     ]
-  }
-}
-]
