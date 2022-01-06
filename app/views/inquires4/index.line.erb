@@ -6,12 +6,6 @@
   },
   <% end %>
   {
-    "type": "text",
-    "text": "<%= @inquires4.map do|inquire|
-      "#{inquire[:活動]}\\n\\n#{inquire[:影片]}"
-        end.join("\\n\\n") %>"
-  },
-  {
             "type": "flex",
             "altText": "This is a Flex Message",
             "contents": {  
@@ -47,7 +41,7 @@
                             "label": "連結影片",
                             "uri": "<%= inquire[:影片] %>"
                           },
-                          "margin": "80px",
+                          "margin": "60px",
                           "style": "primary",
                           "height": "sm"
                         }
