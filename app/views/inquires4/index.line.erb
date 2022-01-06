@@ -9,55 +9,51 @@
 			"type": "flex",
       "altText": "This is a Flex Message",
       "contents": {  
-      "type": "carousel",
-      "contents": [
-     		<% @inquires4.each do|inquire| %>
-         {
-          "type": "bubble",
-          "size": "micro",
-          "hero": {
-          "type": "image",
-          "url": "<%= inquire[:圖片] %>",
-          "size": "full",
-          "aspectMode": "cover",
-          "aspectRatio": "20:13"
-          },
-					"body": {
-						"type": "box",
-						"layout": "vertical",
-						"contents": [
-							{
+					"type": "carousel",
+					"contents": [
+						<% @inquires4.each do|inquire| %>
+						{
+							"type": "bubble",
+							"size": "micro",
+							"hero": {
+								"type": "image",
+								"url": "<%= inquire[:圖片] %>",
+								"size": "full",
+								"aspectMode": "cover",
+								"aspectRatio": "320:213"
+							},
+							"body": {
 								"type": "box",
 								"layout": "vertical",
 								"contents": [
 									{
-										"text": "<%= inquire[:活動] %>",
-										"weight": "bold",
-										"size": "sm",
-										"wrap": true,
-										"color": "#0000E3"
-										}
+										"type": "box",
+										"layout": "vertical",
+										"contents": [
+											{
+												"type": "text",
+												"text": "<%= inquire[:活動] %>",
+												"wrap": true,
+												"color": "#0000E3"
+											}
+										],
+										"height": "250px"
+									},
+									{
+										"type": "button",
+										"action": {
+											"type": "uri",
+											"label": "連結影片",
+											"uri": "<%= inquire[:影片] %>"
+										},
+										"style": "primary"
+									}
 								],
-								"height": "250px"
-							},
-          {
-          "type": "button",
-          "action": {
-          "type": "uri",
-          "label": "連結影片",
-          "uri": "<%= inquire[:影片] %>"
-          },
-          "margin": "50px",
-          "style": "primary",
-          "height": "sm"
-          }
-          ],
-          "spacing": "sm",
-          "paddingAll": "13px"
-         }
-        }<%= "," if inquire != @inquires4.last %>
-       <% end %>
-      ]
-     }
-    }
+								"spacing": "sm",
+								"paddingAll": "13px"
+							}
+						}<%= "," if inquire != @inquires4.last %>
+            <% end %>
+					]
+				}
 ]
