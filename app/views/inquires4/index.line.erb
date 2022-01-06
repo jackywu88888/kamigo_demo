@@ -11,62 +11,13 @@
       "#{inquire[:活動]}\\n\\n#{inquire[:影片]}"
         end.join("\\n\\n") %>"
   },
-    {
-      "type": "flex",
-      "altText": "This is a Flex Message",
-      "contents": {  
-      "type": "carousel",
-          "contents": [
-            <% @inquires4.each do|inquire| %>
-            {
-              "type": "bubble",
-              "size": "micro",
-              "hero": {
-                "type": "image",
-                "url": "<%= inquire[:圖片] %>",
-                "size": "full",
-                "aspectMode": "cover",
-                "aspectRatio": "1820:1024"
-              },
-              "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "<%= inquire[:活動] %>",
-                    "weight": "bold",
-                    "size": "sm",
-                    "wrap": true,
-                    "color": "#0000E3"
-                  },
-                  {
-                    "type": "button",
-                    "action": {
-                      "type": "uri",
-                      "label": "連結影片",
-                      "uri": "<%= inquire[:影片] %>"
-                    },
-                    "margin": "80px",
-                    "style": "primary",
-                    "height": "sm"
-                  }
-                ],
-                "spacing": "sm",
-                "paddingAll": "13px"
-              }
-            }<%= "," if inquire != @inquires4.last %>
-            <% end %>
-          ]
-        }
-      },
       {
         "type": "flex",
         "altText": "This is a Flex Message",
         "contents": {  
   "type": "carousel",
   "contents": [
-    <% @inquires4.each do|inquire| %>
+          <% @inquires4.each do|inquire| %>
   {
       "type": "bubble",
       "hero": {
@@ -76,7 +27,7 @@
         "aspectMode": "cover",
         "url": "<%= inquire[:圖片] %>"
       },
-      "body": {
+       "body": {
         "type": "box",
         "layout": "vertical",
         "spacing": "sm",
