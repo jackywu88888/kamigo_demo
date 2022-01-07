@@ -3,7 +3,7 @@ class Inquires5Controller < ApplicationController
       @inquires5 = [
         {
           "活動": "1.百富一心一藝✦大師心藝 影像計畫！觀看百富指定內容，連續五天得LINE POINT 5點",
-          "名稱": "《解構美學藝術家｜百富一心一藝》",
+          "名稱": "《解構美學藝術家》",
           "時間": "2022/01/07~2022/01/13",
           "影片": "https://bnc.lt/MuAd/rEJqMaV1jmb",
           "圖片": "https://img.linetv.tw/large/campaign/campaign_BALVENIE_22010701.jpg",

@@ -84,8 +84,8 @@ Rails.application.routes.draw do
 #  get "Y5遊戲查詢/*keyword", to: "inquires2#index"
 #  get "H5查詢", to: "inquires#index"
   get "星城", to: "inquires3#index"  
-  get "line_tv", to: "inquires4#index"
-  get "line_tv1", to: "inquires5#index"
+  get "line_tv", to: "inquires5#index"
+#  get "line_tv1", to: "inquires5#index"
 
   # menu
   # get "index", to: "home#index"
