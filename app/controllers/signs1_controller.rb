@@ -6,7 +6,7 @@ class Signs1Controller < ApplicationController
           "名稱": "《蝦幣寶箱》",
           "時間": "永久活動",
           "連結": "https://shp.ee/ii4iivjsxey",
-          "圖片": "https://cf.shopee.tw/file/1e6a610c25eb6427ad920c78e2813017"
+          "圖片": "https://play-lh.googleusercontent.com/krmhwGF9KYSwvJ5hBTh2MO_QSDI3S7Mad0gpRvRKNGYzHpHQB-WMwIQYxWYkW3YNHvI"
         },
         {
           "活動": "可以從蝦皮購物APP ：「我的」頁面 ▶️「我的蝦幣」▶️ 蝦幣獎勵頁面 ▶️「今日簽到獲得蝦幣」即可賺取當日蝦幣獎勵",
