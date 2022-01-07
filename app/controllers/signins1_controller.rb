@@ -1,6 +1,6 @@
-class Signin1Controller < ApplicationController
+class Signins1Controller < ApplicationController
     def index
-      @signin1 = [
+      @signins1 = [
         {
           "活動": "蝦皮寶箱，人人有獎，點就領蝦幣",
           "名稱": "《蝦幣寶箱》",
@@ -9,7 +9,7 @@ class Signin1Controller < ApplicationController
           "圖片": "https://cf.shopee.tw/file/https://cf.shopee.tw/file/98ccb05e0677043a576362ea7a572fb4",
         },
         {
-          "活動": "可以從蝦皮購物APP ：「我的」頁面 >「我的蝦幣」> 蝦幣獎勵頁面 >「今日簽到獲得ＸＸ蝦幣」即可賺取當日蝦幣獎勵",
+          "活動": "可以從蝦皮購物APP ：「我的」頁面 >「我的蝦幣」> 蝦幣獎勵頁面 >「今日簽到獲得蝦幣」即可賺取當日蝦幣獎勵",
           "名稱": "《蝦幣每日簽到》",
           "時間": "永久活動",
           "連結": "https://risu.io/yUrX",
@@ -20,10 +20,10 @@ class Signin1Controller < ApplicationController
     @keyword = params[:keyword]
 
     if @keyword.present?
-        @signin1.filter! do |Sign|
-            sign[:活動].include? @keyword
+        @signins1.filter! do |signin|
+            signin[:活動].include? @keyword
       end
     end
-    @signin1 = @signin1.first(12)
+    @signins1 = @signins1.first(12)
   end
 end

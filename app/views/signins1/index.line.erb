@@ -11,7 +11,7 @@
       "contents": {
         "type": "carousel",
         "contents": [
-          <% @signin1.each do|sign| %>
+          <% @signins1.each do|signin| %>
           {
             "type": "bubble",
             "hero": {
@@ -19,7 +19,7 @@
               "size": "full",
               "aspectRatio": "680:480",
               "aspectMode": "cover",
-              "url": "<%= sign[:圖片] %>"
+              "url": "<%= signin[:圖片] %>"
             },
             "body": {
               "type": "box",
@@ -50,7 +50,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "<%= sign[:活動] %>",
+                      "text": "<%= signin[:活動] %>",
                       "wrap": true,
                       "weight": "bold",
                       "size": "lg",
@@ -74,7 +74,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "<%= sign[:時間] %>",
+                      "text": "<%= signin[:時間] %>",
                       "color": "#EA0000",
                       "weight": "bold",
                       "size": "lg",
@@ -95,14 +95,14 @@
                   "style": "primary",
                   "action": {
                     "type": "uri",
-                    "label": "<%= sign[:名稱] %>",
-                    "uri": "<%= sign[:連結] %>"
+                    "label": "<%= signin[:名稱] %>",
+                    "uri": "<%= signin[:連結] %>"
                   },
                   "margin": "50px"
                 }
               ]
             }
-          }<%= "," if sign != @signin1.last %>
+          }<%= "," if signin != @signins1.last %>
           <% end %>
         ]
       }
