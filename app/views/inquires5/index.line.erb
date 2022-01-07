@@ -9,104 +9,100 @@
 			"type": "flex",
       "altText": "This is a Flex Message",
       "contents": {
-							"type": "bubble",
-							"hero": {
-								"type": "image",
-								"size": "full",
-								"aspectRatio": "1840:1028",
-								"aspectMode": "cover",
-								"url": "https://img.linetv.tw/large/campaign/campaign_BALVENIE_22010701.jpg"
-							},
-							"body": {
-								"type": "box",
-								"layout": "vertical",
-								"contents": [
-									{
-										"type": "text",
-										"text": "【追劇贈點】",
-										"weight": "bold",
-										"size": "xl",
-										"color": "#000093"
-									},
-									{
-										"type": "box",
-										"layout": "vertical",
-										"margin": "lg",
-										"spacing": "sm",
-										"contents": [
-											{
-												"type": "box",
-												"layout": "baseline",
-												"spacing": "sm",
-												"contents": [
-													{
-														"type": "text",
-														"text": "活動",
-														"color": "#000000",
-														"size": "lg",
-														"flex": 1,
-														"weight": "bold"
-													},
-													{
-														"type": "text",
-														"text": "百富一心一藝✦大師心藝 影像計畫！觀看百富指定內容，連續五天得LINE POINT 5點《解構美學藝術家｜百富一心一藝》",
-														"wrap": true,
-														"color": "#000079",
-														"size": "sm",
-														"flex": 5,
-														"weight": "bold"
-													}
-												]
-											},
-											{
-												"type": "box",
-												"layout": "baseline",
-												"spacing": "sm",
-												"contents": [
-													{
-														"type": "text",
-														"text": "時間",
-														"color": "#000000",
-														"size": "lg",
-														"flex": 1,
-														"weight": "bold"
-													},
-													{
-														"type": "text",
-														"text": "2022/01/07~2022/01/13",
-														"wrap": true,
-														"color": "#EA0000",
-														"size": "sm",
-														"flex": 5,
-														"weight": "bold"
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							"footer": {
-								"type": "box",
-								"layout": "vertical",
-								"spacing": "sm",
-								"contents": [
-									{
-										"type": "button",
-										"style": "primary",
-										"height": "sm",
-										"action": {
-											"type": "uri",
-											"label": " 連結影片",
-											"uri": "https://bnc.lt/MuAd/rEJqMaV1jmb"
-										}
-									}
-								],
-								"flex": 0
-							}
-						}
-		
-			}
-		}
-	}
+        "type": "carousel",
+        "contents": [
+          {
+            "type": "bubble",
+            "hero": {
+              "type": "image",
+              "size": "full",
+              "aspectRatio": "20:13",
+              "aspectMode": "cover",
+              "url": "https://img.linetv.tw/large/campaign/campaign_BALVENIE_22010701.jpg"
+            },
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "【追劇贈點】",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "xxl",
+                  "color": "#F00078",
+                  "align": "center"
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "活動",
+                      "wrap": true,
+                      "weight": "bold",
+                      "size": "xl",
+                      "flex": 0,
+                      "color": "#0000C6"
+                    },
+                    {
+                      "type": "text",
+                      "text": "百富一心一藝✦大師心藝 影像計畫！觀看百富指定內容，連續五天得LINE POINT 5點《解構美學藝術家｜百富一心一藝》",
+                      "wrap": true,
+                      "weight": "bold",
+                      "size": "lg",
+                      "flex": 1,
+                      "color": "#000000",
+                      "margin": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "時間",
+                      "flex": 0,
+                      "size": "xl",
+                      "color": "#0000C6",
+                      "weight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "text": "2022/01/07~2022/01/13",
+                      "color": "#EA0000",
+                      "weight": "bold",
+                      "size": "lg",
+                      "margin": "none"
+                    }
+                  ],
+                  "margin": "10px"
+                }
+              ]
+            },
+            "footer": {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "button",
+                  "style": "primary",
+                  "action": {
+                    "type": "uri",
+                    "label": "觀看影片",
+                    "uri": "https://linecorp.com"
+                  },
+                  "margin": "50px"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
 ]
