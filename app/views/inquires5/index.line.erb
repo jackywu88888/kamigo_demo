@@ -5,116 +5,114 @@
     "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
   },
   <% end %>
- {
-    "type": "flex",
-    "altText": "This is a Flex Message",
-    "contents": {  
-        "type": "carousel",
-        "contents": [
-				<% @inquires4.each do|inquire| %>
-			{	
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "<%= inquire[:圖片] %>",
-          "size": "full",
-          "aspectRatio": "20:13",
-          "aspectMode": "cover",
-          "action": {
-            "type": "uri",
-            "uri": "<%= inquire[:影片] %>"
-          }
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "【追劇贈點】",
-              "weight": "bold",
-              "size": "xl",
-              "color": "#000093"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "margin": "lg",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "spacing": "sm",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "活動",
-                      "color": "#000000",
-                      "size": "lg",
-                      "flex": 1,
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "<%= inquire[:活動] %>",
-                      "wrap": true,
-                      "color": "#000079",
-                      "size": "sm",
-                      "flex": 5,
-                      "weight": "bold"
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "spacing": "sm",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "時間",
-                      "color": "#000000",
-                      "size": "lg",
-                      "flex": 1,
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "2022/01/07~2022/01/13",
-                      "wrap": true,
-                      "color": "#EA0000",
-                      "size": "sm",
-                      "flex": 5,
-                      "weight": "bold"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "footer": {
-          "type": "box",
-          "layout": "vertical",
-          "spacing": "sm",
-          "contents": [
-            {
-              "type": "button",
-              "style": "primary",
-              "height": "sm",
-              "action": {
-                "type": "uri",
-                "label": "CALL",
-                "uri": "<%= inquire[:影片] %>"
-              }
-            }
-          ],
-          "flex": 0
-        }
-			}<%= "," if inquire != @inquires4.last %>
-			<% end %>
-		 ]
-	  }
+  {
+			"type": "flex",
+      "altText": "This is a Flex Message",
+      "contents": {
+					"type": "carousel",
+					"contents": [
+			{
+				"type": "bubble",
+				"hero": {
+					"type": "image",
+					"url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+					"size": "full",
+					"aspectRatio": "20:13",
+					"aspectMode": "cover",
+					"action": {
+						"type": "uri",
+						"uri": "http://linecorp.com/"
+					}
+				},
+				"body": {
+					"type": "box",
+					"layout": "vertical",
+					"contents": [
+						{
+							"type": "text",
+							"text": "【追劇贈點】",
+							"weight": "bold",
+							"size": "xl",
+							"color": "#000093"
+						},
+						{
+							"type": "box",
+							"layout": "vertical",
+							"margin": "lg",
+							"spacing": "sm",
+							"contents": [
+								{
+									"type": "box",
+									"layout": "baseline",
+									"spacing": "sm",
+									"contents": [
+										{
+											"type": "text",
+											"text": "活動",
+											"color": "#000000",
+											"size": "lg",
+											"flex": 1,
+											"weight": "bold"
+										},
+										{
+											"type": "text",
+											"text": "百富一心一藝✦大師心藝 影像計畫！觀看百富指定內容，連續五天得LINE POINT 5點《解構美學藝術家｜百富一心一藝》",
+											"wrap": true,
+											"color": "#000079",
+											"size": "sm",
+											"flex": 5,
+											"weight": "bold"
+										}
+									]
+								},
+								{
+									"type": "box",
+									"layout": "baseline",
+									"spacing": "sm",
+									"contents": [
+										{
+											"type": "text",
+											"text": "時間",
+											"color": "#000000",
+											"size": "lg",
+											"flex": 1,
+											"weight": "bold"
+										},
+										{
+											"type": "text",
+											"text": "2022/01/07~2022/01/13",
+											"wrap": true,
+											"color": "#EA0000",
+											"size": "sm",
+											"flex": 5,
+											"weight": "bold"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"footer": {
+					"type": "box",
+					"layout": "vertical",
+					"spacing": "sm",
+					"contents": [
+						{
+							"type": "button",
+							"style": "primary",
+							"height": "sm",
+							"action": {
+								"type": "uri",
+								"label": "CALL",
+								"uri": "https://linecorp.com"
+							}
+						}
+					],
+					"flex": 0
+				}
+			}
+			]
+		}
 	}
 ]
