@@ -1,6 +1,6 @@
-class Sign-in1Controller < ApplicationController
+class Signin1Controller < ApplicationController
     def index
-      @Sign-in1 = [
+      @signin1 = [
         {
           "活動": "蝦皮寶箱，人人有獎，點就領蝦幣",
           "名稱": "《蝦幣寶箱》",
@@ -20,10 +20,10 @@ class Sign-in1Controller < ApplicationController
     @keyword = params[:keyword]
 
     if @keyword.present?
-        @Sign-in1.filter! do |Sign|
-            Sign[:活動].include? @keyword
+        @signin1.filter! do |Sign|
+            sign[:活動].include? @keyword
       end
     end
-    @Sign-in1 = @Sign-in1.first(12)
+    @signin1 = @signin1.first(12)
   end
 end

@@ -11,7 +11,7 @@
       "contents": {
         "type": "carousel",
         "contents": [
-          <% @Sign-in1.each do|Sign| %>
+          <% @signin1.each do|sign| %>
           {
             "type": "bubble",
             "hero": {
@@ -19,7 +19,7 @@
               "size": "full",
               "aspectRatio": "680:480",
               "aspectMode": "cover",
-              "url": "<%= Sign[:圖片] %>"
+              "url": "<%= sign[:圖片] %>"
             },
             "body": {
               "type": "box",
@@ -50,7 +50,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "<%= Sign[:活動] %>",
+                      "text": "<%= sign[:活動] %>",
                       "wrap": true,
                       "weight": "bold",
                       "size": "lg",
@@ -74,7 +74,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "<%= Sign[:時間] %>",
+                      "text": "<%= sign[:時間] %>",
                       "color": "#EA0000",
                       "weight": "bold",
                       "size": "lg",
@@ -95,14 +95,14 @@
                   "style": "primary",
                   "action": {
                     "type": "uri",
-                    "label": "<%= Sign[:名稱] %>",
-                    "uri": "<%= Sign[:連結] %>"
+                    "label": "<%= sign[:名稱] %>",
+                    "uri": "<%= sign[:連結] %>"
                   },
                   "margin": "50px"
                 }
               ]
             }
-          }<%= "," if Sign != @Sign-in1.last %>
+          }<%= "," if sign != @signin1.last %>
           <% end %>
         ]
       }
