@@ -11,6 +11,7 @@
       "contents": {
         "type": "carousel",
         "contents": [
+          <% @inquires5.each do|inquire| %>
           {
             "type": "bubble",
             "hero": {
@@ -18,7 +19,7 @@
               "size": "full",
               "aspectRatio": "20:13",
               "aspectMode": "cover",
-              "url": "https://img.linetv.tw/large/campaign/campaign_BALVENIE_22010701.jpg"
+              "url": "<%= inquire[:圖片] %>"
             },
             "body": {
               "type": "box",
@@ -49,7 +50,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "百富一心一藝✦大師心藝 影像計畫！觀看百富指定內容，連續五天得LINE POINT 5點《解構美學藝術家｜百富一心一藝》",
+                      "text": "<%= inquire[:活動] %>",
                       "wrap": true,
                       "weight": "bold",
                       "size": "lg",
@@ -95,13 +96,14 @@
                   "action": {
                     "type": "uri",
                     "label": "觀看影片",
-                    "uri": "https://linecorp.com"
+                    "uri": "<%= inquire[:影片] %>"
                   },
                   "margin": "50px"
                 }
               ]
             }
-          }
+          }<%= "," if inquire != @inquires5.last %>
+          <% end %>
         ]
       }
     }
