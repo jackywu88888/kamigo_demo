@@ -31,7 +31,7 @@ Rails.application.routes.draw do
   get "2022外送整理", to: "videos6#index"
 
   get "簽到", to: "signs1#index"
-
+  get "momo新簽到", to: "moomos1#index"
 
   get "國內消費", to: "videos7#index"
   get "國外消費", to: "videos8#index"

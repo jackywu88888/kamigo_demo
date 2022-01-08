@@ -58,14 +58,14 @@ class Signs1Controller < ApplicationController
         "圖片": "https://static.wixstatic.com/media/2ea4f1_627c50d66f214575a77274a0bb53a8bc~mv2.png/v1/fill/w_357,h_357,al_c,q_85,usm_0.66_1.00_0.01/bn%20logo-w_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%201.webp"
         },
         {
-          "活動": "每月簽到7天可兌換Line Point 10點",
+          "活動": "每月簽到7天可兌換\\nLine Point 10點",
           "名稱": "YES123簽到",
           "時間": "永久活動",
           "連結": "https://m.yes123.com.tw/admin/freego_2019/activity.asp",
           "圖片": "https://m.yes123.com.tw/member/img/p05_applogo.png"
         },
         {
-          "活動": "每月簽到7天可兌換Line Point 10點",
+          "活動": "活動期間開啟HAPPY GO App完成指定任務，有機會獲得HAPPY GO點數！ 點點出任務＞快樂簽到簿每天開啟App完成簽到，簽滿指定次數即可獲得點數！",
           "名稱": "HappyGo簽到",
           "時間": "永久活動",
           "連結": "https://hgapp.page.link/etgJEZhXcqsmCGmM6",

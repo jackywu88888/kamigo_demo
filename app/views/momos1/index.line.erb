@@ -1,0 +1,130 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
+  },
+  <% end %>
+  {
+   "type": "flex",
+   "altText": "MOMO活動查詢",
+   "contents":{
+    "type": "carousel",
+    "contents": [
+			<% @momos1.each do|momo| %>
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "1820:1024",
+          "aspectMode": "cover",
+          "url": "<%= momo[:圖片] %>"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "<%= momo[:活動] %>",
+              "wrap": true,
+              "weight": "bold",
+              "size": "md",
+              "color": "#F00078",
+              "align": "center"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "活動",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "lg",
+                  "flex": 0,
+                  "color": "#0000C6"
+                },
+                {
+                  "type": "text",
+                  "text": "<%= momo[:名稱1] %>",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "sm",
+                  "flex": 1,
+                  "color": "#000000",
+                  "margin": "none"
+                }
+              ],
+              "height": "110px"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "<%= momo[:連結名稱1] %>",
+                    "uri": "<%= momo[:連結1] %>"
+                  },
+                  "style": "primary",
+                  "color": "#FF0000",
+                  "height": "sm"
+                }
+              ],
+              "height": "60px"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "活動",
+                  "flex": 0,
+                  "color": "#0000C6",
+                  "size": "lg",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "<%= momo[:名稱2] %>",
+                  "wrap": true,
+                  "size": "sm",
+                  "color": "#000000",
+                  "weight": "bold"
+                }
+              ],
+              "height": "110px"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "<%= momo[:連結名稱2] %>",
+                    "uri": "<%= momo[:連結2] %>"
+                  },
+                  "color": "#FF0000",
+                  "gravity": "bottom",
+                  "style": "primary",
+                  "height": "sm"
+                }
+              ]
+            }
+          ]
+        }
+      }<%= "," if momo != @momos1.last %>
+			<% end %>
+    ]
+  }
+}
+]
