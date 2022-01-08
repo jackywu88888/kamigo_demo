@@ -6,6 +6,76 @@
   },
   <% end %>
   {
+    "type": "flex",
+    "altText": "簽到查詢",
+    "contents": {
+    "type": "carousel",
+    "contents": [
+      <% @signs1.each do|sign| %>
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "40:30",
+          "aspectMode": "cover",
+          "url": "<%= sign[:圖片] %>"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "【<%= sign[:名稱] %>】",
+              "weight": "bold",
+              "size": "sm",
+              "wrap": true,
+              "color": "#EA0000",
+              "align": "center"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "<%= sign[:活動] %>",
+                  "size": "xs",
+                  "color": "#0000C6",
+                  "margin": "none",
+                  "flex": 1,
+                  "wrap": true
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "<%= sign[:名稱] %>",
+                    "uri": "<%= sign[:連結] %>"
+                  },
+                  "style": "primary"
+                }
+              ],
+              "margin": "10px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "13px"
+        }
+      }<%= "," if sign != @signs1.last %>
+      <% end %>
+    ]
+  }
+},
+  {
 			"type": "flex",
       "altText": "簽到查詢",
       "contents": {
