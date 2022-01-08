@@ -44,7 +44,7 @@ class Signs1Controller < ApplicationController
           "圖片": "https://images.wakool.net/fami/logo-1435x543.png"
         },
         {
-          "活動": "每天打卡,獲得5績分,500積分➡️5LP。\\n輸入@每日打卡",
+          "活動": "每天打卡,獲得5績分,500積分➡️5LP。\\n\\n輸入\\n@每日打卡",
           "名稱": "tada台灣車主",
           "時間": "永久活動",
           "連結": "http://line.me/R/oaMessage/@tada_car/",
@@ -56,6 +56,34 @@ class Signs1Controller < ApplicationController
         "時間": "永久活動",
         "連結": "http://line.me/R/oaMessage/@032okdnb/",
         "圖片": "https://static.wixstatic.com/media/c5667f_3828482036744e0884407e6b560f0cad~mv2.png/v1/fill/w_2500,h_2500,al_c/c5667f_3828482036744e0884407e6b560f0cad~mv2.png"
+        },
+        {
+          "活動": "每月簽到7天可兌換Line Point 10點",
+          "名稱": "YES123簽到",
+          "時間": "永久活動",
+          "連結": "https://m.yes123.com.tw/admin/freego_2019/activity.asp",
+          "圖片": "https://m.yes123.com.tw/member/img/p05_applogo.png"
+        },
+        {
+          "活動": "每月簽到7天可兌換Line Point 10點",
+          "名稱": "HappyGo每日簽到",
+          "時間": "永久活動",
+          "連結": "https://bit.ly/HappyGo每日簽到—LINEPOINTS賺點數社群分享",
+          "圖片": "https://www.happygocard.com.tw/official/resources/images/logo.png"
+        },
+        {
+          "活動": "康是美簽到任務～連續7天登入，即可獲得OPEN POINT1點！\\n（1點=台幣1元）",
+          "名稱": "康是美",
+          "時間": "永久活動",
+          "連結": "https://us9e5.app.goo.gl/SKrcB",
+          "圖片": "https://m.skm.com.tw/mSKMAdmin/WebFiles/Brand/c2a89e79-b974-44b3-bf10-0ff334defa41_20171120.jpg"
+        },
+        {
+          "活動": "APP每日簽到賺點",
+          "名稱": "UUPON",
+          "時間": "永久活動",
+          "連結": "https://appevts.uupon.com/dailysignin/page",
+          "圖片": "https://play-lh.googleusercontent.com/Gl2fWBEpm7yUzEt4ZhAjVaHfW202KTiej1T4YO6LZ6VTdZ8wclx2Tp-mswRymefOKg=s180-rw"
         },
     ]
 

@@ -34,7 +34,7 @@ class Videos1Controller < ApplicationController
           "連結": "http://line.me/R/oaMessage/@032okdnb/?%40填寫問卷\\n\\nhttp://line.me/R/oaMessage/@032okdnb/?%40試試手氣",
         },
         {
-          "活動": "yes123簽到（每月簽到7天可兌換Line Point 10點）",
+          "活動": "YES123簽到（每月簽到7天可兌換Line Point 10點）",
           "連結": "https://m.yes123.com.tw/admin/freego_2019/activity.asp",
         },
         {
