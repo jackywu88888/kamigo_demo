@@ -21,9 +21,9 @@ Rails.application.routes.draw do
 
   #搜
   get "遠傳理財查詢/*keyword", to: "videos5#index"
-  get "MOMO簽到", to: "videos3#index"
-  get "momo", to: "videos3#index"
-  get "MOMO活動登記", to: "videos4#index"
+#  get "MOMO簽到", to: "videos3#index"
+#  get "momo", to: "videos3#index"
+#  get "MOMO活動登記", to: "videos4#index"
   get "簽到系列", to: "videos1#index"
   get "簽到查詢/*keyword", to: "videos1#index"
   get "期限簽到活動", to: "videos2#index"
@@ -31,7 +31,10 @@ Rails.application.routes.draw do
   get "2022外送整理", to: "videos6#index"
 
   get "簽到", to: "signs1#index"
-  get "momo新簽到", to: "momos1#index"
+  
+  get "momo簽到", to: "momos1#index"
+  get "momo", to: "momos1#index"
+  get "MOMO簽到", to: "momos1#index"
 
   get "國內消費", to: "videos7#index"
   get "國外消費", to: "videos8#index"
