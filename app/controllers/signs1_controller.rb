@@ -34,7 +34,7 @@ class Signs1Controller < ApplicationController
           "名稱": "Y5遊戲",
           "時間": "永久活動",
           "連結": "https://yahoo.wakool.net/welfare-center/quest",
-          "圖片": "https://www.facebook.com/Y5FUN/photos/a.1649217008735861/2690618291262389/"
+          "圖片": "https://yahoo.wakool.net/cdn/platform/yahoo/img/default/y5_share_og.jpg"
         },
     ]
 
