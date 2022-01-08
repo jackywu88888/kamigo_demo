@@ -27,14 +27,14 @@ class Signs1Controller < ApplicationController
           "名稱": "H5點就玩",
           "時間": "永久活動",
           "連結": "https://iplay.wakool.net/?utm_source=LINE&utm_medium=GAME&utm_campaign=LINEGAME1015&openExternalBrowser=1",
-          "圖片": "https://iplay.wakool.net/img/logo.png"
+          "圖片": "https://iplay.wakool.net/img/ip5.jpg"
         },
         {
           "活動": "(H5/Yahoo版)簽到、任務中心回答問題累積積分。積分可以兌換商品、咖啡、LINE POINTS。",
           "名稱": "Y5遊戲",
           "時間": "永久活動",
           "連結": "https://yahoo.wakool.net/welfare-center/quest",
-          "圖片": "https://yahoo.wakool.net/cdn/platform/yahoo/img/y5_games_logo_152x62.svg"
+          "圖片": "https://www.facebook.com/Y5FUN/photos/a.1649217008735861/2690618291262389/"
         },
     ]
 
