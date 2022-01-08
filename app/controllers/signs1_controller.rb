@@ -55,7 +55,7 @@ class Signs1Controller < ApplicationController
         "名稱": "商略問卷代發",
         "時間": "永久活動",
         "連結": "http://line.me/R/oaMessage/@032okdnb/",
-        "圖片": "https://liff.line.me/1645278921-kWRPP32q/bnsurvey/profile/img"
+        "圖片": "https://static.wixstatic.com/media/2ea4f1_627c50d66f214575a77274a0bb53a8bc~mv2.png/v1/fill/w_357,h_357,al_c,q_85,usm_0.66_1.00_0.01/bn%20logo-w_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%201.webp"
         },
         {
           "活動": "每月簽到7天可兌換Line Point 10點",
@@ -66,7 +66,7 @@ class Signs1Controller < ApplicationController
         },
         {
           "活動": "每月簽到7天可兌換Line Point 10點",
-          "名稱": "HappyGo每日簽到",
+          "名稱": "HappyGo簽到",
           "時間": "永久活動",
           "連結": "https://hgapp.page.link/etgJEZhXcqsmCGmM6",
           "圖片": "https://www.happygocard.com.tw/official/resources/images/logo.png"
