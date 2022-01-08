@@ -51,7 +51,7 @@ class Signs1Controller < ApplicationController
           "圖片": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a3/cd/36/a3cd3667-3277-7123-ad6a-2ca29b302489/source/512x512bb.jpg"
         },
         {
-        "活動": "商略問卷獎酬平台是專門提供問卷填寫與贈獎\\n輸入[%40試試手氣]",
+        "活動": "商略問卷獎酬平台是專門提供問卷填寫與贈獎\\n輸入%40試試手氣",
         "名稱": "商略問卷代發",
         "時間": "永久活動",
         "連結": "http://line.me/R/oaMessage/@032okdnb/?%40填寫問卷",
