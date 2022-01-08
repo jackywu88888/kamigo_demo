@@ -44,14 +44,14 @@ class Signs1Controller < ApplicationController
           "圖片": "https://images.wakool.net/fami/logo-1435x543.png"
         },
         {
-          "活動": "每天打卡,獲得5績分,500積分➡️5LP。輸入@每日打卡",
+          "活動": "每天打卡,獲得5績分,500積分➡️5LP。\\n輸入@每日打卡",
           "名稱": "tada台灣車主",
           "時間": "永久活動",
           "連結": "http://line.me/R/oaMessage/@tada_car/",
           "圖片": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a3/cd/36/a3cd3667-3277-7123-ad6a-2ca29b302489/source/512x512bb.jpg"
         },
         {
-        "活動": "商略問卷獎酬平台是專門提供問卷填寫與贈獎,輸入@試試手氣，輸入@填寫問卷",
+        "活動": "商略問卷獎酬平台是專門提供問卷填寫與贈獎\\n\\n輸入\\n@試試手氣\\n@填寫問卷",
         "名稱": "商略問卷代發",
         "時間": "永久活動",
         "連結": "http://line.me/R/oaMessage/@032okdnb/",
