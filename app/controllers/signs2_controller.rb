@@ -12,7 +12,7 @@ class Signs2Controller < ApplicationController
           "活動": "那快來參加遠傳打卡活動吧～(更新版本之後需要定位，無法使用)",
           "名稱": "遠傳打卡活動",
           "時間": "永久活動",
-          "連結": "https://bit.ly/每天打卡領遠傳幣—LINEPoints賺點數社群分享",
+          "連結": "https://reurl.cc/ZG2qoW",
           "圖片": "http://www.fetnet.net/content/dam/fetnet/user_resource/cbu/images/index/fb_share.png"
         },
         {
