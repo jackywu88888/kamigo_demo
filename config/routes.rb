@@ -20,17 +20,21 @@ Rails.application.routes.draw do
   resources :todos
 
   #搜
-  get "遠傳理財查詢/*keyword", to: "videos5#index"
+#  get "立即簽到資訊", to: "home#points4"
 #  get "MOMO簽到", to: "videos3#index"
 #  get "momo", to: "videos3#index"
 #  get "MOMO活動登記", to: "videos4#index"
-  get "簽到系列", to: "videos1#index"
-  get "簽到查詢/*keyword", to: "videos1#index"
-  get "期限簽到活動", to: "videos2#index"
-  get "期限簽到活動/*keyword", to: "videos2#index"
+#  get "簽到系列", to: "videos1#index"
+#  get "簽到查詢/*keyword", to: "videos1#index"
+#  get "期限簽到活動", to: "videos2#index"
+#  get "期限簽到活動/*keyword", to: "videos2#index"
+
+  get "遠傳理財查詢/*keyword", to: "videos5#index"
   get "2022外送整理", to: "videos6#index"
 
-  get "簽到", to: "signs1#index"
+  get "立即簽到資訊1", to: "signs1#index"
+  get "立即簽到資訊2", to: "signs2#index"
+  get "期限簽到活動", to: "signs3#index"
   
   get "momo簽到", to: "momos1#index"
   get "momo", to: "momos1#index"
@@ -73,23 +77,22 @@ Rails.application.routes.draw do
   get "學費", to: "videos41#index"
   get "地方稅/國稅", to: "videos42#index"
 
-  
-#  get "安麗每日簽到", to: "home#points2"
-#  get "聖誕老公公交換禮物", to: "home#points3"
-
-  get "立即簽到資訊", to: "home#points4"
+  get "星城", to: "inquires3#index"  
+  get "line_tv", to: "inquires5#index"
   get "關鍵字", to: "home#points5"
   get "環保集點", to: "home#points6"
   get "序號儲值", to: "home#points7"
-#  get "MOMO簽到", to: "home#material"
-#  get "momo", to: "home#material"
+
   get "測試", to: "videos3#index"
-  get "遊戲活動QA/*keyword", to: "inquires#index"
+  get "遊戲活動QA/*keyword", to: "inquires#index" 
+
 #  get "H5點就玩查詢/*keyword", to: "inquires#index"
 #  get "Y5遊戲查詢/*keyword", to: "inquires2#index"
 #  get "H5查詢", to: "inquires#index"
-  get "星城", to: "inquires3#index"  
-  get "line_tv", to: "inquires5#index"
+#  get "MOMO簽到", to: "home#material"
+#  get "momo", to: "home#material"  
+#  get "安麗每日簽到", to: "home#points2"
+#  get "聖誕老公公交換禮物", to: "home#points3"
 #  get "line_tv1", to: "inquires5#index"
 
   # menu
