@@ -2,6 +2,13 @@ class Inquires5Controller < ApplicationController
     def index
       @inquires5 = [
         {
+          "活動": "命運開了個玩笑，幸福就在身邊！完成追劇任務得 LINE POINTS 5 點！",
+          "名稱": "《夜色暗湧時》",
+          "時間": "2022/01/10~2022/01/17 ",
+          "影片": "https://bnc.lt/MuAd/bJEzikl9mmb",
+          "圖片": "https://img.linetv.tw/large/campaign/campaign_points_210110.jpg",
+        },
+        {
           "活動": "百富一心一藝✦大師心藝 影像計畫！觀看百富指定內容，連續五天得LINE POINT 5點",
           "名稱": "《解構美學藝術家》",
           "時間": "2022/01/07~2022/01/13",
