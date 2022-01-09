@@ -6,7 +6,7 @@ class Signs3Controller < ApplicationController
           "名稱": "金幣天天領",
           "時間": "2022/1/1~2022/12/31",
           "連結": "https://www.kingstone.com.tw/ksmember/home/#dailycheck",
-          "圖片": "https://cdn.kingstone.com.tw/images/kingstone_180x180_2.svg"
+          "圖片": "https://cdn.kingstone.com.tw/images/ks2021logo.jpg"
         },
         {
           "活動": "生活市集APP簽到",
