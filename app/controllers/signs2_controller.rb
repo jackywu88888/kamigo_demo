@@ -5,7 +5,7 @@ class Signs2Controller < ApplicationController
         "活動": "每BF▶️上方▶️遊戲▶️簽到簿\\n每週一中午12時開抽500元零用金",
         "名稱": "beanfun",
         "時間": "永久活動",
-        "連結": "https://reurl.cc/ZrQGEM",
+        "連結": "https://lihi1.com/nUlLa",
         "圖片": "https://tw.adnew.beanfun.com/ad_image/BFWebCommon_MiddleImage/20200921121720.png"
       },
       {
@@ -14,6 +14,13 @@ class Signs2Controller < ApplicationController
         "時間": "永久活動",
         "連結": "https://reurl.cc/ZrQGEM",
         "圖片": "https://content.shopback.com/tw/wp-content/uploads/2020/05/25171130/buy123-1200x671.png"
+      },
+      {
+        "活動": "安麗每日簽到拿點數",
+        "名稱": "安麗每日簽到",
+        "時間": "永久活動",
+        "連結": "https://liff.line.me/1655451151-RbE08al5",
+        "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
       },
 #        {
 #          "活動": "",
