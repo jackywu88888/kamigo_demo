@@ -19,7 +19,7 @@ class Signs2Controller < ApplicationController
         "活動": "安麗每日簽到拿點數",
         "名稱": "安麗每日簽到",
         "時間": "永久活動",
-        "連結": "http://line.me/R/oaMessage/@amway/",
+        "連結": "https://line.me/R/oaMessage/@amway/",
         "圖片": "http://www.fetnet.net/content/dam/fetnet/user_resource/cbu/images/index/fb_share.png"
       },
 #        {
