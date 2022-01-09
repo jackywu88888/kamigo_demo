@@ -13,7 +13,7 @@ class Signs2Controller < ApplicationController
         "名稱": "遠傳打卡活動",
         "時間": "永久活動",
         "連結": "https://reurl.cc/ZG2qoW",
-        "圖片": "http://www.fetnet.net/content/dam/fetnet/user_resource/cbu/images/index/fb_share.png"
+        "圖片": "https://www.fetnet.net/images/fet_big.jpg"
       },
       {
         "活動": "安麗每日簽到拿點數",
