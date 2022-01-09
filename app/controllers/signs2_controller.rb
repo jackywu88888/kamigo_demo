@@ -20,7 +20,7 @@ class Signs2Controller < ApplicationController
           "名稱": "安麗每日簽到",
           "時間": "永久活動",
           "連結": "http://line.me/R/oaMessage/@amway",
-          "圖片": "https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/5bf41cca049f03cdc7e842db2201172d6cc1a6b173e8db293a3b880ecc5836561616582409012.jpg"
+          "圖片": "http://www.fetnet.net/content/dam/fetnet/user_resource/cbu/images/index/fb_share.png"
         },
 #        {
 #          "活動": "",
