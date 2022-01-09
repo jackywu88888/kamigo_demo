@@ -1,7 +1,7 @@
 class Signs2Controller < ApplicationController
-    def index
-      @signs2 = [
-        {
+  def index
+    @signs2 = [
+      {
           "活動": "每BF.上方.遊戲.簽到簿\\n每週一中午12時開抽500元零用金",
           "名稱": "beanfun!",
           "時間": "永久活動",
@@ -85,15 +85,15 @@ class Signs2Controller < ApplicationController
 #          "連結": "",
 #          "圖片": ""
 #        },
-    ]
+]
 
-    @keyword = params[:keyword]
+@keyword = params[:keyword]
 
-    if @keyword.present?
-        @signs2.filter! do |sign|
-            sign[:名稱].include? @keyword
-      end
-    end
-    @signs2 = @signs2.first(12)
+if @keyword.present?
+    @signs2.filter! do |sign|
+        sign[:名稱].include? @keyword
   end
+end
+@signs2 = @signs2.first(12)
+end
 end
