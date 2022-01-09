@@ -10,7 +10,7 @@ class Signs3Controller < ApplicationController
         },
         {
           "活動": "生活市集APP簽到",
-          "名稱": "生活市集APP簽到",
+          "名稱": "生活簽到",
           "時間": "2022/1/6~2022/1/20",
           "連結": "https://reurl.cc/ZrQGEM",
           "圖片": "https://content.shopback.com/tw/wp-content/uploads/2020/05/25171130/buy123-1200x671.png",
