@@ -1,0 +1,14 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "您要查詢違規(<%= @keyword %>)事項如下。"
+  },
+  <% end %>
+  {
+    "type": "text",
+    "text": "<%= @friends1.map do|friend|
+      "#{friend[:版友暱稱]}\\n\\n#{friend[:違規社群]}\\n\\n#{friend[:違規日期]}\\n\\n#{friend[:違規名稱]}"
+        end.join("\\n\\n") %>"
+  }
+]

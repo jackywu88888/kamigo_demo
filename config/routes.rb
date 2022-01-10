@@ -29,6 +29,8 @@ Rails.application.routes.draw do
 #  get "期限簽到活動", to: "videos2#index"
 #  get "期限簽到活動/*keyword", to: "videos2#index"
 
+   get "違規查詢/*keyword", to: "friends1#index"
+
   get "遠傳理財查詢/*keyword", to: "videos5#index"
   get "2022外送整理", to: "videos6#index"
 
