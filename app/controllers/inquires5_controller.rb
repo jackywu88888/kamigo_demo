@@ -22,13 +22,6 @@ class Inquires5Controller < ApplicationController
           "影片": "https://bnc.lt/MuAd/7NiEZPOvvmb",
           "圖片": "https://img.linetv.tw/large/campaign/goodfriends_22010701.jpg"
         },
-        {
-          "活動": "2022新年追新劇，熱播話題別錯過！完成任務得LINE POINTS 5點！",
-          "名稱": "《鬼滅之刃 遊郭篇》第二集",
-          "時間": "2022/01/03~2022/01/09",
-          "影片": "https://bnc.lt/MuAd/kUtuZhPwOlb",
-          "圖片": "https://img.linetv.tw/large/campaign/campaign_newyear_22010302.jpg",
-        },
     ]
 
     @keyword = params[:keyword]
