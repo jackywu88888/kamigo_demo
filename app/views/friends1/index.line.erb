@@ -2,13 +2,13 @@
   <% if @keyword.present? %>
   {
     "type": "text",
-    "text": "您要查詢違規(<%= @keyword %>)記入如下。"
+    "text": "您要查詢(<%= @keyword %>)違規紀錄如下。"
   },
   <% end %>
   {
     "type": "text",
     "text": "<%= @friends1.map do|friend|
-      "#{friend[:版友暱稱]}\\n#{friend[:違規社群]}\\n違規日期:#{friend[:違規日期]}\\n#{friend[:違規名稱]}"
+      "#{friend[:版友暱稱]}\\n違規社群：#{friend[:違規社群]}\\n違規日期：#{friend[:違規日期]}\\n#{friend[:違規名稱]}"
         end.join("\\n\\n") %>"
   }
 ]
