@@ -3,7 +3,7 @@ Kamiflex.json(self) do
   alt_text "功能目錄"
   bubble size: :giga do
     body do
-      text "功能目錄"
+      text "功能目錄",wrap:true,color:"#0000ff",flex: 2
 
       separator color: "#eeeeee"
 
@@ -21,10 +21,10 @@ Kamiflex.json(self) do
         end
       horizontal_box margin: :lg do
           message_button "2022外送整理", "2022外送整理", style: :primary
-          message_button "信用卡查詢", "信用卡查詢", style: :primary, margin: :md
+          message_button "信用卡查詢", "信用卡查詢", style: :primary, margin: :md, color: "#0048e8"
         end     
       horizontal_box margin: :lg do
-        message_button "推薦碼活動資訊(請多支持)", "推薦碼", style: :primary
+        message_button "推薦碼活動資訊", "推薦碼", style: :primary
         end
       #  horizontal_box margin: :lg do
       #  url_button "賺點數官方參考卡米哥影片教學製作", "http://www.youtube.com/c/etrexkuo/videos", style: :primary
