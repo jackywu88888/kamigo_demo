@@ -22,14 +22,14 @@ Kamiflex.json(self) do
       end
       horizontal_box margin: :lg do
         message_button "2022外送整理", "2022外送整理", style: :primary
-        message_button "信用卡查詢", "信用卡查詢", style: :primary, margin: :md
+        message_button "信用卡查詢", "信用卡查詢", style: :primary, margin: :md, color: "#00f2e6"
       end 
       horizontal_box margin: :lg do
-        message_button "推薦碼活動資訊(請多支持)", "推薦碼", style: :primary
+        message_button "推薦碼活動資訊", "推薦碼", style: :primary
       end
       horizontal_box margin: :lg do
         message_button "序號儲值", "序號儲值", style: :primary
-        url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
+        url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md, color: "#ed18a6"
       end
     end
   end
