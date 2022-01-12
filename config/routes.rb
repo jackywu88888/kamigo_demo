@@ -120,7 +120,7 @@ Rails.application.routes.draw do
   # get "(*location)天氣(*other)", to: "weather#show"
 
   # 測試用
- # get "test", to: "home#test"
+  get "test", to: "home#test"
 
  # get "love", to: "home#material"
 
