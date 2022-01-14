@@ -1,19 +1,19 @@
 Rails.application.routes.draw do
-   首頁
+  # 首頁
   root to: "home#index"
 
-   LINE Login 登入
+  # LINE Login 登入
   devise_for :users, controllers: {
   omniauth_callbacks: 'omniauth_callbacks'
   }
 
-   加入好友時的自我介紹訊息
+  # 加入好友時的自我介紹訊息
   get "follow", to: "home#follow"
 
-   加入群組時的自我介紹訊息
+  # 加入群組時的自我介紹訊息
   get "join", to: "home#follow"
 
-   有人加入群組時的歡迎訊息
+  #有人加入群組時的歡迎訊息
   get "memberJoined", to: "home#member_join"
 
   # todo
