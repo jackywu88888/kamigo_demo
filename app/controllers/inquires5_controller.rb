@@ -2,7 +2,7 @@ class Inquires5Controller < ApplicationController
     def index
       @inquires5 = [
         {
-          "活動": "【追劇贈點】1月新劇速報，完成追劇任務得 LINE POINTS 5 點！",
+          "活動": "1月新劇速報，完成追劇任務得 LINE POINTS 5 點！",
           "活動主題": "追劇贈點",
           "名稱": "《進擊的巨人The Final Season Part 2》",
           "時間": "2022/01/15~2022/01/22",

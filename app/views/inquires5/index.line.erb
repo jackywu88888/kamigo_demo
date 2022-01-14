@@ -31,7 +31,7 @@
                   "text": "【<%= inquire[:活動主題] %>】",
                   "wrap": true,
                   "weight": "bold",
-                  "size": "xxl",
+                  "size": "lg",
                   "color": "#F00078",
                   "align": "center"
                 },
@@ -44,7 +44,7 @@
                       "text": "活動",
                       "wrap": true,
                       "weight": "bold",
-                      "size": "xl",
+                      "size": "lg",
                       "flex": 0,
                       "color": "#0000C6"
                     },
@@ -68,7 +68,7 @@
                       "type": "text",
                       "text": "上課時間",
                       "flex": 0,
-                      "size": "xl",
+                      "size": "lg",
                       "color": "#0000C6",
                       "weight": "bold"
                     },
@@ -81,14 +81,14 @@
                       "margin": "none"
                     }
                   ],
-                  "margin": "10px"
+                  "margin": "110px",
+                  "position": "relative"
                 }
               ]
             },
             "footer": {
               "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
+              "layout": "horizontal",
               "contents": [
                 {
                   "type": "button",
@@ -97,13 +97,13 @@
                     "type": "uri",
                     "label": "<%= inquire[:名稱] %>",
                     "uri": "<%= inquire[:影片] %>"
-                  },
-                  "margin": "50px"
+                  }
                 }
-              ]
+              ],
+              "height": "50px",
+              "spacing": "xs"
             }
-          }<%= "," if inquire != @inquires5.last %>
-          <% end %>
+          }
         ]
       }
     }
