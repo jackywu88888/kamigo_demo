@@ -406,7 +406,7 @@ class Friends1Controller < ApplicationController
 				{
           "違規社群": "利己分享社群",
           "違規日期": "2022/01/11",
-          "違規名稱": "MOMO分享未放置記事本，記點一次,已自行退。"
+          "違規名稱": "MOMO分享未放置記事本，記點一次,已自行退。",
           "版友暱稱": "Chichi",
         },
 				{
