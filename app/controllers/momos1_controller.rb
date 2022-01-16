@@ -44,7 +44,7 @@ class Momos1Controller < ApplicationController
           "連結名稱1": "2022虎氣攏來(C)",
           "連結1": "https://momo.dm/7iZ3yF",
        #  分隔線
-          "名稱2": "❗請自行注意登記時間\\n❗請自行注意兌換遊戲規則\\n01/08-01/21單日累積消費$3,000\\n登記送momo虎購讚年貨節\\n滿額送開運鑰匙圈",
+          "名稱2": "01/08-01/21單日累積消費$3,000\\n登記送momo虎購讚年貨節\\n滿額送開運鑰匙圈",
           "連結名稱2": "滿額送開運鑰匙圈",
           "連結2": "https://momo.dm/MMuzbb",
           "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
