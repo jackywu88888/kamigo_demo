@@ -10,77 +10,76 @@
    "altText": "MOMO活動查詢",
    "contents":{
     "type": "carousel",
-    "contents": 
-        {
-            "type": "bubble",
-            "hero": {
-              "type": "image",
-              "size": "full",
-              "aspectRatio": "1820:1024",
-              "aspectMode": "cover",
-              "url": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg"
+    "contents":{
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "1820:1024",
+          "aspectMode": "cover",
+          "url": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "活動主題",
+              "wrap": true,
+              "weight": "bold",
+              "size": "lg",
+              "color": "#F00078",
+              "align": "center"
             },
-            "body": {
+            {
               "type": "box",
               "layout": "vertical",
-              "spacing": "sm",
               "contents": [
                 {
                   "type": "text",
                   "text": "活動",
                   "wrap": true,
                   "weight": "bold",
-                  "size": "md",
-                  "color": "#F00078",
-                  "align": "center"
+                  "size": "lg",
+                  "flex": 0,
+                  "color": "#0000C6"
                 },
                 {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "活動",
-                      "wrap": true,
-                      "weight": "bold",
-                      "size": "lg",
-                      "flex": 0,
-                      "color": "#0000C6"
-                    },
-                    {
-                      "type": "text",
-                      "text": "名稱",
-                      "wrap": true,
-                      "weight": "bold",
-                      "size": "sm",
-                      "flex": 1,
-                      "color": "#000000",
-                      "margin": "none"
-                    }
-                  ],
-                  "height": "125px"
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "button",
-                      "action": {
-                        "type": "uri",
-                        "label": "連結名稱1",
-                        "uri": "https://momo.dm/vYyzqQ"
-                      },
-                      "style": "primary",
-                      "color": "#FF0000",
-                      "height": "sm"
-                    }
-                  ],
-                  "height": "60px"
+                  "type": "text",
+                  "text": "活動",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "lg",
+                  "flex": 1,
+                  "color": "#000000",
+                  "margin": "none"
                 }
-              ]
+              ],
+              "height": "150px"
             }
-        } #<%= "," if momo != @momos2.last %>
-			#<% end %>
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "action": {
+                "type": "uri",
+                "label": "名稱",
+                "uri": "https://momo.dm/vYyzqQ"
+              },
+              "height": "sm",
+              "color": "#f20068"
+            }
+          ],
+          "height": "70px",
+          "spacing": "xs"
+        }
+      }
   }
 ]
