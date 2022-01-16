@@ -11,6 +11,7 @@
    "contents":{
     "type": "carousel",
     "contents": [
+      <% @momos3.each do|momo| %>
       {
         "type": "bubble",
         "hero": {
@@ -18,7 +19,7 @@
           "size": "full",
           "aspectRatio": "1820:1024",
           "aspectMode": "cover",
-          "url": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg"
+          "url": "<%= momo[:圖片] %>"
         },
         "body": {
           "type": "box",
@@ -27,7 +28,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "活動主題",
+              "text": "<%= momo[:活動] %>",
               "wrap": true,
               "weight": "bold",
               "size": "lg",
@@ -49,7 +50,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "活動",
+                  "text": "<%= momo[:名稱1] %>",
                   "wrap": true,
                   "weight": "bold",
                   "size": "lg",
@@ -71,8 +72,8 @@
               "style": "primary",
               "action": {
                 "type": "uri",
-                "label": "名稱",
-                "uri": "https://momo.dm/vYyzqQ"
+                "label": "<%= momo[:連結名稱1] %>",
+                "uri": "<%= momo[:連結1] %>"
               },
               "height": "sm",
               "color": "#f20068"
@@ -81,7 +82,8 @@
           "height": "70px",
           "spacing": "xs"
         }
-      }
+      }<%= "," if momo != @momos1.last %>
+			<% end %>
     ]
   }
 ]
