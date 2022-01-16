@@ -2,6 +2,14 @@ class Inquires5Controller < ApplicationController
     def index
       @inquires5 = [
         {
+          "活動": "餐車帶你吃喝玩樂🚚 完成觀劇任務得LINE POINTS 5點、VIP得10點",
+          "活動主題": "追劇贈點",
+          "名稱": "《鬼滅之刃 第二集》",
+          "時間": "2022/01/17~2022/01/23",
+          "影片": "https://bnc.lt/MuAd/92tbe4KONmb",
+          "圖片": "https://img.linetv.tw/large/campaign/20220117_Pointscampaigm.jpg",
+        },
+        {
           "活動": "1月新劇速報，完成追劇任務得 LINE POINTS 5 點！",
           "活動主題": "追劇贈點",
           "名稱": "《進擊的巨人The Final Season Part 2》",
