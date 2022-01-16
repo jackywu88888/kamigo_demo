@@ -64,14 +64,6 @@ class Momos3Controller < ApplicationController
             "連結": "https://momo.dm/ARI6RY",
             "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
         },
-       # {
-       #     "活動": "❗請自行注意登記時間\\n❗請自行注意兌換遊戲規則",
-       #     "分隔線"
-       #     "名稱1": "",
-       #     "連結名稱1": "",
-       #     "連結1": "",
-       #     "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
-       # },
     ]
 
     @keyword = params[:keyword]

@@ -5,85 +5,20 @@
     "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
   },
   <% end %>
-  {
-   "type": "flex",
-   "altText": "MOMO活動查詢",
-   "contents":{
-    "type": "carousel",
-    "contents": [
-      <% @momos3.each do|momo| %>
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "size": "full",
-          "aspectRatio": "1820:1024",
-          "aspectMode": "cover",
-          "url": "<%= momo[:圖片] %>"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "spacing": "sm",
-          "contents": [
-            {
-              "type": "text",
-              "text": "<%= momo[:活動] %>",
-              "wrap": true,
-              "weight": "bold",
-              "size": "lg",
-              "color": "#F00078",
-              "align": "center"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "活動",
-                  "wrap": true,
-                  "weight": "bold",
-                  "size": "lg",
-                  "flex": 0,
-                  "color": "#0000C6"
-                },
-                {
-                  "type": "text",
-                  "text": "<%= momo[:名稱] %>",
-                  "wrap": true,
-                  "weight": "bold",
-                  "size": "lg",
-                  "flex": 1,
-                  "color": "#000000",
-                  "margin": "none"
-                }
-              ],
-              "height": "150px"
-            }
-          ]
-        },
-        "footer": {
-          "type": "box",
-          "layout": "horizontal",
-          "contents": [
-            {
-              "type": "button",
-              "style": "primary",
-              "action": {
-                "type": "uri",
-                "label": "<%= momo[:連結名稱] %>",
-                "uri": "<%= momo[:連結] %>"
-              },
-              "height": "sm",
-              "color": "#f20068"
-            }
-          ],
-          "height": "70px",
-          "spacing": "xs"
-        }
-      }<%= "," if momo != @momos3.last %>
-			<% end %>
-    ]
-  }
+
+  <%= raw (Kamiflex.json(self) do
+    alt_text "MOMO活動查詢"
+    carousel do
+      bubbles @momos3, size: :micro do |momo|
+        hero momo[:圖片], size: :full, aspectMode: "cover", aspectRatio: "1820:1024"
+        body spacing: :sm, paddingAll: "13px" do
+          vertical_box height:"100px" do
+          text momo[:活動], weight: :bold, size: :sm, wrap: true   
+          text momo[:名稱], weight: :bold, size: :sm, wrap: true
+          end
+          url_button momo[:連結名稱], momo[:連結], style: "primary" , heigh:"sm",spacing: "xs"
+        end
+      end
+    end
+  end )%>
 ]
