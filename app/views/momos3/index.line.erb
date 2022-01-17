@@ -6,19 +6,23 @@
   },
   <% end %>
 
-  <%= raw (Kamiflex.json(self) do
-    alt_text "MOMO活動查詢"
+  <%= raw(Kamiflex.json(self) do
+    alt_text "LINE Flex Message Showcase: Shopping"
     carousel do
-      bubbles @momos3, size: :micro do |momo|
-        hero momo[:圖片], size: :full, aspectMode: "cover", aspectRatio: "1820:1024"
-        body spacing: :sm, paddingAll: "13px" do
-          vertical_box height:"100px" do
-          text momo[:活動], weight: :bold, size: :sm, wrap: true   
-          text momo[:名稱], weight: :bold, size: :sm, wrap: true
+      bubbles @momos3 do |momo|
+        hero momo[:圖片], size: :full, aspectRatio: "20:13", aspectMode: :cover
+        body spacing: :md ,layout: "vertical"do
+          text momo[:活動], wrap: true, weight: :bold, size: :xl, align: "center", color: "#ff5551"
+          alt_text "LINE Flex"
+          text momo[:名稱],
           end
-          url_button momo[:連結名稱], momo[:連結], style: "primary" , heigh:"sm",spacing: "xs"
+        end
+        footer do
+          url_button momo[:連結名稱], momo[:連結], style: :primary, color: "#ff5551",height: "110px"
         end
       end
     end
-  end )%>
+  end
+  
+  puts json)%>
 ]
