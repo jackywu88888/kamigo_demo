@@ -10,11 +10,10 @@
     alt_text "LINE Flex Message Showcase: Shopping"
     carousel do
       bubbles @momos3 do |momo|
-        hero momo[:圖片], size: :full, aspectRatio: "20:13", aspectMode: :cover
+        hero momo[:圖片], size: :full, aspectRatio: "1820:1024", aspectMode: :cover
         body spacing: :md ,layout: "vertical"do
           text momo[:活動], wrap: true, weight: :bold, size: :xl, align: "center", color: "#ff5551"
-          alt_text "LINE Flex"
-          text momo[:名稱],
+          "layout": "vertical",
           end
         end
         footer do
