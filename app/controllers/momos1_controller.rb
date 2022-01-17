@@ -8,9 +8,9 @@ class Momos1Controller < ApplicationController
           "連結名稱1": "每人每日限搶一次",
           "連結1": "https://momo.dm/33yFqf",
        #  分隔線
-          "名稱2": "01/08-01/16\\n簽到分享最高送$36+$14=$50momo幣\\nmomo幣將於簽到後立刻歸戶\\n使用期限至01/16\\n23:59momo虎購讚年貨節-天天簽到",
+          "名稱2": "01/17-01/23簽到分享\\n最高送$11+$14=$25momo幣\\nmomo幣將於簽到後立刻歸戶\\n使用期限至 1/23 23:59",
           "連結名稱2": "天天簽到",
-          "連結2": "https://momo.dm/Z3yyrf",
+          "連結2": "https://momo.dm/BQfjEm",
           "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
         },
         {
