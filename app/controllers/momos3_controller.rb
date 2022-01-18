@@ -70,7 +70,7 @@ class Momos3Controller < ApplicationController
 
     if @keyword.present?
         @momos3.filter! do |momo|
-           momo[:名稱].include? @keyword
+           momo[:活動].include? @keyword
       end
     end
     @momos3 = @momos3.first(12)
