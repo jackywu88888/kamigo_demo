@@ -8,7 +8,7 @@
 
   <%= raw(Kamiflex.json(self) do
     alt_text "LINE Flex Message Showcase: Menu"
-    carousel do
+    bubble do
       bubbles @momos3, size: :micro do |momo|
       hero momo[:圖片], size: :full, aspectRatio: "1820:1024", aspectMode: :cover, action: uri_action("https://linecorp.com")
       body spacing: :md, action: uri_action("https://linecorp.com") do
