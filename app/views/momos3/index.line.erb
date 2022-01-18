@@ -10,9 +10,8 @@
     alt_text "LINE Flex Message Showcase: Menu"
     bubble do
       bubbles @momos3, size: :micro do |momo|
-      hero momo[:圖片], size: :full, aspectRatio: "1820:1024", aspectMode: :cover, action: uri_action("https://linecorp.com")
-      body spacing: :md, action: uri_action("https://linecorp.com") do
-        text momo[:活動], wrap: true,weight: "bold",size: "md",color: "#F00078",align: "center"
+      hero momo[:圖片], size: :full, aspectRatio: "1820:1024", aspectMode: :cover, 
+        text momo[:活動], wrap: true, weight: "bold",align:"center",size: "md" ,color:"#F00078"
          vertical_box do       
           vertical_box layout: "vertical" , height: "125px",spacing: "xs" do
             text "活動", wrap: true,weight: "bold",size: "lg",flex: 0,color: "#0000C6"
