@@ -6,23 +6,21 @@
   },
   <% end %>
 
-  <%= raw(Kamiflex.json(self) do
+  <%= raw(json = Kamiflex.json(self) do
     alt_text "LINE Flex Message Showcase: Menu"
-    carousel do
-      bubbles @momos3, size: :micro do |momo|
-      hero momo[:圖片], size: :full, aspectRatio: "1820:1024", aspectMode: :cover
-        text momo[:活動], wrap: true, weight: "bold",align:"center",size: "md" ,color:"#F00078"
+    bubble do
+      hero "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_2_restaurant.png", size: :full, aspectRatio: "20:13", aspectMode: :cover, action: uri_action("https://linecorp.com")
+      body spacing: :md, action: uri_action("https://linecorp.com") do
+        text "Brown's Burger", wrap: true,weight: "bold",size: "md",color: "#F00078"
          vertical_box do       
           vertical_box layout: "vertical" , height: "125px",spacing: "xs" do
-            text "活動", wrap: true,weight: "bold",size: "lg",flex: 0,color: "#0000C6"
-            text momo[:名稱],wrap: true,weight: "bold",size: "sm",flex: 1,color: "#000000",margin: "none"
+            text "$10.5", wrap: true,weight: "bold",size: "lg",flex: 0,color: "#0000C6"
+            text "400kcl",wrap: true,weight: "bold",size: "sm",flex: 1,color: "#000000",margin: "none"
           end
         end
       end
-      footer do
-        spacer size: :xxl
-        url_button 連結名稱], momo[:連結], style: :primary, color: "#FF0000"
+        url_button "Add to Cart", "https://linecorp.com", style: :primary, color: "#FF0000"
+      end
     end
-  end
-end)%>
+  end)%>
 ]
