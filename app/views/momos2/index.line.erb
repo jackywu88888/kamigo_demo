@@ -6,18 +6,20 @@
   },
   <% end %>
   {
-   "type": "flex",
-   "altText": "MOMO活動查詢",
-   "contents":{
-    "type": "carousel",
+    "type": "flex",
+    "altText": "MOMO活動查詢",
     "contents":{
+     "type": "carousel",
+     "contents": [
+       <% @momos2.each do|momo| %>
+       {
         "type": "bubble",
         "hero": {
           "type": "image",
           "size": "full",
           "aspectRatio": "1820:1024",
           "aspectMode": "cover",
-          "url": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg"
+          "url": "<%= momo[:圖片] %>"
         },
         "body": {
           "type": "box",
@@ -26,10 +28,10 @@
           "contents": [
             {
               "type": "text",
-              "text": "活動主題",
+              "text": "<%= momo[:活動] %>",
               "wrap": true,
               "weight": "bold",
-              "size": "lg",
+              "size": "md",
               "color": "#F00078",
               "align": "center"
             },
@@ -48,38 +50,40 @@
                 },
                 {
                   "type": "text",
-                  "text": "活動",
+                  "text": "<%= momo[:名稱] %>",
                   "wrap": true,
                   "weight": "bold",
-                  "size": "lg",
-                  "flex": 1,
+                  "flex": 0,
                   "color": "#000000",
-                  "margin": "none"
+                  "size": "sm"
                 }
               ],
-              "height": "150px"
+              "height": "125px",
+              "spacing": "xs"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "<%= momo[:連結名稱] %>",
+                    "uri": "<%= momo[:連結] %>"
+                  },
+                  "style": "primary",
+                  "color": "#FF0000",
+                  "height": "sm"
+                }
+              ],
+              "height": "60px"
             }
           ]
-        },
-        "footer": {
-          "type": "box",
-          "layout": "horizontal",
-          "contents": [
-            {
-              "type": "button",
-              "style": "primary",
-              "action": {
-                "type": "uri",
-                "label": "名稱",
-                "uri": "https://momo.dm/vYyzqQ"
-              },
-              "height": "sm",
-              "color": "#f20068"
-            }
-          ],
-          "height": "70px",
-          "spacing": "xs"
         }
-      }
+      }<%= "," if momo != @momos2.last %>
+			<% end %>
+    ]
   }
+}
 ]
