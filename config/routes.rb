@@ -38,9 +38,9 @@ Rails.application.routes.draw do
   get "立即簽到資訊2", to: "signs2#index"
   get "期限簽到活動", to: "signs3#index"
   
-  get "momo簽到", to: "momos1#index"
-  get "momo", to: "momos1#index"
-  get "MOMO簽到", to: "momos1#index"
+  get "momo簽到", to: "momos2#index"
+  get "momo", to: "momos2#index"
+  get "MOMO簽到", to: "momos2#index"
 
   get "MOMO活動登記", to: "momos3#index"
 
