@@ -6,7 +6,7 @@
   },
   <% end %>
 
-  <%= raw(json = Kamiflex.json(self) do
+  <%= raw(Kamiflex.json(self) do
     alt_text "LINE Flex Message Showcase: Menu"
     bubble do
       hero "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_2_restaurant.png", size: :full, aspectRatio: "20:13", aspectMode: :cover, action: uri_action("https://linecorp.com")
