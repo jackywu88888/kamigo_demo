@@ -119,7 +119,7 @@ class Momos1Controller < ApplicationController
             "名稱2": "1/1-2/7消費滿額登記送momo\\n新春盛宴-滿額送$3500",
             "連結名稱2": "滿額送$3500",
             "連結2": "https://momo.dm/ARI6RY",
-            "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
+            "圖片": "ttps://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
         },
        # {
        #     "活動": "❗請自行注意登記時間\\n❗請自行注意兌換遊戲規則",

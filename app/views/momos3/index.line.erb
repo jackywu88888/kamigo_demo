@@ -6,21 +6,23 @@
   },
   <% end %>
 
-  <%= raw(Kamiflex.json(self) do
-    alt_text "LINE Flex Message Showcase: Shopping"
-    carousel do
-      bubbles @momos3 do |momo|
-        hero momo[:圖片], size: :full, aspectRatio: "1820:1024", aspectMode: :cover
-        body spacing: :md ,layout: "vertical"do
-          text momo[:活動], wrap: true, weight: :bold, size: :xl, align: "center", color: "#ff5551"
+  <%= raw(json = Kamiflex.json(self) do
+    alt_text "LINE Flex Message Showcase: Menu"
+    bubble do
+      bubbles @momos3, size: :micro do |momo|
+      hero momo[:圖片], size: :full, aspectRatio: "1820:1024", aspectMode: :cover, action: uri_action("https://linecorp.com")
+      body spacing: :md, action: uri_action("https://linecorp.com") do
+        text momo[:活動], wrap: true,weight: "bold",size: "md",color: "#F00078",align: "center"
+         vertical_box do       
+          vertical_box layout: "vertical" , height: "125px",spacing: "xs" do
+            text "活動", wrap: true,weight: "bold",size: "lg",flex: 0,color: "#0000C6"
+            text momo[:名稱],wrap: true,weight: "bold",size: "sm",flex: 1,color: "#000000",margin: "none"
           end
         end
-        footer do
-          url_button "momo連結名稱", momo[:連結], style: :primary, color: "#ff5551"
-        end
       end
+        url_button momo[:連結名稱], momo[:連結], style: :primary, color: "#FF0000"
     end
   end
-  
+
   puts json)%>
 ]
