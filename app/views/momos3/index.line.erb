@@ -6,7 +6,7 @@
   },
   <% end %>
 
-  <%= raw(json = Kamiflex.json(self) do
+  <%= raw(Kamiflex.json(self) do
     alt_text "LINE Flex Message Showcase: Menu"
     carousel do
       bubbles @momos3, size: :micro do |momo|
