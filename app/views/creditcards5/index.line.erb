@@ -11,7 +11,7 @@
   "contents":{
     "type": "carousel",
     "contents": [
-      <% @creditcards1.each do|creditcard| %>
+      <% @creditcards5.each do|creditcard| %>
       {
         "type": "bubble",
         "body": {
@@ -128,7 +128,7 @@
             }
           ]
         }
-      }<%= "," if creditcard != @creditcards1.last %>
+      }<%= "," if creditcard != @creditcards5.last %>
       <% end %>
      ]
     }
