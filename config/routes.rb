@@ -44,6 +44,8 @@ Rails.application.routes.draw do
 
   get "MOMO活動登記", to: "momos3#index"
 
+  get "國內消費1", to: "creditcards1#index"
+
   get "國內消費", to: "videos7#index"
   get "國外消費", to: "videos8#index"
   get "行動支付", to: "videos9#index"

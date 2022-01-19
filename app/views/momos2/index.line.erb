@@ -6,84 +6,84 @@
   },
   <% end %>
   {
-    "type": "flex",
-    "altText": "MOMO活動查詢",
-    "contents":{
-     "type": "carousel",
-     "contents": [
-       <% @momos2.each do|momo| %>
-       {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "size": "full",
-          "aspectRatio": "1820:1024",
-          "aspectMode": "cover",
-          "url": "<%= momo[:圖片] %>"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "spacing": "sm",
-          "contents": [
-            {
-              "type": "text",
-              "text": "<%= momo[:活動] %>",
-              "wrap": true,
-              "weight": "bold",
-              "size": "md",
-              "color": "#F00078",
-              "align": "center"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "活動",
-                  "wrap": true,
-                  "weight": "bold",
-                  "size": "lg",
-                  "flex": 0,
-                  "color": "#0000C6"
+  "type": "flex",
+  "altText": "MOMO活動查詢",
+  "contents":{
+    "type": "carousel",
+    "contents": [
+      <% @momos2.each do|momo| %>
+      {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "1820:1024",
+        "aspectMode": "cover",
+        "url": "<%= momo[:圖片] %>"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "<%= momo[:活動] %>",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#F00078",
+            "align": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "活動",
+                "wrap": true,
+                "weight": "bold",
+                "size": "lg",
+                "flex": 0,
+                "color": "#0000C6"
+              },
+              {
+                "type": "text",
+                "text": "<%= momo[:名稱] %>",
+                "wrap": true,
+                "weight": "bold",
+                "flex": 0,
+                "color": "#000000",
+                "size": "sm"
+              }
+            ],
+            "height": "125px",
+            "spacing": "xs"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "<%= momo[:連結名稱] %>",
+                  "uri": "<%= momo[:連結] %>"
                 },
-                {
-                  "type": "text",
-                  "text": "<%= momo[:名稱] %>",
-                  "wrap": true,
-                  "weight": "bold",
-                  "flex": 0,
-                  "color": "#000000",
-                  "size": "sm"
-                }
-              ],
-              "height": "125px",
-              "spacing": "xs"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "button",
-                  "action": {
-                    "type": "uri",
-                    "label": "<%= momo[:連結名稱] %>",
-                    "uri": "<%= momo[:連結] %>"
-                  },
-                  "style": "primary",
-                  "color": "#FF0000",
-                  "height": "sm"
-                }
-              ],
-              "height": "60px"
-            }
-          ]
-        }
-      }<%= "," if momo != @momos2.last %>
-			<% end %>
-    ]
-  }
+                "style": "primary",
+                "color": "#FF0000",
+                "height": "sm"
+              }
+            ],
+            "height": "60px"
+          }
+        ]
+      }
+    }<%= "," if momo != @momos2.last %>
+    <% end %>
+  ]
+}
 }
 ]
