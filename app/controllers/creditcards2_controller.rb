@@ -101,46 +101,46 @@ class Creditcards2Controller < ApplicationController
                 "趴數2": "2.5%",
             },
             {
-                "銀行1": "\\n",
+                "銀行1": "n",
                 "回饋1": "\\n",
                 "綁定1": "\\n",
                 "趴數1": "\\n",
                 #分隔線
-                "銀行2": "\\n",
+                "銀行2": "n",
                 "回饋2": "\\n",
                 "綁定2": "\\n",
                 "趴數2": "\\n",
             },
             {
-                "銀行1": "\\n",
+                "銀行1": "n",
                 "回饋1": "\\n",
                 "綁定1": "\\n",
                 "趴數1": "\\n",
                 #分隔線
-                "銀行2": "\\n",
+                "銀行2": "n",
                 "回饋2": "\\n",
                 "綁定2": "\\n",
                 "趴數2": "\\n",
             },
             {
-                "銀行1": "\\n",
+                "銀行1": "n",
                 "回饋1": "\\n",
                 "綁定1": "\\n",
                 "趴數1": "\\n",
                 #分隔線
-                "銀行2": "\\n",
+                "銀行2": "n",
                 "回饋2": "\\n",
                 "綁定2": "\\n",
                 "趴數2": "\\n",
             },
 
-]    
+						]    
 
-@keyword = params[:keyword]
+            @keyword = params[:keyword]
 
-if @keyword.present?
-@creditcards2.filter! do |creditcard|
-  creditcard[:銀行1].include? @keyword
+            if @keyword.present?
+            @creditcards2.filter! do |creditcard|
+            creditcard[:銀行1].include? @keyword
             end
         end
     end
