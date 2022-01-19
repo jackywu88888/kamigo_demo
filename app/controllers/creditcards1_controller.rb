@@ -1,6 +1,6 @@
 class Creditcards1Controller < ApplicationController
     def index
-        @Creditcards1 = [
+        @creditcards1 = [
         {
           "銀行1": "華南i網購東奧卡",
           "回饋1": "每帳單週期回饋500,刷卡上限2500,到3/31",
@@ -18,8 +18,8 @@ class Creditcards1Controller < ApplicationController
     @keyword = params[:keyword]
 
     if @keyword.present?
-      @Creditcards1.filter! do |Creditcard|
-        Creditcard[:銀行].include? @keyword
+      @creditcards1.filter! do |creditcard|
+        creditcard[:銀行].include? @keyword
         end
       end
    end
