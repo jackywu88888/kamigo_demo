@@ -5,14 +5,11 @@
     "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
   },
   <% end %>
-  {
-  "type": "flex",
+  
+{
+ "type": "flex",
   "altText": "MOMO活動查詢",
   "contents":{
-    "type": "carousel",
-    "contents": [
-<% @creditcards1.each do|creditcard| %>
-  {
     "type": "carousel",
     "contents": [
       {
@@ -93,9 +90,6 @@
         }
       }
     ]
-  }<%= "," if creditcard != @creditcards1.last %>
-    <% end %>
-  ]
-}
+  }
 }
 ]
