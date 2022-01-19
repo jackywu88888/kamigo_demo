@@ -11,7 +11,7 @@
   "contents":{
     "type": "carousel",
     "contents": [
-<% @creditcards1.each do|momo| %>
+<% @creditcards1.each do|creditcard| %>
   {
     "type": "carousel",
     "contents": [
@@ -93,7 +93,7 @@
         }
       }
     ]
-  }<%= "," if momo != @creditcards1.last %>
+  }<%= "," if creditcard != @creditcards1.last %>
     <% end %>
   ]
 }
