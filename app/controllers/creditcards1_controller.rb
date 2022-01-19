@@ -19,7 +19,7 @@ class Creditcards1Controller < ApplicationController
 
     if @keyword.present?
       @creditcards1.filter! do |creditcard|
-        creditcard[:銀行].include? @keyword
+        creditcard[:銀行1].include? @keyword
         end
       end
    end
