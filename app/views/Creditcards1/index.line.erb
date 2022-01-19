@@ -5,13 +5,13 @@
     "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
   },
   <% end %>
-
+]
 <%= raw (Kamiflex.json(self) do
     alt_text "台灣行動支付APP"
 bubble do
       body do
         vertical_box do
-          text "「台灣行動支付APP」信用卡感應購物2%回饋",wrap: true,weight:"bold", height:"460px",size:"xl",color: "#ff0d00"
+          text "「台灣行動支付APP」信用卡感應購物2%回饋",wrap: true,weight:"bold", height:"460px",size:"xl",color:"#ff0d00"
           vertical_box margin: :xs, spacing: :sm do
           text "活動說明：",size: "lg",color: "#003bd1",margin: "xs"
           text "(1)活動期間以「台灣行動支付APP」信用卡(含Visa金融卡)感應購物享2%刷卡金回饋。 (2)活動期間每實體卡每月回饋上限新臺幣(下同)100元，每月回饋總金額上限60萬元，達當月活動回饋總金額上限，即停止回饋。",wrap: true,weight: "bold",size: "sm",flex: 0
@@ -27,6 +27,3 @@ bubble do
     end
   end
 end) %>
-
-
-]
