@@ -7,11 +7,11 @@
   <% end %>
 {
   "type": "flex",
-  "altText": "行動支付(linepay/街口等)",
+  "altText": "自動加值",
   "contents":{
     "type": "carousel",
     "contents": [
-      <% @creditcards3.each do|creditcard| %>
+      <% @creditcards4.each do|creditcard| %>
       {
         "type": "bubble",
         "body": {
@@ -21,7 +21,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "國外消費",
+              "text": "自動加值",
               "wrap": true,
               "weight": "bold",
               "size": "xl",
@@ -113,7 +113,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "行動支付查詢~來源PTT【cokelon大】整理",
+              "text": "自動加值查詢~來源PTT【cokelon大】整理",
               "size": "xxs"
             },
             {
@@ -131,7 +131,7 @@
             }
           ]
         }
-      }<%= "," if creditcard != @creditcards3.last %>
+      }<%= "," if creditcard != @creditcards4.last %>
       <% end %>
     ]
 }
