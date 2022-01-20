@@ -42,7 +42,7 @@ class Creditcards3Controller < ApplicationController
                     #分隔線
                     "銀行2": "兆豐e秒happy悠遊鈦金卡",
                     "回饋2": "1月回饋上限50\\n2月開始5%及新卡友加碼5%\\n各回饋上限100,舊卡友 5% 新卡友 10%",
-                    "綁定2": "Linepay/街口/Pi錢包/悠遊付/橘子支付/歐付寶",
+                    "綁定2": "Linepay/街口/Pi錢包/悠遊付/\\n橘子支付/歐付寶",
                     "趴數2": "5%/10%",
             },
 			{
@@ -118,7 +118,7 @@ class Creditcards3Controller < ApplicationController
                     "趴數1": "舊戶 3%\\n新戶 3.5%",
                     #分隔線
                     "銀行2": "新光寰宇現金回饋",
-                    "回饋2": "\\n",
+                    "回饋2": "\n",
                     "綁定2": "Linepay/街口/歐付寶/Pi錢包/支付連",
                     "趴數2": "3%",
             },
