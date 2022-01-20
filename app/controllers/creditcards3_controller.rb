@@ -23,7 +23,7 @@ class Creditcards3Controller < ApplicationController
 					"綁定2": "Linepay/街口",
 					"趴數2": "最高10%",
             },
-            }
+            {
                     "銀行1": "一銀icash",
                     "回饋1": "單筆200,需登錄,每帳單週期回饋上限250元",
                     "綁定1": " icash Pay/OPEN錢包",
@@ -142,5 +142,5 @@ class Creditcards3Controller < ApplicationController
 			creditcard[:銀行1].include? @keyword
 			end
 		end
- end
+    end
 end
