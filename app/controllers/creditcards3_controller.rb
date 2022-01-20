@@ -23,6 +23,7 @@ class Creditcards3Controller < ApplicationController
 					"綁定2": "Linepay/街口",
 					"趴數2": "最高10%",
             },
+            }
                     "銀行1": "一銀icash",
                     "回饋1": "單筆200,需登錄,每帳單週期回饋上限250元",
                     "綁定1": " icash Pay/OPEN錢包",
@@ -109,7 +110,6 @@ class Creditcards3Controller < ApplicationController
 					"回饋2": "上限10000,需帳戶自動扣款",
 					"綁定2": "\\n",
 					"趴數2": "3.5%",
-            },
             },
             {
                     "銀行1": "富邦J JU卡",
