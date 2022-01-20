@@ -64,7 +64,7 @@ class Creditcards11Controller < ApplicationController
 					#分隔線
 					"銀行2": "富邦Open Possible卡",
 					"回饋2": "每期帳單回饋上限500,\\n新辦myMoney數帳扣繳多0.5%",
-					"綁定2": "",
+					"綁定2": " ",
 					"趴數2": "5%or5.5%",
 			},
 			{
@@ -92,7 +92,7 @@ class Creditcards11Controller < ApplicationController
 			{
 					"銀行1": "台新Flygo",
 					"回饋1": "帳單金額>5000=4.2%,\\n帳單金額>5000=5%,需Richart自動扣繳\\n通路4% 刷卡上限5000",
-					"綁定1": "",
+					"綁定1": " ",
 					"趴數1": "中油直營 4.2%or5%",
 					#分隔線
 					"銀行2": "玉山Pi卡",
