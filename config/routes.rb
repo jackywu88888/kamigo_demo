@@ -61,7 +61,8 @@ Rails.application.routes.draw do
   get "加油", to: "creditcards11#index"
   get "共享機車", to: "creditcards12#index"
   get "北捷/公車", to: "creditcards13#index"
-
+  get "台鐵/高鐵", to: "creditcards14#index"
+  get "Uber", to: "creditcards15#index"
 
 
 
@@ -80,8 +81,9 @@ Rails.application.routes.draw do
 #  get "萊爾富OK超商/電子票證可參照自動加值各項行動支付可參照行動支付", to: "videos22#index"
 #  get "加油", to: "videos23#index"
 #  get "北捷/公車", to: "videos24#index"
-  get "台鐵", to: "videos25#index"
-  get "高鐵", to: "videos26#index"
+#  get "台鐵", to: "videos25#index"
+#  get "高鐵", to: "videos26#index"
+#  get "Uber", to: "videos39#index"
   get "超商代收", to: "videos27#index"
   get "電費", to: "videos28#index"
   get "北水", to: "videos29#index"
@@ -94,7 +96,7 @@ Rails.application.routes.draw do
   get "瓦斯費", to: "videos36#index"
   get "第四台", to: "videos37#index"
   get "保險", to: "videos38#index"
-  get "Uber", to: "videos39#index"
+
   get "勞健保費", to: "videos40#index"
   get "學費", to: "videos41#index"
   get "地方稅/國稅", to: "videos42#index"
