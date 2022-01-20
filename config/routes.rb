@@ -50,7 +50,7 @@ Rails.application.routes.draw do
 
   get "國內消費", to: "creditcards1#index"
   get "國外消費", to: "creditcards2#index"
-  get "行動支付", to: "videos9#index"
+  get "行動支付", to: "creditcards3#index"
   get "網購", to: "videos10#index"
   get "餐廳", to: "videos11#index"
   get "Foodpanda外送", to: "videos12#index"
