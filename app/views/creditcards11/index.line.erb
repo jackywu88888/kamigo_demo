@@ -7,11 +7,11 @@
   <% end %>
 {
   "type": "flex",
-  "altText": "萊爾富OK超商",
+  "altText": "加油",
   "contents":{
     "type": "carousel",
     "contents": [
-      <% @creditcards10.each do|creditcard| %>
+      <% @creditcards11.each do|creditcard| %>
       {
         "type": "bubble",
         "body": {
@@ -21,7 +21,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "萊爾富OK超商",
+              "text": "加油",
               "wrap": true,
               "weight": "bold",
               "size": "xl",
@@ -30,10 +30,10 @@
             },
             {
                 "type": "text",
-                "text": "電子票證可參照自動加值",
+                "text": "電子票證可參照自動加值,手機感應刷卡可參照國內消費",
                 "wrap": true,
                 "weight": "bold",
-                "size": "xs",
+                "size": "xxs",
                 "color": "#ff0d00",
                 "align": "center"
             },
@@ -131,7 +131,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "萊爾富OK超商查詢~來源PTT【cokelon大】整理",
+              "text": "加油查詢~來源PTT【cokelon大】整理",
               "size": "xxs"
             },
             {
@@ -149,7 +149,7 @@
             }
           ]
         }
-      }<%= "," if creditcard != @creditcards10.last %>
+      }<%= "," if creditcard != @creditcards11.last %>
       <% end %>
     ]
 }
