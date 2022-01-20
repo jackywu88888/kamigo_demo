@@ -1,4 +1,4 @@
-class Creditcards6Controller < ApplicationController
+class Creditcards7Controller < ApplicationController
 	def index
 			@creditcards7 = [
                 {
