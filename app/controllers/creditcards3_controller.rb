@@ -91,7 +91,7 @@ class Creditcards3Controller < ApplicationController
             },
 			{
 					"銀行1": "台新Flygo",
-					"回饋1": "帳單金額<5000 4.2% ,\\n帳單金額>5000 5%,\\n需Richart自動扣繳,刷卡上限5000。",
+					"回饋1": "帳單金額小於5000 4.2% ,\\n帳單金額滿5000 5%,\\n需Richart自動扣繳,刷卡上限5000。",
 					"綁定1": "台新Pay",
 					"趴數1": "4.2%or5%",
 					#分隔線

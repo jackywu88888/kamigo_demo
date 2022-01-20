@@ -52,7 +52,7 @@ class Creditcards12Controller < ApplicationController
 					"趴數1": "6%",
 					#分隔線
 					"銀行2": "台新Flygo",
-					"回饋2": "帳單金額"<"5000=4.2% ,帳單金額">"5000=5%,需Richart自動扣\\n通路4% 刷卡上限5000",
+					"回饋2": "帳單金額小於5000=4.2% ,帳單金額滿5000=5%,需Richart自動扣\\n通路4% 刷卡上限5000",
 					"綁定2": "Goshare / Wemo",
 					"趴數2": "4.2%or5%",
 			},

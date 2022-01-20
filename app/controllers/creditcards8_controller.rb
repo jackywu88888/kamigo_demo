@@ -3,7 +3,7 @@ class Creditcards8Controller < ApplicationController
 			@creditcards8 = [
                 {
 					"銀行1": "橘子支付",
-					"回饋1": "單筆金額<500=8%,單筆金額滿500以上=20% \\n(活動回饋200萬,每月最高回饋300)",
+					"回饋1": "單筆金額小於500=8%,單筆金額滿500以上=20% \\n(活動回饋200萬,每月最高回饋300)",
 					"綁定1": "https://www.gamapay.com.tw/news_a224.html",
 					"趴數1": "8%或20%",
 					#分隔線
