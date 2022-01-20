@@ -53,10 +53,10 @@ Rails.application.routes.draw do
   get "行動支付", to: "creditcards3#index"
   get "自動加值", to: "creditcards4#index"
   get "網購", to: "creditcards5#index"
-
+  get "餐廳", to: "creditcards6#index"
   
 #  get "網購", to: "videos10#index"
-  get "餐廳", to: "videos11#index"
+#  get "餐廳", to: "videos11#index"
   get "Foodpanda外送", to: "videos12#index"
   get "Uber外送", to: "videos13#index"
   get "共享機車Wemo", to: "videos14#index"
