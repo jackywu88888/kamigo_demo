@@ -46,7 +46,7 @@ Rails.application.routes.draw do
 
   get "國內", to: "creditcards1#index"
   
-  get "國外", to: "creditcards2#index"
+  get "國外", to: "creditcards3#index"
 
   get "國內消費", to: "creditcards1#index"
   get "國外消費", to: "creditcards2#index"
