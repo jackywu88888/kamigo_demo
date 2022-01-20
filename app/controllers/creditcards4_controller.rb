@@ -3,7 +3,7 @@ class Creditcards4Controller < ApplicationController
 			@creditcards4 = [
 			{
 					"銀行1": "JCB晶緻悠遊卡",
-					"回饋1": "需逐月登錄,每月37000卡&回饋上限50",
+					"回饋1": "需逐月登錄,每月37000卡，回饋上限50",
 					"綁定1": "悠遊卡",
 					"趴數1": "10%",
 					#分隔線
@@ -25,7 +25,7 @@ class Creditcards4Controller < ApplicationController
 			},
 			{
 					"銀行1": "遠銀快樂卡\\nC’est Moi旅遊悠遊卡",
-					"回饋1": "需逐月登錄,每月回饋上限50,可跟JCB10%疊加",
+					"回饋1": "需逐月登錄,每月回饋上限50,\\n可跟JCB10%疊加",
 					"綁定1": "悠遊卡",
 					"趴數1": "5%",
 					#分隔線
@@ -41,7 +41,7 @@ class Creditcards4Controller < ApplicationController
 					"趴數1": "5%",
 					#分隔線
 					"銀行2": "台中銀哆啦a夢卡",
-					"回饋2": "當期帳單需新增3000一般消費且要在8大通路加值",
+					"回饋2": "當期帳單需新增3000\\n一般消費且要在8大通路加值",
 					"綁定2": "悠遊卡",
 					"趴數2": "2.5%",
 			},
@@ -73,7 +73,7 @@ class Creditcards4Controller < ApplicationController
 					"綁定1": "icash",
 					"趴數1": "10%",
 					#分隔線
-					"銀行2": "一銀icash聯名卡 & 宜蘭認同icash卡",
+					"銀行2": "一銀icash聯名卡\\n宜蘭認同icash卡",
 					"回饋2": "新卡icash自動加值 10% OP (核卡後90天內)",
 					"綁定2": "icash",
 					"趴數2": "10%",
@@ -93,7 +93,7 @@ class Creditcards4Controller < ApplicationController
 					"銀行1": "華南超級點數卡",
 					"回饋1": "當期帳單需新增兩筆711或累積2711消費,每月回饋上限100點",
 					"綁定1": "icash",
-					"趴數1": " 5%",
+					"趴數1": "5%",
 					#分隔線
 					"銀行2": " ",
 					"回饋2": " ",
