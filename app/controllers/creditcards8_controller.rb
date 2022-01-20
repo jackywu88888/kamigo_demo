@@ -53,7 +53,7 @@ class Creditcards8Controller < ApplicationController
 					#分隔線
 					"銀行2": "國泰KOKO COMBO icash",
 					"回饋2": "單期新增帳金5000,上限6000",
-					"綁定2": "",
+					"綁定2": " ",
 					"趴數2": "5%",
 			},
 			{
@@ -69,7 +69,7 @@ class Creditcards8Controller < ApplicationController
 			},
 			{
 					"銀行1": "玉山Ubear卡",
-					"回饋1": "",
+					"回饋1": " ",
 					"綁定1": "橘子支付/街口支付",
 					"趴數1": "3.8%",
 					#分隔線
