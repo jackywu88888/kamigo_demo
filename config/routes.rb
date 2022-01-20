@@ -60,6 +60,10 @@ Rails.application.routes.draw do
   get "萊爾富/OK超商自動加值", to: "creditcards10#index"
   get "加油", to: "creditcards11#index"
   get "共享機車", to: "creditcards12#index"
+  get "北捷/公車", to: "creditcards13#index"
+
+
+
 
 #  get "網購", to: "videos10#index"
 #  get "餐廳", to: "videos11#index"
@@ -75,7 +79,7 @@ Rails.application.routes.draw do
 #  get "全家超商/電子票證可參照自動加值各項行動支付可參照行動支付", to: "videos21#index"
 #  get "萊爾富OK超商/電子票證可參照自動加值各項行動支付可參照行動支付", to: "videos22#index"
 #  get "加油", to: "videos23#index"
-  get "北捷/公車", to: "videos24#index"
+#  get "北捷/公車", to: "videos24#index"
   get "台鐵", to: "videos25#index"
   get "高鐵", to: "videos26#index"
   get "超商代收", to: "videos27#index"
