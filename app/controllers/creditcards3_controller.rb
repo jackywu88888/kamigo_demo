@@ -118,7 +118,7 @@ class Creditcards3Controller < ApplicationController
                     "趴數1": "舊戶 3%\\n新戶 3.5%",
                     #分隔線
                     "銀行2": "新光寰宇現金回饋",
-                    "回饋2": "\n",
+                    "回饋2": " ",
                     "綁定2": "Linepay/街口/歐付寶/Pi錢包/支付連",
                     "趴數2": "3%",
             },
