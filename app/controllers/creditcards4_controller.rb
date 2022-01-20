@@ -36,7 +36,7 @@ class Creditcards4Controller < ApplicationController
 			},
 			{
 					"銀行1": "合庫i享樂生活\\n合庫i運動卡",
-					"回饋1": "當期帳單需新增一般消費2999,每月刷卡上限2000",
+					"回饋1": "當期帳單需新增一般消費2999,\\n每月刷卡上限2000",
 					"綁定1": "悠遊卡",
 					"趴數1": "5%",
 					#分隔線
@@ -74,7 +74,7 @@ class Creditcards4Controller < ApplicationController
 					"趴數1": "10%",
 					#分隔線
 					"銀行2": "一銀icash聯名卡\\n宜蘭認同icash卡",
-					"回饋2": "新卡icash自動加值 10% OP (核卡後90天內)",
+					"回饋2": "新卡icash自動加值 10% OP\\n(核卡後90天內)",
 					"綁定2": "icash",
 					"趴數2": "10%",
 			},
