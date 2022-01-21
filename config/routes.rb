@@ -63,7 +63,9 @@ Rails.application.routes.draw do
   get "北捷/公車", to: "creditcards13#index"
   get "台鐵/高鐵", to: "creditcards14#index"
   get "Uber", to: "creditcards15#index"
-  get "繳費", to: "creditcards16#index"
+  get "北水/電費/台水", to: "creditcards16#index"
+  get "中華電信", to: "creditcards17#index"
+  get "台灣大哥大/遠傳/台灣之星/亞太", to: "creditcards18#index"
 
 
 #  get "網購", to: "videos10#index"
@@ -88,11 +90,11 @@ Rails.application.routes.draw do
   get "電費", to: "videos28#index"
   get "北水", to: "videos29#index"
   get "台水", to: "videos30#index"
-  get "中華電信", to: "videos31#index"
-  get "台灣大哥大", to: "videos32#index"
-  get "遠傳", to: "videos33#index"
-  get "亞太", to: "videos34#index"
-  get "台灣之星", to: "videos35#index"
+#  get "中華電信", to: "videos31#index"
+#  get "台灣大哥大", to: "videos32#index"
+#  get "遠傳", to: "videos33#index"
+#  get "亞太", to: "videos34#index"
+#  get "台灣之星", to: "videos35#index"
   get "瓦斯費", to: "videos36#index"
   get "第四台", to: "videos37#index"
   get "保險", to: "videos38#index"
@@ -131,7 +133,7 @@ Rails.application.routes.draw do
 #  get "自動加值", to: "home#menu7"
   get "超商自動加值", to: "home#menu8"
   get "大眾運輸", to: "home#menu9"
-#  get "繳費", to: "home#menu10"
+  get "繳費", to: "home#menu10"
   get "電信費", to: "home#menu11"
 
 
