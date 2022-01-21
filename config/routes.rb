@@ -66,7 +66,7 @@ Rails.application.routes.draw do
   get "北水/電費/台水", to: "creditcards16#index"
   get "中華電信", to: "creditcards17#index"
   get "台灣大哥大/遠傳/台灣之星/亞太", to: "creditcards18#index"
-
+  get "瓦斯費/第四台", to: "creditcards19#index"
 
 #  get "網購", to: "videos10#index"
 #  get "餐廳", to: "videos11#index"
@@ -95,14 +95,13 @@ Rails.application.routes.draw do
 #  get "遠傳", to: "videos33#index"
 #  get "亞太", to: "videos34#index"
 #  get "台灣之星", to: "videos35#index"
-  get "瓦斯費", to: "videos36#index"
-  get "第四台", to: "videos37#index"
+#  get "瓦斯費", to: "videos36#index"
+#  get "第四台", to: "videos37#index"
+  
   get "保險", to: "videos38#index"
-
   get "勞健保費", to: "videos40#index"
   get "學費", to: "videos41#index"
   get "地方稅/國稅", to: "videos42#index"
-
   get "星城", to: "inquires3#index"  
   get "line_tv", to: "inquires5#index"
   get "關鍵字", to: "home#points5"

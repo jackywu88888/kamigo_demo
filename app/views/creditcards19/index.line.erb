@@ -7,11 +7,11 @@
   <% end %>
 {
   "type": "flex",
-  "altText": "中華電信費",
+  "altText": "瓦斯費/第四台",
   "contents":{
     "type": "carousel",
     "contents": [
-      <% @creditcards17.each do|creditcard| %>
+      <% @creditcards19.each do|creditcard| %>
       {
         "type": "bubble",
         "body": {
@@ -21,10 +21,10 @@
           "contents": [
             {
               "type": "text",
-              "text": "中華電信費",
+              "text": "瓦斯費/第四台",
               "wrap": true,
               "weight": "bold",
-              "size": "xl",
+              "size": "xs",
               "color": "#ff0d00",
               "align": "center"
             },
@@ -65,7 +65,7 @@
                   "wrap": true
                 }
               ],
-              "height": "230px"
+              "height": "240px"
             },
             {
               "type": "box",
@@ -104,7 +104,7 @@
               ]
             }
           ],
-          "height": "460px"
+          "height": "530px"
         },
         "footer": {
           "type": "box",
@@ -113,7 +113,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "中華電信費查詢~來源PTT【cokelon大】整理",
+              "text": "手機費查詢~來源PTT【cokelon大】整理",
               "size": "xxs"
             },
             {
@@ -131,7 +131,7 @@
             }
           ]
         }
-      }<%= "," if creditcard != @creditcards17.last %>
+      }<%= "," if creditcard != @creditcards19.last %>
       <% end %>
     ]
 }
