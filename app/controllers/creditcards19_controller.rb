@@ -1,6 +1,6 @@
 class Creditcards19Controller < ApplicationController
 	def index
-			@creditcards19 = [                       
+	@creditcards19 = [                       
         {
                 "銀行1": "各家銀行",
                 "回饋1": "街口繳費可參照綁定支付,\\n超商繳費可參照超商代收,\\nicash繳費在7-11",
