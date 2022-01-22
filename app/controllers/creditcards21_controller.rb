@@ -4,11 +4,11 @@ class Creditcards21Controller < ApplicationController
         {
                 "銀行1": "各家銀行",
                 "回饋1": "街口繳費可參照綁定支付,\\n超商繳費可參照超商代收,\\nicash繳費在7-11",
-                "綁定1": "繳費地點與支付APP\\nFamipay在全家繳費\\nhttps://nevent.family.com.tw/fami_creditcard/\\n橘子支付在7-11繳費\\nhttps://www.7-11.com.tw/service/monthly.aspx",
+                "綁定1": "繳費地點與支付APP\\n如下方說明",
                 "趴數1": "回饋%數",
                 #分隔線
                 "銀行2": " ",
-                "回饋2": " ",
+                "回饋2": "Famipay在全家繳費\\nhttps://nevent.family.com.tw/fami_creditcard/\\n橘子支付在7-11繳費\\nhttps://www.7-11.com.tw/service/monthly.aspx",
                 "綁定2": " ",
                 "趴數2": " ",
         },
