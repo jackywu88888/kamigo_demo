@@ -13,6 +13,7 @@ Kamiflex.json(self) do
         end
       horizontal_box margin: :lg do  
         message_button "行動支付", "行動支付", style: :primary
+        message_button "繳費", "繳費", style: :primary, margin: :md
         end
       horizontal_box margin: :lg do  
         message_button "網購", "網購", style: :primary 
@@ -30,9 +31,7 @@ Kamiflex.json(self) do
 				message_button "加油", "加油", style: :primary
         message_button "大眾運輸", "大眾運輸", style: :primary, margin: :md
 				end
-      horizontal_box margin: :lg do  
-        message_button "繳費", "繳費", style: :primary
-        end
+
         horizontal_box margin: :lg do 
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, color: "#ed18a6"
         end

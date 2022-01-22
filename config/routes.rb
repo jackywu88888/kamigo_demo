@@ -68,6 +68,10 @@ Rails.application.routes.draw do
   get "台灣大哥大/遠傳/台灣之星/亞太", to: "creditcards18#index"
   get "瓦斯費/第四台", to: "creditcards19#index"
   get "地方稅/國稅", to: "creditcards20#index"
+  get "超商代收", to: "creditcards21#index"
+  get "保險", to: "creditcards22#index"
+  get "勞健保費", to: "creditcards23#index"
+  get "學費", to: "creditcards24#index"
 
 #  get "網購", to: "videos10#index"
 #  get "餐廳", to: "videos11#index"
@@ -87,7 +91,7 @@ Rails.application.routes.draw do
 #  get "台鐵", to: "videos25#index"
 #  get "高鐵", to: "videos26#index"
 #  get "Uber", to: "videos39#index"
-  get "超商代收", to: "videos27#index"
+#  get "超商代收", to: "videos27#index"
   get "電費", to: "videos28#index"
   get "北水", to: "videos29#index"
   get "台水", to: "videos30#index"
@@ -99,9 +103,9 @@ Rails.application.routes.draw do
 #  get "瓦斯費", to: "videos36#index"
 #  get "第四台", to: "videos37#index"
 #  get "地方稅/國稅", to: "videos42#index"  
-  get "保險", to: "videos38#index"
-  get "勞健保費", to: "videos40#index"
-  get "學費", to: "videos41#index"
+#  get "保險", to: "videos38#index"
+#  get "勞健保費", to: "videos40#index"
+#  get "學費", to: "videos41#index"
 
 
   get "星城", to: "inquires3#index"  
