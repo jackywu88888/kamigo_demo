@@ -6,7 +6,7 @@ class Inquires5Controller < ApplicationController
           "活動主題": "追劇贈點",
           "限量或VIP": "VIP 會員加碼再抽【iPhone 12 Pro (128GB 太平洋藍）】手機乙台",
           "名稱": "《進擊的巨人》",
-          "時間": "2022/01/17~2022/01/23",
+          "時間": "2022/01/25~2022/02/06",
           "影片": "https://bnc.lt/MuAd/nyI0rNooWmb",
           "圖片": "https://img.linetv.tw/large/campaign/campaign_CNY_points_20220125.jpg",
         },
