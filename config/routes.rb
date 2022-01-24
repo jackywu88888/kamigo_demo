@@ -130,7 +130,7 @@ Rails.application.routes.draw do
   # get "index", to: "home#index"
   get "menu", to: "home#menu"
   get "目錄", to: "home#menu"
-  get "功能目錄", to: "home#menu1"
+  get "功能目錄2", to: "home#menu1"
   get "簽到彙集分享活動", to: "home#menu2"
   get "推薦碼", to: "home#menu3"
   get "信用卡查詢", to: "home#menu4"

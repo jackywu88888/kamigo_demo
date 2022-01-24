@@ -12,28 +12,26 @@ Kamiflex.json(self) do
         url_button "請點擊前往投票，感謝您的支持", "https://reurl.cc/WkkbK9", style: :primary, color: "#ff0d00"
       end
       horizontal_box margin: :lg do
-        message_button "立即簽到資訊1", "立即簽到資訊1", style: :primary 
-        message_button "立即簽到資訊2", "立即簽到資訊2", style: :primary, margin: :md
+        postback_button "立即簽到資訊1", "立即簽到資訊1", style: :primary 
+        postback_button "立即簽到資訊2", "立即簽到資訊2", style: :primary, margin: :md
       end
       horizontal_box margin: :lg do
-        message_button "期限簽到活動", "期限簽到活動", style: :primary
-      #  message_button "MOMO活動登記", "MOMO活動登記", style: :primary, margin: :md
+        postback_button "期限簽到活動", "期限簽到活動", style: :primary
       end
       horizontal_box margin: :lg do
-      #  message_button "立即簽到資訊", "立即簽到資訊", style: :primary
-        message_button "MOMO簽到", "MOMO簽到", style: :primary
-        message_button "MOMO活動登記", "MOMO活動登記", style: :primary, margin: :md
+        postback_button "MOMO簽到", "MOMO簽到", style: :primary
+        postback_button "MOMO活動登記", "MOMO活動登記", style: :primary, margin: :md
       end
       horizontal_box margin: :lg do
-        message_button "2022外送整理", "2022外送整理", style: :primary
-        message_button "信用卡查詢", "信用卡查詢", style: :primary, margin: :md, color: "#0048e8"
+        postback_button "2022外送整理", "2022外送整理", style: :primary
+        postback_button "信用卡查詢", "信用卡查詢", style: :primary, margin: :md, color: "#0048e8"
       end 
       horizontal_box margin: :lg do
-        message_button "推薦碼活動資訊", "推薦碼", style: :primary
-        postback_button "推薦碼活動資訊", "推薦碼", style: :primary, margin: :md, color: "#0048e8"
+        postback_button "推薦碼活動資訊", "推薦碼", style: :primary
+     #  postback_button 隱藏文字但可以查詢關鍵字
       end
       horizontal_box margin: :lg do
-        message_button "序號儲值", "序號儲值", style: :primary
+        postback_button "序號儲值", "序號儲值", style: :primary
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md, color: "#ed18a6"
       end
     end

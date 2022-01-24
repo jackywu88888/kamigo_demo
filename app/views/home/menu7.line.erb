@@ -10,16 +10,16 @@ Kamiflex.json(self) do
       separator color: "#FF0000"
 
     horizontal_box margin: :lg do  
-        message_button "悠遊卡", "悠遊卡自動加值", style: :primary  
+      postback_button "悠遊卡", "悠遊卡自動加值", style: :primary  
         end
     horizontal_box margin: :lg do     
-        message_button "一卡通", "一卡通自動加值", style: :primary
+      postback_button "一卡通", "一卡通自動加值", style: :primary
         end
     horizontal_box margin: :lg do  
-        message_button "icash", "icash自動加值", style: :primary
+      postback_button "icash", "icash自動加值", style: :primary
         end
      horizontal_box margin: :lg do  
-        message_button "信用卡查詢", "信用卡查詢", style: :primary, color: "#0048e8"
+      postback_button "信用卡查詢", "信用卡查詢", style: :primary, color: "#0048e8"
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md, color: "#ed18a6"
           end
         end

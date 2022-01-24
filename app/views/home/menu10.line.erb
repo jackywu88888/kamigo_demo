@@ -11,24 +11,24 @@ Kamiflex.json(self) do
       separator color: "#FF0000"
 
 	horizontal_box margin: :lg do  
-			message_button "電信費", "電信費", style: :primary   
-			message_button "北水/電費/台水", "北水/電費/台水", style: :primary, margin: :md
+			postback_button "電信費", "電信費", style: :primary   
+			postback_button "北水/電費/台水", "北水/電費/台水", style: :primary, margin: :md
 			end
 	horizontal_box margin: :lg do  
-			message_button "瓦斯費/第四台", "瓦斯費/第四台", style: :primary
-			message_button "地方稅/國稅", "地方稅/國稅", style: :primary, margin: :md  
+			postback_button "瓦斯費/第四台", "瓦斯費/第四台", style: :primary
+			postback_button "地方稅/國稅", "地方稅/國稅", style: :primary, margin: :md  
 			end
 	horizontal_box margin: :lg do  
-			message_button "超商代收", "超商代收", style: :primary
-			message_button "勞健保費", "勞健保費", style: :primary, margin: :md  
+			postback_button "超商代收", "超商代收", style: :primary
+			postback_button "勞健保費", "勞健保費", style: :primary, margin: :md  
 			end
 	horizontal_box margin: :lg do  
-			message_button "保險", "保險", style: :primary
-			message_button "學費", "學費", style: :primary, margin: :md 
+			postback_button "保險", "保險", style: :primary
+			postback_button "學費", "學費", style: :primary, margin: :md 
 	
 			end
 		horizontal_box margin: :lg do  
-			message_button "信用卡查詢", "信用卡查詢", style: :primary, color: "#0048e8"
+			postback_button "信用卡查詢", "信用卡查詢", style: :primary, color: "#0048e8"
 			url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md, color: "#ed18a6"
 				end
 			end
