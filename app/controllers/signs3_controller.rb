@@ -26,7 +26,7 @@ class Signs3Controller < ApplicationController
           "活動": "【一月份每日登記健走步數】自行輸入\\n我要登記1月份的每日健走步數",
           "名稱": "富邦人壽健康邦",
           "時間": "1/01~1/31",
-          "連結": "https://line.me/R/oaMessage/@fubonlife/",
+          "連結": "https://line.me/R/oaMessage/@fubonlife/?我要登記1月份的每日健走步數",
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
         {
