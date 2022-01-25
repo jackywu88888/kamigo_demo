@@ -15,27 +15,27 @@ class Signs3Controller < ApplicationController
           "連結": "https://insightctbcsec.page.link/tqgE",
           "圖片": "https://open.win168.com.tw/event/spark/images/logo.jpg"
         },
-#        {
-#          "活動": "",
-#          "名稱": "",
-#          "時間": "",
-#          "連結": "",
-#          "圖片": ""
-#        },
-#        {
-#          "活動": "",
-#          "名稱": "",
-#          "時間": "",
-#          "連結": "",
-#          "圖片": ""
-#        },
-#        {
-#          "活動": "",
-#          "名稱": "",
-#          "時間": "",
-#          "連結": "",
-#          "圖片": ""
-#        },
+        {
+          "活動": "Polo Ralph Lauren官方LINE帳號",
+          "名稱": "分享祝賀相框\\n驚喜轉盤遊戲(每日兩次)\\nLINE POINTS等好禮",
+          "時間": "2021/12/-24~2022/01/31",
+          "連結": "https://line.me/R/oaMessage/@poloralphlauren/?Happy%20Holiday",
+          "圖片": " "
+        },
+        {
+          "活動": "富邦人壽健康邦【一月份每日登記健走步數】",
+          "名稱": " ",
+          "時間": "1/01~1/31",
+          "連結": "https://line.me/R/oaMessage/@fubonlife/?我要登記1月份的每日健走步數",
+          "圖片": " "
+        },
+        {
+          "活動": "7-ELEVEN APP ",
+          "名稱": "7-ELEVEN APP\右上角\遊樂場",
+          "時間": "1/17~2/3",
+          "連結": " ",
+          "圖片": " "
+        },
 #        {
 #          "活動": "",
 #          "名稱": "",
