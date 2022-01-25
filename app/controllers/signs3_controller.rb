@@ -18,7 +18,7 @@ class Signs3Controller < ApplicationController
         {
           "活動": "🔥天天凌晨 開搶紅包2022元及百萬紅利點數😍",
           "名稱": "📣家樂福APP",
-          "時間": "2022/01/05~2022/02/08",
+          "時間": "2022/01/05~02/08",
           "連結": "https://reurl.cc/oedevj",
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
@@ -26,7 +26,7 @@ class Signs3Controller < ApplicationController
           "活動": "【一月份每日登記健走步數】自行輸入\\n我要登記1月份的每日健走步數",
           "名稱": "富邦人壽健康邦",
           "時間": "1/01~1/31",
-          "連結": "https://line.me/R/oaMessage/@fubonlife/?我要登記1月份的每日健走步數",
+          "連結": "https://line.me/R/oaMessage/@fubonlife/",
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
         {
@@ -46,7 +46,7 @@ class Signs3Controller < ApplicationController
         {
           "活動": "【獅來運轉 新春轉運補帖】活動問卷(每人限填一次)",
           "名稱": "第一銀行",
-          "時間": "2022/1/18~2022/02/8",
+          "時間": "2022/1/18~02/8",
           "連結": "https://line.me/R/oaMessage/@firstbank/",
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
