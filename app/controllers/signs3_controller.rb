@@ -57,20 +57,34 @@ class Signs3Controller < ApplicationController
           "連結": "https://lsp-tw.line.me/220124redbull",
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
-#        {
-#          "活動": "",
-#          "名稱": "",
-#          "時間": "",
-#          "連結": "",
-#          "圖片": ""
-#        },
-#        {
-#          "活動": "",
-#          "名稱": "",
-#          "時間": "",
-#          "連結": "",
-#          "圖片": ""
-#        },
+        {
+          "活動": "1.先更新app2.每天可玩1次老虎機\\n不須花費點數就可玩，人人有獎",
+          "名稱": "pk雙響卡app",
+          "時間": "1/18~2/14",
+          "連結": "https://play.google.com/store/apps/details?id=tw.com.pkcard",
+          "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
+        },
+        {
+          "活動": "▍活動獎項：頭獎-小米掃地機器人*1名二獎-美足機*2名三獎-果實酒套裝禮品組*5名四獎-歐心氣泡氫水*50名",
+          "名稱": "歐心氣泡氫水",
+          "時間": "01/14~02/14",
+          "連結": "https://line.me/R/ti/p/@oceanus",
+          "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
+        },
+        {
+          "活動": "虎你轉運購GOGO",
+          "名稱": "台灣Pay",
+          "時間": "活動1/28~2/15止",
+          "連結": "https://reurl.cc/zMZgDN",
+          "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
+        },
+        {
+          "活動": "財神降臨！天天抽遠銀Bankee紅包最高5次，快來試手氣天天抽，中奬金額天天累積活動期間登記Bankee帳戶，3月開心領！",
+          "名稱": "遠銀Bankee紅包",
+          "時間": "1/25~2/15止",
+          "連結": "https://pros.is/3xv86x",
+          "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
+        },
     ]
 
     @keyword = params[:keyword]
