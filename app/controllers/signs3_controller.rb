@@ -26,7 +26,7 @@ class Signs3Controller < ApplicationController
           "活動": "富邦人壽健康邦【一月份每日登記健走步數】",
           "名稱": "自行輸入\\n我要登記1月份的每日健走步數",
           "時間": "1/01~1/31",
-          "連結": "https://line.me/R/oaMessage/@fubonlife",
+          "連結": "https://line.me/R/oaMessage/@fubonlife/",
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
         {
@@ -40,21 +40,21 @@ class Signs3Controller < ApplicationController
           "活動": "全國電子 虎力全開求好運 活動至2.6止",
           "名稱": " ",
           "時間": "活動至2.6止",
-          "連結": "https://line.me/R/oaMessage/@elifemall",
+          "連結": "https://line.me/R/oaMessage/@elifemall/",
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
         {
           "活動": "第一銀行 【獅來運轉 新春轉運補帖】",
           "名稱": "活動問卷(每人限填一次)",
           "時間": "2022/1/18~2022/02/8",
-          "連結": "https://line.me/R/oaMessage/@firstbank",
+          "連結": "https://line.me/R/oaMessage/@firstbank/",
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
         {
           "活動": "red bull 又來啦",
           "名稱": "你也快來試試手氣吧！",
           "時間": " ",
-          "連結": "https://lsp-tw.line.me/220124redbull	",
+          "連結": "https://lsp-tw.line.me/220124redbull",
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
 #        {
