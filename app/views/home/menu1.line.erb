@@ -13,7 +13,11 @@ Kamiflex.json(self) do
 
       horizontal_box margin: :lg do
           postback_button "簽到彙集", "簽到彙集分享活動", style: :primary
-          postback_button "LINE_TV課表", "line_tv", style: :primary, margin: :md
+        end
+
+        horizontal_box margin: :lg do
+          postback_button "LINE_TV課表", "line_tv", style: :primary
+          url_button "課表即時發點進度", "https://help.linetv.tw/announcements/ZxULn4Vt5.html", style: :primary, margin: :md
         end
 
       horizontal_box margin: :lg do
