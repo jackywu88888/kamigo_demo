@@ -15,6 +15,13 @@ class Signs2Controller < ApplicationController
         "連結": "https://liff.line.me/1655451151-RbE08al5",
         "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
       },
+      {
+        "活動": "新光人壽 官方LINE帳號",
+        "名稱": "綁定會員 每週簽到活動\\n謹綁定新光人壽LINE好友，無須購買保險商品。\\n(若有需求➡️多一個諮詢管道)",
+        "時間": " ",
+        "連結": "https://line.me/R/ti/p/@shinkonglife",
+        "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
+      },
 #        {
 #          "活動": "",
 #          "名稱": "beanfun",

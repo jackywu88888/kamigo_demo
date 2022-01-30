@@ -14,14 +14,7 @@
       <% @signs2.each do|sign| %>  
       {
         "type": "bubble",
-        "size": "micro",
-        "hero": {
-          "type": "image",
-          "size": "full",
-          "aspectRatio": "40:30",
-          "aspectMode": "fit",
-          "url": "<%= sign[:圖片] %>"
-        },
+        "size": "kilo",
         "body": {
           "type": "box",
           "layout": "vertical",
@@ -30,7 +23,7 @@
               "type": "text",
               "text": "【<%= sign[:名稱] %>】",
               "weight": "bold",
-              "size": "sm",
+              "size": "xl",
               "wrap": true,
               "color": "#EA0000",
               "align": "center"
@@ -49,7 +42,7 @@
                   "wrap": true
                 }
               ],
-              "height": "150px"
+              "height": "200px"
             },
             {
               "type": "box",
@@ -58,6 +51,7 @@
                 {
                   "type": "text",
                   "text": "時間",
+                  "color": "#0000C6",
                   "size": "xxs",
                   "color": "#EA0000",
                   "weight": "bold"
@@ -65,20 +59,19 @@
                 {
                   "type": "text",
                   "text": "<%= sign[:時間] %>",
-                  "color": "#0000C6",
                   "wrap": true,
                   "margin": "none",
                   "size": "xs"
                 }
               ],
-              "height": "50px"
+              "height": "70px"
             },
             {
               "type": "button",
               "action": {
-                "type": "uri",
+                "type": "postback",
                 "label": "<%= sign[:名稱] %>",
-                "uri": "<%= sign[:連結] %>"
+                "data": "<%= sign[:連結] %>"
               },
               "style": "primary",
               "height": "sm"
@@ -90,6 +83,6 @@
       }<%= "," if sign != @signs2.last %>
       <% end %>
     ]
-   }
+  }
   }
 ]
