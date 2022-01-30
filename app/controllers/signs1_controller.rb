@@ -47,14 +47,14 @@ class Signs1Controller < ApplicationController
           "活動": "每天打卡,獲得5績分,500積分➡️5LP。\\n\\n輸入\\n@每日打卡",
           "名稱": "tada台灣車主",
           "時間": "永久活動",
-          "連結": "http://line.me/R/oaMessage/@tada_car/%23每日打卡",
+          "連結": "https://line.me/R/oaMessage/@tada_car/?@每日打卡",
           "圖片": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a3/cd/36/a3cd3667-3277-7123-ad6a-2ca29b302489/source/512x512bb.jpg"
         },
         {
         "活動": "商略問卷獎酬平台是專門提供問卷填寫與贈獎\\n\\n輸入\\n@試試手氣\\n@填寫問卷",
         "名稱": "商略問卷代發",
         "時間": "永久活動",
-        "連結": "http://line.me/R/oaMessage/@032okdnb/?%40填寫問卷\\nhttp://line.me/R/oaMessage/@032okdnb/?%40試試手氣",
+        "連結": "https://line.me/R/oaMessage/@tada_car/?@每日打卡\\nhttp://line.me/R/oaMessage/@032okdnb/?%40試試手氣",
         "圖片": "https://static.wixstatic.com/media/2ea4f1_627c50d66f214575a77274a0bb53a8bc~mv2.png/v1/fill/w_357,h_357,al_c,q_85,usm_0.66_1.00_0.01/bn%20logo-w_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%201.webp"
         },
         {
