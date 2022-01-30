@@ -503,7 +503,7 @@ class Friends1Controller < ApplicationController
           "違規社群": "利己分享社群",
           "違規日期": "2022/01/24",
           "違規名稱": "未依規定放置記事本，記點一次",
-          "版友暱稱": "空Small瑄",
+          "版友暱稱": "Small瑄",
         },
         {
           "違規社群": "利己分享社群",
