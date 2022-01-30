@@ -19,7 +19,7 @@ class Signs2Controller < ApplicationController
         "活動": "新光人壽官方LINE帳號",
         "名稱": "綁定會員每週簽到活動\\n謹綁定新光人壽LINE好友，無須購買保險商品。\\n若有需求➡️多一個諮詢管道",
         "時間": " ",
-        "連結": "https://line.me/R/ti/p/@shinkonglife/",
+        "連結": "http://line.me/R/oaMessage/@shinkonglife/",
         "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
       },
 #        {
