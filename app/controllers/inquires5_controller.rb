@@ -4,8 +4,7 @@ class Inquires5Controller < ApplicationController
         {
           "活動": "春節年假來追劇，百種類型任你選！完成任務得LINE POINTS 5點",
           "活動主題": "追劇贈點",
-          "限量或VIP": "【虎哩歡喜過新年，多樣豪禮送給你】(VIP會員限定，5名)\\nNespresso Lattissima one膠囊咖啡機\\n正負零±0 電池式無線吸塵器 XJC-Y010 (米白色)\\n正負零±0 XQH-X020 空氣清淨機(白)\\nJHT M8深層震動按摩槍K-1311\\nHITACHI 日立 四季烘被機 HFKVH700T",
-          "名稱": "鬼滅之刃第二集",
+          "限量或VIP": "此檔無限量\\n【虎哩歡喜過新年，多樣豪禮送給你】(VIP會員限定，5名)\\請自行查看活動說明",
           "時間": "2022/02/01~2022/02/07",
           "影片": "https://bnc.lt/MuAd/OyQTKCXIAmb",
           "圖片": "https://img.linetv.tw/large/campaign/campaign_Lunaryear_22020101.jpg",
