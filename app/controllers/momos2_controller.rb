@@ -2,7 +2,7 @@ class Momos2Controller < ApplicationController
     def index
       @momos2 = [
         {
-          "活動": "momo每日必做筆記\\n01/29更新",
+          "活動": "momo每日必做筆記\\n02/01更新",
           "名稱": "01/28 - 02/06\\n每日09:08、10:08、11:08、13:08、16:08、17:08、19:08、21:08限量開搶( 每人每時段限搶一次 )",
           "連結名稱": "momo-搶紅包",
           "連結": "https://momo.dm/QBzbQv",
