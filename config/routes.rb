@@ -143,7 +143,7 @@ Rails.application.routes.draw do
   get "大眾運輸", to: "home#menu9"
   get "繳費", to: "home#menu10"
   get "電信費", to: "home#menu11"
-
+  get "版大", to: "home#line"
 
 
 
