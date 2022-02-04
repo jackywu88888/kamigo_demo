@@ -16,13 +16,6 @@ class Signs1Controller < ApplicationController
           "圖片": "https://s.zimedia.com.tw/s/LqA69o-1"
         },
         {
-          "活動": "飛比點數是由飛比價格發行的點數，透過在指定平台內完成各種任務，即可獲得點數。獲得的點數可以在飛比價格App內兌換各種禮物。",
-          "名稱": "飛比簽到",
-          "時間": "永久活動",
-          "連結": "https://rotf.lol/Feebee",
-          "圖片": "https://ssl.feebee.com.tw/point/task_01_2x.png"
-        },
-        {
           "活動": "簽到在i好康右上角，積分可以兌換商品、咖啡、LINE POINTS等商品",
           "名稱": "H5點就玩",
           "時間": "永久活動",
@@ -44,18 +37,11 @@ class Signs1Controller < ApplicationController
           "圖片": "https://images.wakool.net/fami/logo-1435x543.png"
         },
         {
-          "活動": "每天打卡,獲得5績分,500積分➡️5LP。\\n\\n輸入\\n@每日打卡",
-          "名稱": "tada台灣車主",
+          "活動": "商略問卷獎酬平台是專門提供問卷填寫與贈獎\\n\\n輸入\\n@試試手氣\\n@填寫問卷",
+          "名稱": "商略問卷代發",
           "時間": "永久活動",
-          "連結": "https://line.me/R/oaMessage/@tada_car/?@每日打卡",
-          "圖片": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a3/cd/36/a3cd3667-3277-7123-ad6a-2ca29b302489/source/512x512bb.jpg"
-        },
-        {
-        "活動": "商略問卷獎酬平台是專門提供問卷填寫與贈獎\\n\\n輸入\\n@試試手氣\\n@填寫問卷",
-        "名稱": "商略問卷代發",
-        "時間": "永久活動",
-        "連結": "http://line.me/R/oaMessage/@032okdnb/?%40填寫問卷",
-        "圖片": "https://static.wixstatic.com/media/2ea4f1_627c50d66f214575a77274a0bb53a8bc~mv2.png/v1/fill/w_357,h_357,al_c,q_85,usm_0.66_1.00_0.01/bn%20logo-w_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%201.webp"
+          "連結": "http://line.me/R/oaMessage/@032okdnb/?%40填寫問卷",
+          "圖片": "https://static.wixstatic.com/media/2ea4f1_627c50d66f214575a77274a0bb53a8bc~mv2.png/v1/fill/w_357,h_357,al_c,q_85,usm_0.66_1.00_0.01/bn%20logo-w_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%201.webp"
         },
         {
           "活動": "每月簽到7天可兌換\\nLine Point 10點",
@@ -65,18 +51,32 @@ class Signs1Controller < ApplicationController
           "圖片": "https://m.yes123.com.tw/member/img/p05_applogo.png"
         },
         {
-          "活動": "活動期間開啟HAPPY GO App完成指定任務，有機會獲得HAPPY GO點數！ 點點出任務＞快樂簽到簿每天開啟App完成簽到，簽滿指定次數即可獲得點數！",
-          "名稱": "HappyGo簽到",
-          "時間": "永久活動",
-          "連結": "https://hgapp.page.link/etgJEZhXcqsmCGmM6",
-          "圖片": "https://www.happygocard.com.tw/official/resources/images/logo.png"
-        },
-        {
           "活動": "康是美簽到任務～連續7天登入，即可獲得OPEN POINT1點！\\n（1點=台幣1元）",
           "名稱": "康是美",
           "時間": "永久活動",
           "連結": "https://us9e5.app.goo.gl/SKrcB",
           "圖片": "https://m.skm.com.tw/mSKMAdmin/WebFiles/Brand/c2a89e79-b974-44b3-bf10-0ff334defa41_20171120.jpg"
+        },
+        {
+          "活動": "遠傳心生活打卡(更新版本之後需要定位，無法使用)",
+          "名稱": "遠傳心生活打卡",
+          "時間": "永久活動",
+          "連結": "https://reurl.cc/ZG2qoW",
+          "圖片": " "
+        },
+        {
+          "活動": "飛比點數是由飛比價格發行的點數，透過在指定平台內完成各種任務，即可獲得點數。獲得的點數可以在飛比價格App內兌換各種禮物。",
+          "名稱": "飛比簽到",
+          "時間": "永久活動",
+          "連結": "https://rotf.lol/Feebee",
+          "圖片": "https://ssl.feebee.com.tw/point/task_01_2x.png"
+        },
+        {
+          "活動": "每天打卡,獲得5績分,500積分➡️5LP。\\n\\n輸入\\n@每日打卡",
+          "名稱": "tada台灣車主",
+          "時間": "永久活動",
+          "連結": "https://line.me/R/oaMessage/@tada_car/?@每日打卡",
+          "圖片": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a3/cd/36/a3cd3667-3277-7123-ad6a-2ca29b302489/source/512x512bb.jpg"
         },
         {
           "活動": "APP每日簽到賺點",
