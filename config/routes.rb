@@ -8,10 +8,10 @@ Rails.application.routes.draw do
   }
 
   # 加入好友時的自我介紹訊息
-  get "follow", to: "home#follow"
+  get "follow", to: "home#follow1"
 
   # 加入群組時的自我介紹訊息
-  get "join", to: "home#follow"
+  get "join", to: "home#follow1"
 
   #有人加入群組時的歡迎訊息
   get "memberJoined", to: "home#member_join"
