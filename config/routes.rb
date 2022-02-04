@@ -33,13 +33,13 @@ Rails.application.routes.draw do
 
   get "遠傳理財查詢/*keyword", to: "videos5#index"
   get "2022外送整理", to: "videos6#index"
-  每日即時簽到
+ 
   get "每日即時簽到", to: "signs0#index"
   get "立即簽到資訊1", to: "signs1#index"
   get "立即簽到資訊2", to: "signs2#index"
   get "限時活動1", to: "signs3#index"
   get "限時活動2", to: "signs4#index"
-  get "限時活動3", to: "signs5#index"
+#  get "限時活動3", to: "signs5#index"
   
   get "momo簽到", to: "momos2#index"
   get "momo", to: "momos2#index"
