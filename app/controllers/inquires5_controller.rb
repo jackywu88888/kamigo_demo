@@ -6,7 +6,7 @@ class Inquires5Controller < ApplicationController
           "活動主題": "追劇贈點",
           "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止",
           "名稱": "進擊的巨人2",
-          "時間": "2022/02/03~2022/02/096",
+          "時間": "2022/02/03~2022/02/06",
           "影片": "https://bnc.lt/MuAd/1tCZERUVUmb",
           "圖片": "https://s3.amazonaws.com/img.chocotv.com.tw/raw_images/campaign/20220124newdramapoint.jpg",
         },
