@@ -4,7 +4,7 @@ class Inquires5Controller < ApplicationController
         {
           "活動": "再撐一下，連假就要到來！連續五天每天完整觀看下方指定戲劇/隱藏片單任一集，就送 LINE POINTS 5 點！VIP 得 10 點！",
           "活動主題": "追劇贈點",
-          "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止",
+          "限量或VIP": "此檔無限量\\n不要翹課啦XD",
           "名稱": "《我家浴缸的二三事》",
           "時間": "2022/02/10~2022/02/16",
           "影片": "https://bnc.lt/MuAd/KmxdkdXi6mb",
