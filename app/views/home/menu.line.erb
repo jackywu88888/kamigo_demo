@@ -3,12 +3,13 @@ Kamiflex.json(self) do
   alt_text "功能目錄"
   bubble size: :giga do
     body do
-      text "您投票LINE熱點活動\n是支持小編繼續更新官版的動力",wrap:true,color:"#0000ff",flex: 2
+      text "投票LINE禮物活動",wrap:true,color:"#0000ff",flex: 2
 
       separator color: "#eeeeee"
 
       horizontal_box margin: :lg do
-        postback_button "請支持熱點活動", "功能目錄2", style: :primary, color: "#ff0d00"
+        postback_button "禮物活動", "投票", style: :primary, color: "#ff0d00"
+        postback_button "功能目錄", "功能目錄2", style: :primary, margin: :md
       end
       end
     end
