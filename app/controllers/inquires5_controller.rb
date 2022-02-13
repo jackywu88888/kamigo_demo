@@ -2,7 +2,7 @@ class Inquires5Controller < ApplicationController
     def index
       @inquires5 = [
         {
-          "活動": "2022情人節約會片單推薦 浪漫愛情首選，活動期間內，連續五天每天完整觀看下方指定戲劇/隱藏片單任一集，就送 LINE POINTS 5點！VIP得10點！",
+          "活動": "2022情人節約會片單推薦 浪漫愛情首選，連續五天每天完整觀看下方指定戲劇/隱藏片單任一集，就送 LINE POINTS 5點！VIP得10點！",
           "活動主題": "追劇贈點",
           "限量或VIP": "此檔無限量\\n不要翹課啦XD",
           "名稱": "《我家浴缸的二三事》",
