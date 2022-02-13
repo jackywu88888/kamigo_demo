@@ -13,14 +13,14 @@ class VotesController < ApplicationController
             "名稱": "我想對男朋友說的小情話\\n感謝老天安排了我們相遇，讓我擁有美好的生活。",
             "連結名稱": "前往投票",
             "連結": "https://reurl.cc/VjYVob",
-            "圖片": "https://obs.line-scdn.net/0hm-zkvwadMgJHEiZhhehNVX9GPmE0Z2sVJSkgemIVaTdvK3ZRfXJ6ZWt8aDIIKnVcKXx6YScTOzdrdXJcLg",
+            "圖片": "https://obs.line-scdn.net/0hNQwUZgCtEX5KLAUcWxduKXB4HR05WUhpKBcDBm8rSktjHVUodU9dEWdCEyghalYgJB9bHGoqCk8wGVYtdE4M",
         },
         {
             "活動": "送禮潛台詞浪漫徵選",
             "名稱": "我想對黃先說的小情話\\n青澀歲月中留下的點滴回憶就算隔了15年還是歷久彌新，希望這些永遠會持續下去不間斷",
             "連結名稱": "前往投票",
             "連結": "https://reurl.cc/RjY3VZ",
-            "圖片": "https://obs.line-scdn.net/0h2DwBBaNUbWtKO3kIkdYSPHBvYQg5TjR8KAB_E288Nl5iAi8-f10qDmhVel5vDCo1JA4lBWc-dlowDitqIw1y",
+            "圖片": "https://obs.line-scdn.net/0h7bnDeZD_aE1TPXwvV00XGmlpZC4gSDFaMQZ6NXY6M3h7BSkbZ1sgL3RTSHQoRS8TPQknInc0c3wpCC8Zblsh",
         },
         {
             "活動": "送禮潛台詞浪漫徵選",
