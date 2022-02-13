@@ -31,10 +31,10 @@ class VotesController < ApplicationController
         },
         {
             "活動": "送禮潛台詞浪漫徵選",
-            "名稱": "我想對搞笑兒子說的小情話\\n雖然你很搞笑，但依然很欠扁，畢竟是親生的，還是愛你好了",
+            "名稱": "我想對寶貝女兒說的小情話\\n希望妳一直都那麼開心",
             "連結名稱": "前往投票",
-            "連結": "https://reurl.cc/e6MYgL",
-            "圖片": "https://obs.line-scdn.net/0hRNTjLl0mDWFpExkCpTxyNlFHAQIaZlR2CygfGUwUVlRBJUM-UHRFDkh9CVgnJUo_ByZHAQkSBFRFd0MwXA",
+            "連結": "https://ec-bot-web.line.me/poll/Jm_wM2BhSNX8_zMvqnMEbdzpxZThzZObuP285emXj9u5yRJIP_eD0f2dbufsaUkCA_shWL0Us_q3ru4pK5eoNA/detail/947",
+            "圖片": "https://obs.line-scdn.net/0hHXR_qjHpF3dvJgMXk4JoIFVyGxQcU05gDR0FD0ohTEJFH1YoV0heFENIFk8jbFApBkFREUsvDEYVE1UhWhRa",
         },
         {
             "活動": "送禮潛台詞浪漫徵選",
@@ -49,6 +49,20 @@ class VotesController < ApplicationController
             "連結名稱": "前往投票",
             "連結": "https://reurl.cc/pWaEX8",
             "圖片": "https://obs.line-scdn.net/0hnSAJyI9VMXx8MyUfisNOK0ZnPR8PRmhrHggjBFk0aklUC3QsQlF8GlBdHzAxBnYiEgV-El81Kk0GBnYpQ114",
+        },
+        {
+            "活動": "送禮潛台詞浪漫徵選",
+            "名稱": "我想對媽媽說的小情話\\n你永遠是我的最愛❤️",
+            "連結名稱": "前往投票",
+            "連結": "https://ec-bot-web.line.me/poll/Jm_wM2BhSNX8_zMvqnMEbdzpxZThzZObuP285emXj9u5yRJIP_eD0f2dbufsaUkCA_shWL0Us_q3ru4pK5eoNA/detail/98",
+            "圖片": "https://obs.line-scdn.net/0hgAVOHl82OG5rNiwNsQNHOVFiNA0YQ2F5CQ0qFk4xY1tDD3o9U1FwD0pYLSFFY38wBQd1Cko1I18RA35vA1R0",
+        },
+        {
+            "活動": "送禮潛台詞浪漫徵選",
+            "名稱": "我想對搞笑兒子說的小情話\\n雖然你很搞笑，但依然很欠扁，畢竟是親生的，還是愛你好了",
+            "連結名稱": "前往投票",
+            "連結": "https://reurl.cc/e6MYgL",
+            "圖片": "https://obs.line-scdn.net/0hRNTjLl0mDWFpExkCpTxyNlFHAQIaZlR2CygfGUwUVlRBJUM-UHRFDkh9CVgnJUo_ByZHAQkSBFRFd0MwXA",
         },
     ]
 
