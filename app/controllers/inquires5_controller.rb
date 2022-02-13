@@ -2,6 +2,15 @@ class Inquires5Controller < ApplicationController
     def index
       @inquires5 = [
         {
+          "活動": "2022情人節約會片單推薦 浪漫愛情首選，活動期間內，連續五天每天完整觀看下方指定戲劇/隱藏片單任一集，就送 LINE POINTS 5點！VIP得10點！",
+          "活動主題": "追劇贈點",
+          "限量或VIP": "此檔無限量\\n不要翹課啦XD",
+          "名稱": "《我家浴缸的二三事》",
+          "時間": "2022/02/14~2022/02/20",
+          "影片": "https://bnc.lt/MuAd/YZR199qkwnb",
+          "圖片": "https://img.linetv.tw/large/campaign/Love_Points_220214.jpg",
+        },
+        {
           "活動": "再撐一下，連假就要到來！連續五天每天完整觀看下方指定戲劇/隱藏片單任一集，就送 LINE POINTS 5 點！VIP 得 10 點！",
           "活動主題": "追劇贈點",
           "限量或VIP": "此檔無限量\\n不要翹課啦XD",
