@@ -57,13 +57,6 @@ class Momos2Controller < ApplicationController
           "連結": "https://momo.dm/BRJQBB",
           "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
         },
-        {
-          "活動": "momo每日必做筆記",
-          "名稱": "【APP推播專屬】優惠入口頁",
-          "連結名稱": "優惠入口頁",
-          "連結": "https://momo.dm/I7nr6I",
-          "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
-        },
     ]
 
     @keyword = params[:keyword]
