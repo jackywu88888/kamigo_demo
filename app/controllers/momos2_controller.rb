@@ -3,23 +3,37 @@ class Momos2Controller < ApplicationController
       @momos2 = [
         {
           "活動": "momo每日必做筆記",
-          "名稱": "02/07-02/10\\n每日09:10、11:10、15:10、17:10、19:10、21:10限量開搶( 每人每日限搶一次 )",
+          "名稱": "02/17-02/22\\n每日09:02、10:02、11:02、13:02、 15:02、17:02、19:02、21:02限量開搶( 每人每日限搶一次 )",
           "連結名稱": "momo-搶紅包",
-          "連結": "https://momo.dm/InrbFn",
+          "連結": "https://momo.dm/EEiEni",
           "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
         },
         {
           "活動": "momo每日必做筆記",
-          "名稱": "02/07-02/16\\n簽到分享最高送$20+$10=$30 momo幣\\nmomo幣將於簽到後立刻歸戶使用期限至 02/16 23:59",
+          "名稱": "02/17-02/22\\n簽到分享最高送$22+$18=$40momo幣\\nmomo幣將於簽到後立刻歸戶\\n使用期限至 02/22 23:5",
           "連結名稱": "天天簽到",
-          "連結": "https://momo.dm/BQfjEm",
+          "連結": "https://momo.dm/aqn3jZ",
           "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
         },
         {
           "活動": "momo每日必做筆記",
-          "名稱": "01/24-02/13每人每週(週一至週日)限參加一次看看買-虎哩發財(A)",
-          "連結名稱": "虎哩發財(A)",
-          "連結": "https://momo.dm/7iZ3yF",
+          "名稱": "02/14-02/28\\n每人每週(週一至週日)限參加一次看看買",
+          "連結名稱": "春遊購物趣(D)",
+          "連結": "https://momo.dm/iB3ij6",
+          "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
+        },
+        {
+          "活動": "momo每日必做筆記",
+          "名稱": "02/17-02/22\\n2.22愛購節-玩遊戲抽三星手機",
+          "連結名稱": "玩遊戲抽三星手機",
+          "連結": "https://momo.dm/UUFrJu",
+          "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
+        },
+        {
+          "活動": "momo每日必做筆記",
+          "名稱": "02/17-02/22\\n2.22愛購節-抽電影院告白",
+          "連結名稱": "抽電影院告白",
+          "連結": "https://momo.dm/U373ii",
           "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
         },
         {
@@ -31,13 +45,6 @@ class Momos2Controller < ApplicationController
         },        
         {
           "活動": "momo每日必做筆記",
-          "名稱": "抽虛寶01/21-02/07momo-星城-天天抽百萬虛寶",
-          "連結名稱": "星城天天抽百萬虛寶",
-          "連結": "https://momo.dm/MUMVUF",
-          "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
-        },
-        {
-          "活動": "momo每日必做筆記",
           "名稱": "活動總覽 - momo購物網",
           "連結名稱": "活動總覽",
           "連結": "https://momo.dm/ejmjva",
@@ -47,7 +54,7 @@ class Momos2Controller < ApplicationController
           "活動": "momo每日必做筆記",
           "名稱": "折價券天天免費領",
           "連結名稱": "折價券天天免費領",
-          "連結": "https://momo.dm/qRb2j3",
+          "連結": "ttps://momo.dm/BRJQBB",
           "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
         },
         {
