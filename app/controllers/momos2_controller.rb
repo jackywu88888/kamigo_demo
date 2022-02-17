@@ -54,7 +54,7 @@ class Momos2Controller < ApplicationController
           "活動": "momo每日必做筆記",
           "名稱": "折價券天天免費領",
           "連結名稱": "折價券天天免費領",
-          "連結": "ttps://momo.dm/BRJQBB",
+          "連結": "https://momo.dm/BRJQBB",
           "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
         },
         {
