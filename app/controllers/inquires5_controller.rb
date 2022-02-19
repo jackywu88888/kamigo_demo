@@ -4,7 +4,7 @@ class Inquires5Controller < ApplicationController
         {
           "活動": "《全明星運動會 第三季》x 《統一陽光豆漿》全民瘋運動！完成追劇任務得3點！",
           "活動主題": "追劇贈點",
-          "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止",
+          "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止\\n\\n小編終於可以休息",
           "名稱": "《全明星運動會 第三季》",
           "時間": "2022/02/20~2022/02/26",
           "影片": "https://bnc.lt/MuAd/bisa1mJJwnb",
