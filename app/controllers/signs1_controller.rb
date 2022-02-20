@@ -40,7 +40,7 @@ class Signs1Controller < ApplicationController
           "活動": "商略問卷獎酬平台是專門提供問卷填寫與贈獎\\n\\n輸入\\n@試試手氣\\n@填寫問卷",
           "名稱": "商略問卷代發",
           "時間": "永久活動",
-          "連結": "http://line.me/R/oaMessage/@032okdnb/?%40填寫問卷",
+          "連結": "http://line.me/R/oaMessage/@032okdnb/?%40兌換抽獎/活動",
           "圖片": "https://static.wixstatic.com/media/2ea4f1_627c50d66f214575a77274a0bb53a8bc~mv2.png/v1/fill/w_357,h_357,al_c,q_85,usm_0.66_1.00_0.01/bn%20logo-w_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%201.webp"
         },
         {
