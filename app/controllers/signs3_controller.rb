@@ -30,7 +30,7 @@ class Signs3Controller < ApplicationController
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
         {
-          "活動": "特力家 開工大吉 天天簽到🎁最高65點 愛家卡點數",
+          "活動": "特力家開工大吉天天簽到🎁最高65點愛家卡點數",
           "名稱": "特力家",
           "時間": "⏰2/8～3/2",
           "連結": "https://line.me/R/ti/p/@bbhtw",
@@ -43,7 +43,6 @@ class Signs3Controller < ApplicationController
           "連結": "https://reurl.cc/qOnQpR",
           "圖片": "https://www.analogouscolors.com/image/1080x1920/ffffff.gif"
         },
-
     ]
 
     @keyword = params[:keyword]
