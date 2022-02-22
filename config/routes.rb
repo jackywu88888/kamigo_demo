@@ -44,8 +44,9 @@ Rails.application.routes.draw do
   get "momo簽到", to: "momos2#index"
   get "momo", to: "momos2#index"
   get "MOMO簽到", to: "momos2#index"
-
   get "MOMO活動登記", to: "momos3#index"
+
+  get "小7", to: "invoices1#index"
 
   get "國內", to: "creditcards1#index"
   
@@ -147,6 +148,8 @@ Rails.application.routes.draw do
   get "大眾運輸", to: "home#menu9"
   get "繳費", to: "home#menu10"
   get "電信費", to: "home#menu11"
+
+  get "雲端", to: "home#menu21"
   
   get "投票", to: "votes#index"
 

@@ -1,0 +1,23 @@
+<%= raw(
+Kamiflex.json(self) do
+  alt_text "發票載具歸戶教學"
+  bubble size: :giga do
+    body do
+     text "發票載具歸戶教學",wrap:true,color:"#0000ff",flex: 2
+     separator color: "#eeeeee"
+      horizontal_box margin: :lg do
+         postback_button "OPEN POINT", "小7", style: :primary  #, color: "#2600ff"
+    #    url_button "全聯載具設定", "https://reurl.cc/02kp6l", style: :primary
+
+        PChome
+        end
+    #  horizontal_box margin: :lg do  
+    #    postback_button "賺星城全家購物金方式", "星城", style: :primary  #, color: "#0017ff"
+    #   end
+      horizontal_box margin: :lg do
+        url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, color: "#ed18a6"
+        end
+      end
+    end
+  end
+)%>

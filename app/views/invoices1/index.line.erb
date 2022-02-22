@@ -1,0 +1,29 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
+  },
+  <% end %>
+
+  <%= raw(Kamiflex.json(self) do
+    alt_text "發票載具教學"
+  bubble  @invoices1 do |invoice| size: :giga
+      header paddingAll: "0px" do
+          text invoice[:發票商家], size: :xl, wrap: true, color: "#f50002", weight: :bold
+          text invoice[:步驟教學], size: :xl, wrap: true, color: "#2600ff", weight: :bold
+          vertical_box flex: 1 do
+            image invoice[:圖片顯示], size: :full, aspectMode: :cover, aspectRatio: "150:200", gravity: :center
+        end 
+          vertical_box do
+            baseline_box spacing: :sm do
+          end
+      end
+  end 
+        footer do
+        url_button "查看圖片", invoice[:圖片顯示], style: :primary
+          end
+      end
+  end) %>
+
+]
