@@ -8,10 +8,10 @@
 
   <%= raw(Kamiflex.json(self) do
     alt_text "發票載具教學"
-  bubble  @invoices1 do |invoice| size: :giga
+  bubble size: :giga @invoices1 do |invoice| 
       header paddingAll: "0px" do
-          text invoice[:發票商家], size: :xl, wrap: true, color: "#f50002", weight: :bold
-          text invoice[:步驟教學], size: :xl, wrap: true, color: "#2600ff", weight: :bold
+          text invoice[:發票商家], size: :xl, wrap: true, weight: :bold , color: "#2600ff"
+          text invoice[:步驟教學], size: :xl, wrap: true, weight: :bold , color: "#2600ff"
           vertical_box flex: 1 do
             image invoice[:圖片顯示], size: :full, aspectMode: :cover, aspectRatio: "150:200", gravity: :center
         end 

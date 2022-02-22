@@ -46,7 +46,7 @@ Rails.application.routes.draw do
   get "MOMO簽到", to: "momos2#index"
   get "MOMO活動登記", to: "momos3#index"
 
-  get "小7", to: "invoices1#index"
+  get "超商7", to: "invoices1#index"
 
   get "國內", to: "creditcards1#index"
   
