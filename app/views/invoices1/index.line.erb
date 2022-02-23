@@ -65,4 +65,19 @@
 ]  
 }
 }
-]
+],
+<%=raw(Kamiflex.json(self) do
+  alt_text 發票載具設定"
+
+  bubbles @invoices1 do |invoice|
+    hero invoice [:圖片顯示],size: :full, aspectRatio: "388:500", aspectMode: :cover
+    body height: "100px" ,position: relative do
+      text invoice [:發票商家], weight: :bold, size: :xl, align: "center", color: "#F00078"
+      text invoice [:步驟教學], weight: :bold, size: :xl, wrap: true, color: "#000dff"
+     end
+    footer spacing: :sm, flex: 0 do
+      url_button "查看圖片", invoice [:圖片顯示] , style: :primary
+
+    end
+  end
+end)%>
