@@ -37,7 +37,7 @@ class Invoices1Controller < ApplicationController
 
     if @keyword.present?
         @invoices1.filter! do |invoice|
-          invoice[:名稱].include? @keyword
+          invoice[:發票商家].include? @keyword
       end
     end
     @invoices1 = @invoices1.first(12)
