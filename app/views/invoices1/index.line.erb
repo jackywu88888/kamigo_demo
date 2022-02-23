@@ -12,55 +12,56 @@
       "type": "carousel",
       "contents": [
          <% @invoices1.each do|invoice| %>
-  {
-    "type": "bubble",
-    "header": {
-      "type": "box",
-      "layout": "vertical",
-      "contents": [
-        {
-          "type": "text",
-          "text": "<%= invoice[:發票商家] %>",
-          "align": "center"
-        },
-        {
-          "type": "text",
-          "text": "<%= invoice[:步驟教學] %>"
-          "wrap": true
-        }
-      ],
-      "height": "100px",
-      "position": "relative"
-    },
-    "hero": {
-      "type": "image",
-      "url": "<%= invoice[:圖片顯示] %>",
-      "size": "full",
-      "aspectRatio": "388:800",
-      "aspectMode": "cover"
-    },
-    "footer": {
-      "type": "box",
-      "layout": "vertical",
-      "spacing": "sm",
-      "contents": [
-        {
-          "type": "button",
-          "style": "primary",
-          "height": "sm",
-          "action": {
-            "type": "uri",
-            "label": "查看圖片",
-            "uri": "<%= invoice[:圖片顯示] %>"
-          }
-        },
-        {
-          "type": "spacer"
-        }
-      ],
-      "flex": 0
-    }
-  }<%= "," if invoice != @invoices1.last %>
+          {
+            "type": "bubble",
+            "header": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "<%= invoice [:發票商家] %>",
+                  "color": "#F00078",
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "<%= invoice [:步驟教學] %>",
+                  "wrap": true
+                }
+              ],
+              "height": "100px",
+              "position": "relative"
+            },
+            "hero": {
+              "type": "image",
+              "url": "<%= invoice [:圖片顯示] %>",
+              "size": "full",
+              "aspectRatio": "388:800",
+              "aspectMode": "cover"
+            },
+            "footer": {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "button",
+                  "style": "primary",
+                  "height": "sm",
+                  "action": {
+                    "type": "uri",
+                    "label": "查看圖片",
+                    "uri": "<%= invoice [:圖片顯示] %>",
+                  }
+                },
+                {
+                  "type": "spacer"
+                }
+              ],
+              "flex": 0
+            }
+          }<%= "," if invoice != @invoices1.last %>
   <% end %>
 ]  
 }
