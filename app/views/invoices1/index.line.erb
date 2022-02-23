@@ -35,7 +35,7 @@
       "type": "image",
       "url": "<%= invoice[:圖片顯示] %>",
       "size": "full",
-      "aspectRatio": "120:113",
+      "aspectRatio": "20:13",
       "aspectMode": "cover"
     },
     "footer": {
@@ -59,7 +59,7 @@
       ],
       "flex": 0
     }
-  }<%= "," if iinvoice != @invoices1.last %>
+  }<%= "," if invoice != @invoices1.last %>
   <% end %>
 ]  
 }
