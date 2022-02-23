@@ -5,25 +5,62 @@
     "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
   },
   <% end %>
-
-  <%= raw(Kamiflex.json(self) do
-    alt_text "發票載具教學"
-  bubble size: :giga @invoices1 do |invoice| 
-      header paddingAll: "0px" do
-          text invoice[:發票商家], size: :xl, wrap: true, weight: :bold , color: "#2600ff"
-          text invoice[:步驟教學], size: :xl, wrap: true, weight: :bold , color: "#2600ff"
-          vertical_box flex: 1 do
-            image invoice[:圖片顯示], size: :full, aspectMode: :cover, aspectRatio: "150:200", gravity: :center
-        end 
-          vertical_box do
-            baseline_box spacing: :sm do
-          end
-      end
-  end 
-        footer do
-        url_button "查看圖片", invoice[:圖片顯示], style: :primary
-          end
-      end
-  end) %>
-
+  {
+     "type": "flex",
+      "altText": "雲端發票載具",
+      "contents": { 
+      "type": "carousel",
+      "contents": [
+         <% @invoices1.each do|invoice| %>
+  {
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "<%= invoice[:發票商家] %>",
+          "align": "center"
+        },
+        {
+          "type": "text",
+          "text": "<%= invoice[:步驟教學] %>"
+        }
+      ],
+      "height": "100px",
+      "position": "relative"
+    },
+    "hero": {
+      "type": "image",
+      "url": "<%= invoice[:圖片顯示] %>",
+      "size": "full",
+      "aspectRatio": "120:113",
+      "aspectMode": "cover"
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "primary",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "查看圖片",
+            "uri": "<%= invoice[:圖片顯示] %>"
+          }
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      "flex": 0
+    }
+  }<%= "," if iinvoice != @invoices1.last %>
+  <% end %>
+  ]
+}
 ]
