@@ -66,8 +66,9 @@
 }
 }
 ],
+
 <%=raw(Kamiflex.json(self) do
-  alt_text 發票載具設定"
+  alt_text "發票載具設定"
 
   bubbles @invoices1 do |invoice|
     hero invoice [:圖片顯示],size: :full, aspectRatio: "388:500", aspectMode: :cover
