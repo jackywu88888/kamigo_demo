@@ -69,15 +69,18 @@
 
 <%=raw(Kamiflex.json(self) do
   alt_text "發票載具設定"
-
-  bubble @invoices1 do |invoice|
+  carousel do
+  bubbles @invoices1 do |invoice|
     hero invoice [:圖片顯示],size: :full, aspectRatio: "388:500", aspectMode: :cover
-    body height: "150px" do
+    body spacing: :sm do
       text invoice [:發票商家], weight: :bold, size: :xl, align: "center", color: "#F00078"
+      vertical_box height:"150px" do
       text invoice [:步驟教學], weight: :bold, size: :xl, wrap: true, color: "#000dff"
      end
+    end
     footer spacing: :sm, flex: 0 do
       url_button "查看圖片", invoice [:圖片顯示] , style: :primary
+    end
     end
   end
 end)%>
