@@ -9,7 +9,7 @@ class Invoices1Controller < ApplicationController
         {
           "發票商家": "OPEN POINT",
           "步驟教學": "2:點選會員歸戶手機條碼載具",
-          "圖片顯示": "https://live.staticflickr.com/65535/51897220383_5188657c24_c.jpg", 
+          "圖片顯示": "https://live.staticflickr.com/65535/51899410340_e8547552b3_c.jpg", 
         },
         {
           "發票商家": "OPEN POINT",
