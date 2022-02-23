@@ -12,11 +12,11 @@
   
     carousel do
       bubbles @invoices1 do |invoice|
-        hero invoice [:圖片顯示], size: :full, aspectRatio: "388:500", aspectMode: :cover
+        hero invoice [:圖片顯示], size: :full, aspectRatio: "390:500", aspectMode: :cover
         body spacing: :sm do
-          text invoice [:發票商家], wrap: true, weight: :bold, size: :xl
+          text invoice [:發票商家], wrap: true, weight: :bold, size: :md, align: :center, color: "#F00078"
           vertical_box height:"100px" do
-          text invoice [:步驟教學], wrap: true, weight: :bold, size: :xl
+          text invoice [:步驟教學], wrap: true, weight: :bold, size: :sm, color: "#000dff"
           end
           end
         footer do
