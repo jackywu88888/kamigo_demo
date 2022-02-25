@@ -132,10 +132,9 @@ Rails.application.routes.draw do
 
   # menu
   # get "index", to: "home#index"
-  get "menu", to: "home#menu"
-  #get "目錄", to: "home#menu1"
-
-  get "目錄", to: "home#menu"
+  get "menu", to: "home#menu1"
+  get "目錄", to: "home#menu1"
+# get "目錄", to: "home#menu"
 
   get "功能目錄2", to: "home#menu1"
   get "簽到彙集分享活動", to: "home#menu2"
