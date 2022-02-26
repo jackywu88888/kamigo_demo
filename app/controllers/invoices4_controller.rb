@@ -4,7 +4,7 @@ class Invoices4Controller < ApplicationController
         {
           "發票商家": "OK mart",
           "步驟教學": "1:點選右上個人專區",
-          "圖片顯示": "https://live.staticflickr.com/65535/51905640805_e6e19f863f_c.jpg", 
+          "圖片顯示": "https://live.staticflickr.com/65535/51904079492_58d435a6ff_c.jpg", 
         },
         {
           "發票商家": "OK mart",
