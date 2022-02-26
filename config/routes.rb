@@ -48,7 +48,8 @@ Rails.application.routes.draw do
 
   get "OPEN超商", to: "invoices1#index"
   get "Family", to: "invoices2#index"
-  
+  get "Hi-Life", to: "invoices3#index"
+  get "OK1", to: "invoices4#index"
 
   get "國內", to: "creditcards1#index"
   

@@ -10,6 +10,12 @@ Kamiflex.json(self) do
          postback_button "全家便利商店", "Family", style: :primary, margin: :md
     #    url_button "全聯載具設定", "https://reurl.cc/02kp6l", style: :primary
         end
+
+        horizontal_box margin: :lg do
+          postback_button "萊爾富 Hi-Life", "Hi-Life", style: :primary  #, color: "#2600ff"
+          postback_button "OK超商", "OK1", style: :primary, margin: :md
+        end
+
       horizontal_box margin: :lg do
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, color: "#ed18a6"
         end
