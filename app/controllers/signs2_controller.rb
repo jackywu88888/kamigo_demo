@@ -12,7 +12,7 @@ class Signs2Controller < ApplicationController
         "活動": "安麗每日簽到拿點數",
         "名稱": "安麗每日簽到",
         "時間": "永久活動",
-        "連結": "https://liff.line.me/1655451151-RbE08al5",
+        "連結": "https://reurl.cc/DdZ08Q",
         "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
       },
       {

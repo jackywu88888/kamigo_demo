@@ -75,7 +75,7 @@ class Signs1Controller < ApplicationController
           "活動": "每天打卡,獲得5績分,500積分➡️5LP。\\n\\n輸入\\n@每日打卡",
           "名稱": "tada台灣車主",
           "時間": "永久活動",
-          "連結": "https://line.me/R/oaMessage/@tada_car/?@每日打卡",
+          "連結": "https://line.me/R/oaMessage/@tada_car/%23我要打卡",
           "圖片": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a3/cd/36/a3cd3667-3277-7123-ad6a-2ca29b302489/source/512x512bb.jpg"
         },
         {
