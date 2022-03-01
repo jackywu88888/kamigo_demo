@@ -19,7 +19,7 @@ class Momos3Controller < ApplicationController
             "活動": "❗請自行注意登記時間\\n❗請自行注意兌換遊戲規則",
             "名稱": "不限金額下單抽\\n🅱️02/26-03/12\\n3.8女王節-下單抽愛馬仕",
             "連結名稱": "下單抽愛馬仕",
-            "連結": "hhttps://momo.dm/Qamrf6",
+            "連結": "https://momo.dm/Qamrf6",
             "圖片": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg",
         },
         {
