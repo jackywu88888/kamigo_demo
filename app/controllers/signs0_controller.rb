@@ -45,9 +45,9 @@ class Signs0Controller < ApplicationController
         },
         {
           "活動": "Richart Life【歡慶台新30週年】天天登入Richart Life APP抽獎\\n❶Dyson Digital Slim Fluffy輕量無線吸塵器 1名\\n❷義大利MEG1.7大容量控溫式電熱水壺(魅惑紅) 1名\\n❸台新Point3,000點2名\\n❹台新Point300點20名\\n❺全家中杯美式2杯20名\\n⚠️台新Point於6/23(含)前回饋,兌換期限至2023/03/31",
-          "名稱": "https://reurl.cc/9OQKxY",
+          "名稱": "Richart Life",
           "時間": "⏰3/1～3/23",
-          "連結": "https://line.me/R/oaMessage/@kgi_bank/凱基旺財",
+          "連結": "https://reurl.cc/9OQKxY",
           "圖片": " "
         },
         {
