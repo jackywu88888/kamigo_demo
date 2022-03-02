@@ -9,19 +9,19 @@ class Signs2Controller < ApplicationController
         "圖片": "https://tw.adnew.beanfun.com/ad_image/BFWebCommon_MiddleImage/20200921121720.png"
       },
       {
-        "活動": "安麗每日簽到拿點數",
-        "名稱": "安麗每日簽到",
-        "時間": "永久活動",
-        "連結": "https://reurl.cc/DdZ08Q",
-        "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
-      },
-      {
         "活動": "綁定會員每週簽到活動\\n謹綁定新光人壽LINE好友，無須購買保險商品。\\n若有需求➡️多一個諮詢管道",
         "名稱": "新光人壽LINE帳號",
         "時間": "  ",
         "連結": "http://line.me/R/oaMessage/@shinkonglife/",
         "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
       },
+#      {
+#        "活動": "安麗每日簽到拿點數",
+#        "名稱": "安麗每日簽到",
+#        "時間": "永久活動",
+#        "連結": "https://reurl.cc/DdZ08Q",
+#        "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
+#      },
 #        {
 #          "活動": "",
 #          "名稱": "beanfun",
