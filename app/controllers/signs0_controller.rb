@@ -10,7 +10,7 @@ class Signs0Controller < ApplicationController
         },
         {
           "活動": "yes123天天登入抽iPhone 13、現金10000元、富士拍立得mini9、GARMIN Vivofit 4、全家50元購物金、中冰拿鐵、10點Line points、yes紅利點",
-          "名稱": "【求職添好運活動】",
+          "名稱": "求職添好運活動",
           "時間": "⏰～3/31止",
           "連結": "https://bit.ly/3u7y432",
           "圖片": " "
