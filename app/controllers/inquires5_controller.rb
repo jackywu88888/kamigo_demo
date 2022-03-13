@@ -7,7 +7,7 @@ class Inquires5Controller < ApplicationController
           "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止\\n\\n小編終於可以休息",
           "名稱": "《殘次品．放逐星空》",
           "時間": "2022/03/14~2022/03/21 ",
-          "影片": " https://bnc.lt/MuAd/ROzYA0h43nb",
+          "影片": "https://bnc.lt/MuAd/ROzYA0h43nb",
           "圖片": "https://img.linetv.tw/large/campaign/220314_campaign_moonlight.jpg",
         },
         {
