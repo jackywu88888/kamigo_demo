@@ -3,8 +3,8 @@ class Inquires31Controller < ApplicationController
       @inquires31 = [
         {
           "遊戲商家": "星城教學",
-          "步驟教學": "1:點選下面網址領取10,000振興幣\nhttps://www.xin-stars.com/2021GetCash?sharecode=SUTY9WW0",
-          "圖片顯示": "https://www.xin-stars.com/2021GetCash?sharecode=SUTY9WW0", 
+          "步驟教學": "1:點選上面圖片有推薦網址，領取10,000振興幣\nhttps://www.xin-stars.com/2021GetCash?sharecode=SUTY9WW0",
+          "圖片顯示": "https://live.staticflickr.com/65535/51941221779_c6e3069e24_c.jpg", 
         },
         {
           "遊戲商家": "星城教學",
