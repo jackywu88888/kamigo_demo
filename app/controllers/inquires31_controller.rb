@@ -29,7 +29,7 @@ class Inquires31Controller < ApplicationController
         {
           "遊戲商家": "星城教學",
           "步驟教學": "6:下載星城APP，ios下載PC版，安桌下載APK版(網頁有連結)，請勿安裝商店版本",
-          "圖片顯示": "https://live.staticflickr.com/65535/51941204684_0c74edc422_b.jpg", 
+          "圖片顯示": "https://live.staticflickr.com/65535/51939895612_5101108674_c.jpg", 
         },
         {
           "遊戲商家": "星城教學",
