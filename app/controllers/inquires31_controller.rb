@@ -33,8 +33,8 @@ class Inquires31Controller < ApplicationController
         },
         {
           "遊戲商家": "星城教學",
-          "步驟教學": "7:登入遊戲信箱領振興幣",
-          "圖片顯示": "https://live.staticflickr.com/65535/51939895727_5a2969e4ed_b.jpg", 
+          "步驟教學": "7:登入遊戲選者手機圖示，點選QPP程式連動，進入遊戲信箱領振興幣",
+          "圖片顯示": "https://live.staticflickr.com/65535/51941117553_3691c25048_c.jpg", 
         },
         {
           "遊戲商家": "星城教學",
