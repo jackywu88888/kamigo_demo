@@ -9,7 +9,7 @@ class Inquires31Controller < ApplicationController
         {
           "遊戲商家": "星城教學",
           "步驟教學": "2:發送出邀請碼，系統會回傳領取訊息",
-          "圖片顯示": "https://live.staticflickr.com/65535/51939895572_d35d3e15db_c.jpg", 
+          "圖片顯示": "https://live.staticflickr.com/65535/51941740601_5911bda7fd_c.jpg", 
         },
         {
           "遊戲商家": "星城教學",
