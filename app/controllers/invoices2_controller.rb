@@ -28,7 +28,7 @@ class Invoices2Controller < ApplicationController
         },
         {
           "發票商家": "全家便利商店",
-          "步驟教學": "6:開啟財政部統一發票兌獎APP\\n點選載具歸戶",
+          "步驟教學": "6:開啟財政部統一發票兌獎APP\n\n點選載具歸戶",
           "圖片顯示": "https://live.staticflickr.com/65535/51897782105_7b3b31faf2_c.jpg", 
         },
         {
