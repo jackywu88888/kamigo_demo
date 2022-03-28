@@ -5,7 +5,7 @@ class Inquires5Controller < ApplicationController
           "活動": "必看改編系高分神作！完成觀劇任務，最高得LINE POINTS 20點",
           "活動主題": "追劇贈點",
           "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止\\n\\n小編終於可以休息",
-          "名稱": "《夜色暗湧時》",
+          "名稱": "《冬日後的櫻花》",
           "時間": "2022/03/28~2022/04/03",
           "影片": "https://bnc.lt/MuAd/VaFYLbvZsob",
           "圖片": "https://img.linetv.tw/large/campaign/20220321_point.jpg",
