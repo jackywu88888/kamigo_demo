@@ -6,7 +6,7 @@ class Inquires5Controller < ApplicationController
           "活動主題": "追劇贈點",
           "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止\\n\\n小編提早休學，\\n唯一LINE點收入要注意，使用期限。",
           "名稱": "《冬日後的櫻花》",
-          "時間": "2022/03/30 19:00 ~ 2022/04/03",
+          "時間": "2022/03/30 19:00 \\n 2022/04/03",
           "影片": "https://bnc.lt/MuAd/g3QkmMtoOob",
           "圖片": "https://img.linetv.tw/large/campaign/campaign_list_220330_2.png",
         },
