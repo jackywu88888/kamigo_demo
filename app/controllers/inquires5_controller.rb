@@ -2,6 +2,15 @@ class Inquires5Controller < ApplicationController
     def index
       @inquires5 = [
         {
+          "活動": "MAN POWER爆表！元氣滿滿越看越給力！完成觀劇任務得5點、VIP翻倍送！",
+          "活動主題": "追劇贈點",
+          "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止\\n\\n小編提早休學，\\n唯一POINTS點收入要注意，使用期限。",
+          "名稱": "《親子鑑定師手記》",
+          "時間": "2022/04/05~2022/04/11",
+          "影片": "https://bnc.lt/MuAd/TUPOl2wMLob",
+          "圖片": "https://img.linetv.tw/large/campaign/campaign_manpower_220405.jpg",
+        },
+        {
           "活動": "快樂有理，歡樂無罪！完成任務得LINE POINTS 10點，VIP會員翻倍得20點！",
           "活動主題": "追劇贈點",
           "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止\\n\\n小編提早休學，\\n唯一POINTS點收入要注意，使用期限。",
