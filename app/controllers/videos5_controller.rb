@@ -2,6 +2,10 @@ class Videos5Controller < ApplicationController
     def index
         @videos5 = [
           {
+            "題目": "金價大漲的影響" ,
+            "答案": "基本題:A.B.A.A.A",
+          },
+          {
             "題目": "限時題目居住正義知多少" ,
             "答案": "基本題:A.A.B.A.A",
           },
