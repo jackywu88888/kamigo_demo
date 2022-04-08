@@ -629,7 +629,7 @@ class Friends2Controller < ApplicationController
 				{
           "所在社群": "利己分享社群",
           "入群日期": "2022/02/03",
-          "版友暱稱": " 蠽",
+          "版友暱稱": "蠽",
         },
 				{
           "所在社群": "利己分享社群",
@@ -797,17 +797,15 @@ class Friends2Controller < ApplicationController
           "版友暱稱": "古博毅",
         },
 
-
-
 ]
 
-@keyword = params[:keyword]
+		@keyword = params[:keyword]
 
-if @keyword.present?
+		if @keyword.present?
     @friends2.filter! do |friend|
         friend[:版友暱稱].include? @keyword
   end
 end
-@friends2 = @friends2.first(12)
-end
+		@friends2 = @friends2.first(12)
+	end
 end
