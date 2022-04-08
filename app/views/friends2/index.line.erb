@@ -1,0 +1,14 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "目前資料更新2022/04/08您要查詢(<%= @keyword %>)入群紀錄如下。"
+  },
+  <% end %>
+  {
+    "type": "text",
+    "text": "<%= @friends2.map do|friend|
+      "#{friend[:版友暱稱]}\\n所在社群：#{friend[:所在社群]}\\n入群日期：#{friend[:入群日期]}"
+        end.join("\\n\\n") %>"
+  }
+]
