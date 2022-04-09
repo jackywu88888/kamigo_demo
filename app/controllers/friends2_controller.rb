@@ -4,7 +4,7 @@ class Friends2Controller < ApplicationController
         {
           "所在社群": "賺點數社群",
           "入群日期": "2022/04/08",
-          "版友暱稱": "gogogog",
+          "版友暱稱": "gogogo",
         },
         {
           "所在社群": "賺點數社群",
