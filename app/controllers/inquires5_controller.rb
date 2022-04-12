@@ -6,7 +6,7 @@ class Inquires5Controller < ApplicationController
           "活動主題": "追劇贈點",
           "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止\\n\\n小編提早休學，\\n唯一POINTS點收入要注意，使用期限。",
           "名稱": "《此刻，少年不停舞》",
-          "時間": "2022/04/13~2022/04/1",
+          "時間": "2022/04/13~2022/04/19",
           "影片": "https://bnc.lt/MuAd/rwVcb4nO0ob",
           "圖片": "https://img.linetv.tw/large/campaign/220413_campaign_summertime.jpg",
         },
