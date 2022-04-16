@@ -15,13 +15,13 @@ class Signs2Controller < ApplicationController
         "連結": "http://line.me/R/oaMessage/@shinkonglife/",
         "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
       },
-#      {
-#        "活動": "安麗每日簽到拿點數",
-#        "名稱": "安麗每日簽到",
-#        "時間": "永久活動",
-#        "連結": "https://reurl.cc/DdZ08Q",
-#        "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
-#      },
+      {
+        "活動": "安麗每日簽到拿點數\\n🎁首日簽到即可兌換5點LP",
+        "名稱": "安麗每日簽到",
+        "時間": "永久活動",
+        "連結": "https://reurl.cc/DdZ08Q",
+        "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
+      },
 #        {
 #          "活動": "",
 #          "名稱": "beanfun",
