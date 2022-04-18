@@ -29,9 +29,6 @@ class Inquires5Controller < ApplicationController
           "圖片": "https://img.linetv.tw/large/campaign/220413_campaign_summertime.jpg",
         },
 
-
-
-
 #        {
 #          "活動": "看劇長知識，成為知識王！完成任務得LINE POINTS 5點，VIP會員翻倍得10點！",
 #          "活動主題": "追劇贈點",
