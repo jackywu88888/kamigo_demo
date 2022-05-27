@@ -19,37 +19,17 @@ class Signs2Controller < ApplicationController
         "活動": "安麗每日簽到拿點數\\n🎁首日簽到即可兌換5點LP",
         "名稱": "安麗每日簽到",
         "時間": "永久活動",
-        "連結": "https://reurl.cc/DdZ08Q",
+        "連結": "https://line.me/R/oaMessage/@amway",
         "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
       },
-#        {
-#          "活動": "",
-#          "名稱": "beanfun",
-#          "時間": "永久活動",
-#          "連結": "https://reurl.cc/ZG2qoW",
-#          "圖片": "https://tw.adnew.beanfun.com/ad_image/BFWebCommon_MiddleImage/20200921121720.png"
-#        },
-#        {
-#          "活動": "那快來參加遠傳打卡活動吧～(更新版本之後需要定位，無法使用)",
-#          "名稱": "遠傳打卡活動",
-#          "時間": "永久活動",
-#          "連結": "https://reurl.cc/ZG2qoW",
-#          "圖片": "http://www.fetnet.net/content/dam/fetnet/user_resource/cbu/images/index/fb_share.png"
-#        },
-#       {
-#          "活動": "安麗每日簽到拿點數",
-#          "名稱": "安麗每日簽到",
-#          "時間": "永久活動",
-#          "連結": "http://line.me/R/oaMessage/@amway",
-#          "圖片": "http://www.fetnet.net/content/dam/fetnet/user_resource/cbu/images/index/fb_share.png"
-#        },
-#        {
-#          "活動": "",
-#          "名稱": "",
-#          "時間": "",
-#          "連結": "",
-#          "圖片": ""
-#        },
+      {
+        "活動": "台灣人壽 官方帳號 i健康專區\\n網路會員(非保戶亦可參加)健康量測➡️【每日】上傳資訊➡️累積健康積分\\n積分兌換7-ELEVEN咖啡、購物金等好禮",
+        "名稱": "台灣人壽i健康專區",
+        "時間": "2022/04/01起～",
+        "連結": "https://pse.is/44umq9",
+        "圖片": "https://www.amway.com.tw/mobilehome/Images/product/home_logo_amwayhome.png"
+      },
+
 #        {
 #          "活動": "",
 #          "名稱": "",
