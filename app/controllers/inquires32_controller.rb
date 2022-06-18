@@ -15,13 +15,13 @@ class Inquires32Controller < ApplicationController
         },
         {
           "遊戲商家": "星城教學",
-          "步驟教學": "3:畫面跳出，百萬銀幣序號，按下[複製]",
+          "步驟教學": "3:畫面跳出，百萬銀幣序號，按下[複製]。\n未出現銀幣序號者，代表您不符合新手資格。",
           "圖片顯示": "https://live.staticflickr.com/65535/52154937423_9ea5794317_c.jpg", 
           "活動頁面": "https://www.xin-stars.com/2022_xinTrip?shareCode=SUU2B792",
         },
         {
           "遊戲商家": "星城教學",
-          "步驟教學": "4:蘋果手機ios使用GOOGLE網頁或safari網頁直接點擊[立即玩]。\n\n安桌點擊立即下載[APK版](網頁有連結)，本次活動未明顯標註，暫且安裝商店版本，避免無法獲得全家購物金。",
+          "步驟教學": "4:蘋果手機ios使用GOOGLE網頁或safari網頁直接點擊[立即玩]。\n\n安桌點擊立即下載[APK版](網頁有連結)，本次活動未明顯標註，暫且[不]安裝商店版本，避免無法獲得全家購物金。",
           "圖片顯示": "https://live.staticflickr.com/65535/51941806173_5ea3978267_c.jpg", 
           "活動頁面": "https://www.xin-stars.com/2022_xinTrip?shareCode=SUC4APT5",
         },
