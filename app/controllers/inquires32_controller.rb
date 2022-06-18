@@ -51,7 +51,7 @@ class Inquires32Controller < ApplicationController
         },
         {
           "遊戲商家": "星城教學",
-          "步驟教學": "9:點擊下方[BET]，設定最高5000。\n點擊下方[AUTO]，設定最高無限次。啟動遊戲至LV等級達到8級。\nLV等級達到8級，請關閉遊戲APP或網頁。",
+          "步驟教學": "9:點擊下方[BET]，設定最高5000。\n點擊下方[AUTO]，設定最高無限次。\n啟動遊戲至LV等級達到8級。\nLV等級達到8級，請關閉遊戲APP或網頁。",
           "圖片顯示": "https://live.staticflickr.com/65535/52155059431_52bc8e91a0_k.jpg", 
           "活動頁面": "https://www.xin-stars.com/2022_xinTrip?shareCode=SUTY9WW0",
         },
