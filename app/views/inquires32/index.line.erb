@@ -1,0 +1,30 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
+  },
+  <% end %>
+
+
+  <%=raw(Kamiflex.json(self) do
+    alt_text "星城教學"
+  
+    carousel do
+      bubbles @inquires32 do |inquire|
+        hero inquire [:圖片顯示], size: :full, aspectRatio: "390:500", aspectMode: :cover, action: uri_action("https://www.xin-stars.com/2022_xinTrip?shareCode=SU30UET3")
+        body spacing: :sm do
+          text inquire [:遊戲商家], wrap: true, weight: :bold, size: :md, align: :center, color: "#F00078"
+          vertical_box height:"120px" do
+          text inquire [:步驟教學], wrap: true, weight: :bold, size: :sm, color: "#000dff"
+          end
+          end
+        footer do
+          url_button "圖片查看", inquire [:圖片顯示], style: :primary
+        end
+      end
+    end
+  end) %>
+  
+
+]
