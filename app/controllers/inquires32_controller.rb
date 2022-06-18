@@ -69,7 +69,7 @@ class Inquires32Controller < ApplicationController
         },
         {
           "遊戲商家": "星城教學",
-          "步驟教學": "12:轉跳簡訊畫面，完整送出文字內容，不要做任何修改變更，才能收到購物金100元。",
+          "步驟教學": "12:轉跳簡訊畫面，完整送出文字內容，不要做任何修改變更，才能收到購物金100元。\n下載QPP APP，登入手機號碼同[領取百萬銀幣]，進入背包領取全家購物金。",
           "圖片顯示": "https://live.staticflickr.com/65535/52155338935_43a8f7c4da_c.jpg", 
           "活動頁面": "https://www.xin-stars.com/2022_xinTrip?shareCode=SU30UET3",
         },         
