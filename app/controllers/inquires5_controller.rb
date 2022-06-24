@@ -2,6 +2,15 @@ class Inquires5Controller < ApplicationController
     def index
       @inquires5 = [
         {
+          "活動": "仲夏魔幻戀愛大作戰❗連續觀看指定戲劇5天得LINE POINTS 5點、VIP 得10點！",
+          "活動主題": "追劇贈點",
+          "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止\\n活動期間內，\\n觀看的戲劇集數均不可重複。",
+          "名稱": "《妻子的選擇》",
+          "時間": "2022/06/25~2022/07/01",
+          "影片": "https://bnc.lt/MuAd/6Wjqtmyk7qb",
+          "圖片": "https://img.linetv.tw/large/campaign/20220625_SUMMERLOVEFIGHT.jpg",
+        },
+        {
           "活動": "《極島森林》療癒心靈的「森」度之旅 ！限時72H，完成任務得6點！",
           "活動主題": "追劇贈點",
           "限量或VIP": "此檔LINE POINTS 活動點數\\n數量有限，活動期間送完為止\\n活動期間內，\\n觀看的戲劇集數均不可重複。",
