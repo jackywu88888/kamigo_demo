@@ -151,7 +151,7 @@ Rails.application.routes.draw do
   get "我愛速速", to: "home#points8"
   get "我超愛速速", to: "home#points8"
   get "功能目錄2", to: "home#menu1"
-  get "簽到彙集分享活動", to: "home#menu2"
+  get "活動簽到彙集", to: "home#menu2"
   get "推薦碼", to: "home#menu3"
   get "信用卡查詢", to: "home#menu4"
 #  get "外送平台", to: "home#menu5"
