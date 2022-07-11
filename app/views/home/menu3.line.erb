@@ -8,9 +8,9 @@ Kamiflex.json(self) do
       horizontal_box margin: :lg do
         postback_button "環保集點", "環保集點", style: :primary  #, color: "#2600ff"
         end
-      horizontal_box margin: :lg do  
-        postback_button "賺星城全家購物金方式", "星城", style: :primary  #, color: "#0017ff"
-        end
+    #  horizontal_box margin: :lg do  
+    #    postback_button "賺星城全家購物金方式", "星城", style: :primary  #, color: "#0017ff"
+    #    end
       horizontal_box margin: :lg do
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, color: "#ed18a6"
         end
