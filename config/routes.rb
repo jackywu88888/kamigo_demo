@@ -50,6 +50,8 @@ Rails.application.routes.draw do
   get "momo", to: "momos2#index"
   get "MOMO簽到", to: "momos2#index"
   get "MOMO活動登記", to: "momos3#index"
+  get "購買筆記", to: "momos4#index"
+  
 
   #載具設定
   get "OPEN超商", to: "invoices1#index"
