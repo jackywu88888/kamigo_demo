@@ -125,7 +125,7 @@ Rails.application.routes.draw do
 #  get "學費", to: "videos41#index"
 
 
-  get "星城", to: "inquires32#index"  
+#  get "星城", to: "inquires32#index"  
   get "line_tv", to: "inquires5#index"
   get "關鍵字", to: "home#points5"
   get "環保集點", to: "home#points6"
