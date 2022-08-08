@@ -13,16 +13,16 @@
     carousel do
       bubbles @activitys1 do |activity|
         body spacing: :sm do
-          text activity [:活動名稱], wrap: true, weight: :bold, size: :md, align: :center, color: "#F00078"
+          text activity [:名稱], wrap: true, weight: :bold, size: :md, align: :center, color: "#F00078"
           vertical_box height:"120px" do
-        #  text activity [:活動時間], wrap: true, weight: :bold, size: :sm, color: "#000dff"            
-          text activity [:活動說明], wrap: true, weight: :bold, size: :sm, color: "#000dff"
+        #  text activity [:時間], wrap: true, weight: :bold, size: :sm, color: "#000dff"            
+          text activity [:說明], wrap: true, weight: :bold, size: :sm, color: "#000dff"
           end
           end
         #  end
         footer do
-            url_button "前往活動", activity [:活動連結], style: :primary
-       #   url_button "前往活動頁面", activity [:活動頁面], style: :primary, margin: :md
+            url_button "前往活動", activity [:連結], style: :primary
+       #   url_button "前往活動頁面", activity [:頁面], style: :primary, margin: :md
        # end
       end
     end
