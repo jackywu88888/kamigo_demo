@@ -1,0 +1,30 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
+  },
+  <% end %>
+
+
+  <%=raw(Kamiflex.json(self) do
+    alt_text "活動"
+  
+    carousel do
+      bubbles @activitys1 do |activity|
+        body spacing: :sm do
+          text activity [:活動名稱], wrap: true, weight: :bold, size: :md, align: :center, color: "#F00078"
+          vertical_box height:"120px" do
+          text activity [:活動時間], wrap: true, weight: :bold, size: :sm, color: "#000dff"            
+          text activity [:活動說明], wrap: true, weight: :bold, size: :sm, color: "#000dff"
+          end
+          end
+        footer do
+            postback_button "前往活動", activity [:活動連結], style: :primary
+       #   url_button "前往活動頁面", activity [:活動頁面], style: :primary, margin: :md
+        end
+      end
+    end
+  end) %>
+  
+]
