@@ -74,7 +74,7 @@ class Activitys1Controller < ApplicationController
 
     if @keyword.present?
         @activitys1.filter! do |activity|
-            activity[:名稱].include? @keyword
+            activity[:活動名稱].include? @keyword
       end
     end
     @activitys1 = @activitys1.first(12)
