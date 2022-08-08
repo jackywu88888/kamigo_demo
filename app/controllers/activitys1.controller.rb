@@ -17,13 +17,13 @@ class Activitys1Controller < ApplicationController
           "說明": "🚘tada台灣車主協會【每天打卡】\\n🎁獲得5績分,500積分➡️5LP",
           "名稱": "tada台灣車主",
           "時間": "永久活動",
-          "連結": "line://oaMessage/@tada_car/%23我要打卡",
+          "連結": "https://line.me/R/oaMessage/@tada_car/%23我要打卡",
         },
         {
           "說明": "商略問卷代發轉盤抽獎\\n🎁獎品有Airpods2藍芽耳機、7-11 100元購物金、吃茶趣50元券、line points10點等",
           "名稱": "商略問卷",
           "時間": "永久活動",
-          "連結": "line://oaMessage/@032okdnb/?%40兌換抽獎/活動",
+          "連結": "https://line.me/R/oaMessage/@032okdnb/?%40兌換抽獎/活動",
         },
         {
           "說明": "foodpanda Line官方帳號簽到",
@@ -77,6 +77,5 @@ class Activitys1Controller < ApplicationController
             activity[:名稱].include? @keyword
       end
     end
-  #  @activitys1 = @activitys1.first(12)
   end
 end
