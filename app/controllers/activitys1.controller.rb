@@ -77,6 +77,6 @@ class Activitys1Controller < ApplicationController
             activity[:名稱].include? @keyword
       end
     end
-    @activity1 = @activity1.first(12)
+    @activitys1 = @activitys1.first(12)
   end
 end
