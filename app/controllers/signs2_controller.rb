@@ -9,7 +9,7 @@ class Signs2Controller < ApplicationController
 	        "圖片": "https://tw.adnew.beanfun.com/ad_image/BFWebCommon_MiddleImage/20200921121720.png"
       },
       {
-          "活動": "📣我的VIP丨中華電信我的服務中心\\n",
+          "活動": "📣我的VIP丨中華電信我的服務中心",
           "名稱": "會員生日賀禮",
           "時間": "⏱️2022/01/01~2022/12/31",
           "連結": "https://vip.cht.com.tw/my/winner-list",
