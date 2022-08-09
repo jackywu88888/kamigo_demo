@@ -6,26 +6,31 @@
   },
   <% end %>
 
-
-  <%=raw(Kamiflex.json(self) do
-    alt_text "活動"
+  <%= raw (Kamiflex.json(self) do
+    alt_text "各項活動"
   
     carousel do
       bubbles @activitys1 do |activity|
-        body spacing: :sm do
-          text activity [:名稱], wrap: true, weight: :bold, size: :md, align: :center, color: "#F00078"
-          vertical_box height:"120px" do
-        #  text activity [:時間], wrap: true, weight: :bold, size: :sm, color: "#000dff"            
-          text activity [:說明], wrap: true, weight: :bold, size: :sm, color: "#000dff"
+        body do
+        text activity [:名稱], weight: :bold, size: :xl
+        baseline_box margin: :md do
+        end
+        vertical_box margin: :lg, spacing: :sm do
+          vertical_box spacing: :sm do
+            text "活動說明", color: "#aaaaaa", size: :sm, flex: 1
+            text activity [:說明], wrap: true, color: "#666666", size: :sm, flex: 5
           end
+          vertical_box spacing: :sm do
+            text "時間", color: "#aaaaaa", size: :sm, flex: 1
+            text activity[:時間], "wrap": true, color: "#666666", size: :sm, flex: 5
           end
-        #  end
+        end
+        end
         footer do
-            url_button "前往活動", activity [:連結], style: :primary
-       #   url_button "前往活動頁面", activity [:頁面], style: :primary, margin: :md
+          url_button "連結", activity[:連結], style: :primary
         end
       end
     end
   end) %>
-  
+
 ]
