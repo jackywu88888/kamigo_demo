@@ -39,11 +39,11 @@ Rails.application.routes.draw do
   get "遠傳理財查詢/*keyword", to: "videos5#index"
   get "2022外送整理", to: "videos6#index"
  
-  get "常態活動簽到", to: "signs0#index"
-  get "簽到資訊1", to: "signs1#index"
-  get "簽到資訊2", to: "signs2#index"
-  get "其他活動1", to: "signs3#index"
-  get "其他活動2", to: "signs4#index"
+#  get "常態活動簽到", to: "signs0#index"
+#  get "簽到資訊1", to: "signs1#index"
+#  get "簽到資訊2", to: "signs2#index"
+#  get "其他活動1", to: "signs3#index"
+#  get "其他活動2", to: "signs4#index"
 #  get "限時活動3", to: "signs5#index"
   
   get "momo簽到", to: "momos2#index"
@@ -62,7 +62,6 @@ Rails.application.routes.draw do
   get "自來水", to: "invoices6#index"
 
   get "國內", to: "creditcards1#index"
-  
   get "國外", to: "creditcards3#index"
 
   get "國內消費", to: "creditcards1#index"
@@ -135,8 +134,8 @@ Rails.application.routes.draw do
   get "遊戲活動QA/*keyword", to: "inquires#index" 
 
   get "簽到活動/*keyword", to: "activitys1#index" 
-  get "簽到活動", to: "activitys1#index" 
 
+#  get "簽到活動", to: "activitys1#index" 
 #  get "H5點就玩查詢/*keyword", to: "inquires#index"
 #  get "Y5遊戲查詢/*keyword", to: "inquires2#index"
 #  get "H5查詢", to: "inquires#index"
@@ -171,8 +170,8 @@ Rails.application.routes.draw do
   
   get "投票", to: "votes#index"
 
-  get "活動資訊", to: "home#menu31"
-
+  get "LINE活動資訊", to: "home#menu31"
+  get "APP活動資訊", to: "home#menu32"
 
   # 查天氣
   # get "*location天氣", to: "weather#show"
