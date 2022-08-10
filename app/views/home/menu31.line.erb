@@ -1,0 +1,25 @@
+<%= raw(
+Kamiflex.json(self) do
+  alt_text "活動資訊"
+  bubble size: :giga do
+    body do
+      text "活動資訊",color:"#0000ff"
+      text "2022/08/10更新",color:"#0000ff"
+      text "排版文字如有錯誤，依照官方公布為準。",color:"#ff0000"
+      separator color: "#FF0000"
+      text "APP活動",color:"#0000ff"
+    horizontal_box margin: :lg do  
+        message_button "中華電信", "中華電信", style: :primary   
+        end
+      separator color: "#FF0000"
+      text "APP活動",color:"#0000ff"
+    horizontal_box margin: :lg do  
+        message_button "台灣大哥大/遠傳/台灣之星/亞太", "台灣大哥大/遠傳/台灣之星/亞太", style: :primary 
+        end
+     horizontal_box margin: :lg do  
+        message_button "信用卡查詢", "信用卡查詢", style: :primary, color: "#0048e8"
+          end
+        end
+      end
+    end
+  )%>

@@ -171,6 +171,8 @@ Rails.application.routes.draw do
   
   get "投票", to: "votes#index"
 
+  get "活動資訊", to: "home#menu31"
+
 
   # 查天氣
   # get "*location天氣", to: "weather#show"
