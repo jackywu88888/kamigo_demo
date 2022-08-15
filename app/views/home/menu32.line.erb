@@ -4,7 +4,7 @@ Kamiflex.json(self) do
   bubble size: :giga do
     body do
       text "活動資訊",color:"#0000ff"
-      text "2022/08/10更新",color:"#0000ff"
+      text "2022/08/15更新",color:"#0000ff"
       text "排版文字如有錯誤，依照官方公布為準。",color:"#ff0000"
       separator color: "#FF0000"
       text "APP活動",color:"#0000ff"
@@ -20,24 +20,29 @@ Kamiflex.json(self) do
         end
 
       horizontal_box margin: :lg do  
-        postback_button "國泰優惠", "簽到活動/國泰優惠", style: :primary 
-		postback_button "HAPPY GO", "簽到活動/HAPPYGO", style: :primary, margin: :md
-		end
+        postback_button "國泰", "簽到活動/國泰優惠", style: :primary 
+		    postback_button "HAPPY GO", "簽到活動/HAPPYGO", style: :primary, margin: :md
+		    end
 
-	  horizontal_box margin: :lg do  
-		postback_button "蝦皮", "簽到活動/蝦皮", style: :primary 
-		postback_button "beanfun", "簽到活動/橘子beanfun", style: :primary, margin: :md
-		end
+      horizontal_box margin: :lg do  
+        postback_button "台北", "簽到活動/台北", style: :primary 
+    #    postback_button "beanfun", "簽到活動/橘子beanfun", style: :primary, margin: :md
+        end
 
-	  horizontal_box margin: :lg do  
-		postback_button "金石堂", "簽到活動/金石堂", style: :primary
-		postback_button "UUPON", "簽到活動/UUPON", style: :primary, margin: :md
-		end
+	    horizontal_box margin: :lg do  
+		    postback_button "蝦皮", "簽到活動/蝦皮", style: :primary 
+		    postback_button "beanfun", "簽到活動/橘子beanfun", style: :primary, margin: :md
+		    end
 
-	  horizontal_box margin: :lg do  
-		postback_button "yes123", "簽到活動/yes123", style: :primary
+	    horizontal_box margin: :lg do  
+		    postback_button "金石堂", "簽到活動/金石堂", style: :primary
+		    postback_button "UUPON", "簽到活動/UUPON", style: :primary, margin: :md
+		    end
+
+	    horizontal_box margin: :lg do  
+		    postback_button "yes123", "簽到活動/yes123", style: :primary
         postback_button "遠傳心生活", "簽到活動/遠傳", style: :primary, margin: :md
-		end
+		    end
 
       horizontal_box margin: :lg do  
         postback_button "康是美", "簽到活動/康是美", style: :primary
