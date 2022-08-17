@@ -51,7 +51,7 @@ Rails.application.routes.draw do
   get "MOMO簽到", to: "momos2#index"
   get "MOMO活動登記", to: "momos3#index"
   get "購買筆記", to: "momos4#index"
-  
+
 
   #載具設定
   get "OPEN超商", to: "invoices1#index"
@@ -136,6 +136,7 @@ Rails.application.routes.draw do
   get "簽到活動/*keyword", to: "activitys1#index" 
   get "簽到活動2/*keyword", to: "activitys2#index" 
 
+
 #  get "簽到活動", to: "activitys1#index" 
 #  get "H5點就玩查詢/*keyword", to: "inquires#index"
 #  get "Y5遊戲查詢/*keyword", to: "inquires2#index"
@@ -157,6 +158,7 @@ Rails.application.routes.draw do
   get "我超愛速速", to: "home#points8"
   get "功能目錄2", to: "home#menu1"
   get "活動簽到彙集", to: "home#menu2"
+  get "LINE活動簽到", to: "home#menu51" 
   get "推薦碼", to: "home#menu3"
   get "信用卡查詢", to: "home#menu4"
 #  get "外送平台", to: "home#menu5"
