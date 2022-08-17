@@ -1,0 +1,37 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "<%= @keyword %>的活動如下。"
+  },
+  <% end %>
+
+  <%= raw (Kamiflex.json(self) do
+    alt_text "各項活動"
+  
+    carousel do
+      bubbles @activitys2 do |activity|
+        body do
+        text activity [:名稱], weight: :bold, size: :xl, color: "#ff00ff"
+        baseline_box margin: :md do
+        end
+        vertical_box margin: :lg, spacing: :sm do
+          vertical_box spacing: :sm do
+            text "活動說明", color: "#2600ff", size: :sm, flex: 1
+            text activity [:說明], wrap: true, color: "#050403", size: :sm, flex: 5
+          end
+          vertical_box spacing: :sm do
+            text "時間", color: "#2600ff", size: :sm, flex: 1
+            text activity[:時間], "wrap": true, color: "#f5002f", size: :sm, flex: 5
+          end
+        end
+        end
+        footer do
+          postback_button "前往活動", activity[:連結], style: :primary
+          postback_button "前往開獎", activity[:開獎], style: :primary
+        end
+      end
+    end
+  end) %>
+
+]

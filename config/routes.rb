@@ -134,6 +134,7 @@ Rails.application.routes.draw do
   get "遊戲活動QA/*keyword", to: "inquires#index" 
 
   get "簽到活動/*keyword", to: "activitys1#index" 
+  get "簽到活動2/*keyword", to: "activitys2#index" 
 
 #  get "簽到活動", to: "activitys1#index" 
 #  get "H5點就玩查詢/*keyword", to: "inquires#index"
