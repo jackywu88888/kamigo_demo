@@ -2,7 +2,7 @@
   <% if @keyword.present? %>
   {
     "type": "text",
-    "text": "<%= @keyword %>的活動如下。"
+    "text": "<%= @keyword %>的活動。"
   },
   <% end %>
 
@@ -27,8 +27,9 @@
         end
         end
         footer do
-          postback_button "前往活動", activity[:連結], style: :primary
-          postback_button "前往開獎", activity[:開獎], style: :primary
+            url_button "前往活動", activity[:連結], style: :primary
+            url_button "前往開獎", activity[:開獎], style: :primary, margin: :md
+
         end
       end
     end
