@@ -14,7 +14,7 @@ class Activitys2Controller < ApplicationController
           "名稱": "LINE禮物",
           "時間": "2022年8月1日（一）13:00 ～ \n2022年9月15日（四）23:59",
           "連結": "https://reurl.cc/xQQY8L",
-          "開獎": " ",
+     #    "開獎": " ",
           "查詢": "LINE禮物2",
         },
     ]
