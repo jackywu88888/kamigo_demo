@@ -1,0 +1,62 @@
+<%= raw(
+Kamiflex.json(self) do
+  alt_text "LINE活動簽到"
+  bubble size: :giga do
+    body do
+
+      text "LINE購物品牌名店｜超級品牌日 天天報到拿好禮8/1-8/31",wrap:true,color:"#0000ff",flex: 2
+        #  separator color: "#eeeeee"
+          horizontal_box margin: :lg do
+            url_button "前往活動點擊下方圖文選單「超級品牌日」活動圖示", "https://line.me/R/oaMessage/@commercetw/", style: :primary
+        #    url_button "前往抽獎", "", style: :primary, margin: :md
+          end
+          
+        text "LINE購物品牌名店｜NEWS快閃報 集三章免費拿100點",wrap:true,color:"#0000ff",flex: 2
+          #  separator color: "#eeeeee"
+            horizontal_box margin: :lg do
+              url_button "點擊後送出文字", "https://line.me/R/oaMessage/@commercetw/?0818快閃", style: :primary
+              url_button "任務卡", "https://liff.line.me/1529013389-VDr0PLo1/collectcard/ugBFIDeyMxcoCaY7HaaGgXicpCuGwBeysUaoie5LdsKdefZcWpWeQnlT4fVpd_wE_yGdrBIJ17gX7QB8U66hbw", style: :primary, margin: :md
+            end
+
+        text "LINE購物夯話題｜3C夯快報！天天集章最高拿500點",wrap:true,color:"#0000ff",flex: 2
+            #  separator color: "#eeeeee"
+            horizontal_box margin: :lg do
+              url_button "點擊後送出文字", "https://line.me/R/oaMessage/@twechottopic/?0818快報", style: :primary
+              url_button "任務卡", "https://liff.line.me/1529013389-VDr0PLo1/collectcard/Jm_wM2BhSNX8_zMvqnMEbQQGplmz2aVq-gZ96uvhmRvwQggSFQEmDUCXUcZu_SN6vrTwMo6ugUNdqeF8w5a0Kw", style: :primary, margin: :md
+            end     
+
+        text "LINE 購物｜暑假潛水揪一夏 天天收集海洋生物最高拿914點 8/15-8/21",wrap:true,color:"#0000ff",flex: 2
+              #  separator color: "#eeeeee"
+            horizontal_box margin: :lg do
+              url_button "點擊後送出文字", "https://line.me/R/oaMessage/@lineshopping_tw/?0818潛水趣", style: :primary
+              url_button "任務卡", "https://liff.line.me/1529013389-VDr0PLo1/collectcard/ugBFIDeyMxcoCaY7HaaGgUUKWaj3xCddVX8EgYXNpzbfOyQ1Yy9YSkwBg0ujotlnXf5uD52A4ITFUWtSK8lSGQ", style: :primary, margin: :md
+            end 
+
+        text "LINE購物APP：你的購物好兄弟！簽到集章最高賺899點 8/11-8/20",wrap:true,color:"#0000ff",flex: 2
+                #  separator color: "#eeeeee"
+            horizontal_box margin: :lg do
+              url_button "前往活動", "https://lineshopping.page.link/999X", style: :primary
+              url_button "任務卡", "https://event.line.me/collectcard/ugBFIDeyMxcoCaY7HaaGgUUKWaj3xCddVX8EgYXNpzYPkNIjG6Cwd2WYm0g60yoO7JXuFNdYQaA94EpPcLrngA?utm_source=share&utm_medium=header&utm_campaign=Copy_android", style: :primary, margin: :md
+            end                 
+
+        text "LINE購物品牌名店｜夏日岳澎湃！ 天天報到集章賺700點",wrap:true,color:"#0000ff",flex: 2
+                  #  separator color: "#eeeeee"
+            horizontal_box margin: :lg do
+              url_button "點擊後送出文字", "https://line.me/R/oaMessage/@commercetw/?0818岳澎湃", style: :primary
+              url_button "任務卡", "https://liff.line.me/1529013389-VDr0PLo1/collectcard/ugBFIDeyMxcoCaY7HaaGgXicpCuGwBeysUaoie5LdsKJNtkPD-cLaNSqF3doJpi63h6Hr4NYK9Io7b4Ou9Z1KQ", style: :primary, margin: :md
+            end  
+
+        text "活動辦法｜ 上山森呼吸！來看山攻略 集章任務",wrap:true,color:"#0000ff",flex: 2
+            #  separator color: "#eeeeee"
+            horizontal_box margin: :lg do
+                url_button "點擊後送出文字", "https://line.me/R/oaMessage/@linetraveltw/?0818自然步道", style: :primary
+                url_button "任務卡", "https://liff.line.me/1529013389-VDr0PLo1/collectcard/Jm_wM2BhSNX8_zMvqnMEbXRPRcA4tqXwdExxp5S029g5LA2jo5SZK1GTvKJ-Xs5USdZNjsJ65UoNgG-IbLYP7A", style: :primary, margin: :md
+            end             
+
+      horizontal_box margin: :lg do
+            url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, color: "#ed18a6"
+      end
+    end
+  end
+end
+)%>
