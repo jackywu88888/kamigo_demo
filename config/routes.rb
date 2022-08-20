@@ -159,8 +159,8 @@ Rails.application.routes.draw do
   get "功能目錄2", to: "home#menu1"
   get "活動簽到彙集", to: "home#menu2"
 
-  get "LINE活動簽到1", to: "home#menu51" 
-  get "LINE活動簽到2", to: "home#menu52" 
+  get "LINE活動簽到1", to: "home#menu52" 
+  get "LINE活動簽到2", to: "home#menu51" 
   get "推薦碼", to: "home#menu3"
   get "信用卡查詢", to: "home#menu4"
 #  get "外送平台", to: "home#menu5"

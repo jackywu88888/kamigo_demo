@@ -3,6 +3,10 @@ Kamiflex.json(self) do
   alt_text "LINE活動簽到"
   bubble size: :giga do
     body do
+      text "活動彙整資料,非轉址連結",wrap:true,color:"#ff0d00",flex: 2
+      text "須送出文字,點擊[完成任務]",wrap:true,color:"#ff0d00",flex: 2
+
+      separator color: "#ff00ff" 
       text "LINE禮物｜\n月老解憂雜貨店 天天解籤試手氣最高拿iPhone13",wrap:true,color:"#0000ff",flex: 2
       horizontal_box margin: :lg do
         url_button "點擊活動", "https://reurl.cc/xQQY8L", style: :primary
@@ -14,16 +18,18 @@ Kamiflex.json(self) do
       text "活動時間8/1~8/25",wrap:true,color:"#0000ff",flex: 2
       text "第4彈：8/16~8/20",wrap:true,color:"#0000ff",flex: 2
       horizontal_box margin: :lg do
-        url_button "前往活動", "https://event.line.me/mission/detail?channelId=1530376675&event=ugBFIDeyMxcoCaY7HaaGgUUKWaj3xCddVX8EgYXNpzYr4fQzWUxd-vaAanydKlkB9wqT1KcYxtWMUt3zVRIAPA/", style: :primary
-    #   url_button "前往抽獎", "", style: :primary, margin: :md
+      #  url_button "前往活動", "https://event.line.me/mission/detail?channelId=1530376675&event=ugBFIDeyMxcoCaY7HaaGgUUKWaj3xCddVX8EgYXNpzYr4fQzWUxd-vaAanydKlkB9wqT1KcYxtWMUt3zVRIAPA/", style: :primary
+        url_button "前往活動", "https://event.line.me/mission/detail?channelId=1530376675&event=ugBFIDeyMxcoCaY7HaaGgUUKWaj3xCddVX8EgYXNpzYr4fQzWUxd-vaAanydKlkB9wqT1KcYxtWMUt3zVRIAPA&utm_source=OA&utm_medium=shoppingoap&utm_campaign=ecmk_member_100days_202208_complete", style: :primary
+    
+        #   url_button "前往抽獎", "", style: :primary, margin: :md
       end
     
       separator color: "#ff00ff" 
       text "LINE購物｜8/19～8/21，8/26~8/28",wrap:true,color:"#0000ff",flex: 2
       text "全民大搜查 輸入答案拿好禮 2022.08",wrap:true,color:"#0000ff",flex: 2
       horizontal_box margin: :lg do
-        url_button "簽19日", "https://line.me/R/oaMessage/@lineshopping_tw/0819%E5%85%A8%E6%B0%91%E5%A4%A7%E6%90%9C%E6%9F%A5", style: :primary
-        url_button "簽20日", "https://line.me/R/oaMessage/@lineshopping_tw/0820%E5%85%A8%E6%B0%91%E5%A4%A7%E6%90%9C%E6%9F%A5", style: :primary, margin: :md
+        url_button "簽20日", "https://line.me/R/oaMessage/@lineshopping_tw/0820%E5%85%A8%E6%B0%91%E5%A4%A7%E6%90%9C%E6%9F%A5", style: :primary
+        url_button "簽21日", "https://line.me/R/oaMessage/@lineshopping_tw/0821%E5%85%A8%E6%B0%91%E5%A4%A7%E6%90%9C%E6%9F%A5", style: :primary, margin: :md
         url_button "得獎紀錄", "https://liff.line.me/1529013389-QwZzgXDV/luckydraw/ugBFIDeyMxcoCaY7HaaGgUUKWaj3xCddVX8EgYXNpzZ9z7fU_U14iPMxssdY8gdoUrFSdibF090NJX-PvkFALw/rewards", style: :primary, margin: :md
       end 
 
@@ -31,8 +37,8 @@ Kamiflex.json(self) do
       text "LINE購物｜8/18～8/21，8/25~8/28",wrap:true,color:"#0000ff",flex: 2
       text "八月熱搜榜！天天試手氣最高賺200點",wrap:true,color:"#0000ff",flex: 2
       horizontal_box margin: :lg do
-        url_button "簽19日", "https://line.me/R/oaMessage/@lineshopping_tw/0819%E7%86%B1%E6%90%9C%E6%A6%9C", style: :primary
-        url_button "簽20日", "https://line.me/R/oaMessage/@lineshopping_tw/0820%E7%86%B1%E6%90%9C%E6%A6%9C", style: :primary, margin: :md
+        url_button "簽20日", "https://line.me/R/oaMessage/@lineshopping_tw/0820%E7%86%B1%E6%90%9C%E6%A6%9C", style: :primary
+        url_button "簽21日", "https://line.me/R/oaMessage/@lineshopping_tw/0821%E7%86%B1%E6%90%9C%E6%A6%9C", style: :primary, margin: :md
         url_button "得獎紀錄", "https://liff.line.me/1529013389-QwZzgXDV/luckydraw/ugBFIDeyMxcoCaY7HaaGgUUKWaj3xCddVX8EgYXNpzY7hnvoksSpd1m7fd0tpDZ7nbUIDRUX8DRONS7B33OsXQ/rewards", style: :primary, margin: :md
       end
 
@@ -40,8 +46,8 @@ Kamiflex.json(self) do
       text "LINE購物夯話題｜8/18～8/21，8/25~8/28",wrap:true,color:"#0000ff",flex: 2
       text "8月全民大搜查",wrap:true,color:"#0000ff",flex: 2
       horizontal_box margin: :lg do
-        url_button "簽19日", "https://line.me/R/oaMessage/@twechottopic/0819%E5%85%A8%E6%B0%91%E5%A4%A7%E6%90%9C%E6%9F%A5", style: :primary
-        url_button "簽20日", "https://line.me/R/oaMessage/@twechottopic/0820%E5%85%A8%E6%B0%91%E5%A4%A7%E6%90%9C%E6%9F%A5", style: :primary, margin: :md
+        url_button "簽20日", "https://line.me/R/oaMessage/@twechottopic/0820%E5%85%A8%E6%B0%91%E5%A4%A7%E6%90%9C%E6%9F%A5", style: :primary
+        url_button "簽21日", "https://line.me/R/oaMessage/@twechottopic/0821%E5%85%A8%E6%B0%91%E5%A4%A7%E6%90%9C%E6%9F%A5", style: :primary, margin: :md
         url_button "得獎紀錄", "https://liff.line.me/1529013389-QwZzgXDV/luckydraw/Jm_wM2BhSNX8_zMvqnMEbQQGplmz2aVq-gZ96uvhmRvGsE_zqf5KyytbvDe3lxLADs_FEAzJr5bmlkWLPXMTqA/rewards", style: :primary, margin: :md
       end
 
@@ -49,26 +55,26 @@ Kamiflex.json(self) do
       text "LINE購物夯話題｜8/16~8/31",wrap:true,color:"#0000ff",flex: 2
       text "星空扭蛋機 扭蛋試手氣最高拿888點！",wrap:true,color:"#0000ff",flex: 2
       horizontal_box margin: :lg do
-        url_button "簽19日", "https://line.me/R/oaMessage/@twechottopic/0819%E6%89%AD%E8%9B%8B%E6%A9%9F", style: :primary
-        url_button "簽20日", "https://line.me/R/oaMessage/@twechottopic/0820%E6%89%AD%E8%9B%8B%E6%A9%9F", style: :primary, margin: :md
+        url_button "簽20日", "https://line.me/R/oaMessage/@twechottopic/0820%E6%89%AD%E8%9B%8B%E6%A9%9F", style: :primary
+        url_button "簽21日", "https://line.me/R/oaMessage/@twechottopic/0821%E6%89%AD%E8%9B%8B%E6%A9%9F", style: :primary, margin: :md
         url_button "前往抽獎", "https://liff.line.me/1529013389-QwZzgXDV/luckydraw/Jm_wM2BhSNX8_zMvqnMEbQQGplmz2aVq-gZ96uvhmRu5Pu_blTVK88VNbnBusGiR1qLo-3ViHg8AX5d18m-1CQ/", style: :primary, margin: :md
       end
-
+ 
       separator color: "#ff00ff" 
-      text "LINE購物品牌名店｜8/16~8/19",wrap:true,color:"#0000ff",flex: 2
-      text "酷暑浮潛購！天天試手氣賺700點",wrap:true,color:"#0000ff",flex: 2
+      text "LINE購物品牌名店｜08/20~8/22,08/27~08/29",wrap:true,color:"#0000ff",flex: 2
+      text "購物金榜大解密 三天試手氣最高賺333點",wrap:true,color:"#0000ff",flex: 2
       horizontal_box margin: :lg do
-      #  url_button "18日", "https://line.me/R/oaMessage/@commercetw/0818%E6%BD%9B%E6%B0%B4", style: :primary
-        url_button "簽19日", "https://line.me/R/oaMessage/@commercetw/0819%E6%BD%9B%E6%B0%B4", style: :primary, margin: :md
-        url_button "得獎紀錄", "https://liff.line.me/1529013389-QwZzgXDV/luckydraw/ugBFIDeyMxcoCaY7HaaGgXicpCuGwBeysUaoie5LdsJMVYAqXwR8l7Ix4Hd-__bft-4nMU4cBCnDnyDtcV24ig/rewards", style: :primary, margin: :md
-      end  
+        url_button "簽20日", "https://line.me/R/oaMessage/@commercetw/0820%E8%B3%BC%E7%89%A9%E9%87%91%E6%A6%9C", style: :primary
+        url_button "簽21日", "https://line.me/R/oaMessage/@commercetw/0821%E8%B3%BC%E7%89%A9%E9%87%91%E6%A6%9C", style: :primary, margin: :md
+        url_button "得獎紀錄", "https://liff.line.me/1529013389-QwZzgXDV/luckydraw/ugBFIDeyMxcoCaY7HaaGgXicpCuGwBeysUaoie5LdsKp8EfC-6T4ePcuj4Wud7sQz9EFTiIwpm9mL4ncsvyWJQ/rewards", style: :primary, margin: :md
+      end
 
       separator color: "#ff00ff" 
       text "LINE購物品牌名店｜8/17~8/22",wrap:true,color:"#0000ff",flex: 2
       text "幸運夾夾樂 天天報到免費夾好禮！",wrap:true,color:"#0000ff",flex: 2
         horizontal_box margin: :lg do
-          url_button "簽19日", "https://line.me/R/oaMessage/@commercetw/0819%E5%A8%83%E5%A8%83%E6%A9%9F", style: :primary
-          url_button "簽20日", "https://line.me/R/oaMessage/@commercetw/0820%E5%A8%83%E5%A8%83%E6%A9%9F", style: :primary, margin: :md
+          url_button "簽20日", "https://line.me/R/oaMessage/@commercetw/0820%E5%A8%83%E5%A8%83%E6%A9%9F", style: :primary
+          url_button "簽21日", "https://line.me/R/oaMessage/@commercetw/0821%E5%A8%83%E5%A8%83%E6%A9%9F", style: :primary, margin: :md
           url_button "前往開獎", "https://liff.line.me/1529013389-QwZzgXDV/luckydraw/ugBFIDeyMxcoCaY7HaaGgXicpCuGwBeysUaoie5LdsJII0A-ljYEUTbZcgqu9Mmz9eQU-r3ALm8F8NWrqguNGQ/", style: :primary, margin: :md
         end 
 
@@ -89,6 +95,16 @@ Kamiflex.json(self) do
             url_button "前往活動", "https://line.me/R/oaMessage/@commercetw/", style: :primary
         #   url_button "前往抽獎", "", style: :primary, margin: :md
           end
+
+
+#      separator color: "#ff00ff" 
+#      text "LINE購物品牌名店｜8/16~8/19",wrap:true,color:"#0000ff",flex: 2
+#      text "酷暑浮潛購！天天試手氣賺700點",wrap:true,color:"#0000ff",flex: 2
+#      horizontal_box margin: :lg do
+          #  url_button "18日", "https://line.me/R/oaMessage/@commercetw/0818%E6%BD%9B%E6%B0%B4", style: :primary
+#      url_button "簽19日", "https://line.me/R/oaMessage/@commercetw/0819%E6%BD%9B%E6%B0%B4", style: :primary, margin: :md
+#      url_button "得獎紀錄", "https://liff.line.me/1529013389-QwZzgXDV/luckydraw/ugBFIDeyMxcoCaY7HaaGgXicpCuGwBeysUaoie5LdsJMVYAqXwR8l7Ix4Hd-__bft-4nMU4cBCnDnyDtcV24ig/rewards", style: :primary, margin: :md
+#      end 
 
   #    separator color: "#ff00ff" 
   #    text "LINE購物｜\n一觸即「發」夏季購 8/10~8/18",wrap:true,color:"#0000ff",flex: 2
