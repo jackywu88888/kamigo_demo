@@ -12,7 +12,7 @@ class Activitys2Controller < ApplicationController
           "說明": "Hami Pay",
           "名稱": "蘋果IOS",
           "時間": " ",
-          "連結": "https://apps.apple.com/tw/app/hami-pay/id1240651472 ",
+          "連結": "https://apps.apple.com/tw/app/hami-pay/id1240651472",
           "查詢": "HamiPay",
         },
         {
@@ -89,14 +89,14 @@ class Activitys2Controller < ApplicationController
           "說明": "飛比價格 - 購物拍賣比價找便宜",
           "名稱": "蘋果IOS",
           "時間": " ",
-          "連結": "https://apps.apple.com/tw/app/飛比價格-購物拍賣比價找便宜/id1030282209 ",
+          "連結": "https://apps.apple.com/tw/app/飛比價格-購物拍賣比價找便宜/id1030282209",
           "查詢": "飛比價格",
         },
         {
           "說明": "飛比價格 - 購物拍賣比價找便宜",
           "名稱": "安卓(Android)",
           "時間": " ",
-          "連結": "https://play.google.com/store/apps/details?id=tw.com.feebee&hl=en_US&gl=US ",
+          "連結": "https://play.google.com/store/apps/details?id=tw.com.feebee&hl=en_US&gl=US",
           "查詢": "飛比價格",
         },
         {
@@ -110,7 +110,7 @@ class Activitys2Controller < ApplicationController
           "說明": "HAPPY GO",
           "名稱": "安卓(Android)",
           "時間": " ",
-          "連結": "https://play.google.com/store/apps/details?id=com.ddim.happygo&hl=zh_TW&gl=US ",
+          "連結": "https://play.google.com/store/apps/details?id=com.ddim.happygo&hl=zh_TW&gl=US",
           "查詢": "HAPPYGO",
         },
         {
@@ -131,7 +131,7 @@ class Activitys2Controller < ApplicationController
           "說明": "電力即點 ",
           "名稱": "蘋果IOS",
           "時間": " ",
-          "連結": "https://apps.apple.com/tw/app/電力即點/id1374792647 ",
+          "連結": "https://apps.apple.com/tw/app/電力即點/id1374792647",
           "查詢": "電力即點 ",
         },
         {
@@ -145,7 +145,7 @@ class Activitys2Controller < ApplicationController
           "說明": "康是美",
           "名稱": "蘋果IOS",
           "時間": " ",
-          "連結": "https://apps.apple.com/tw/app/康是美/id891609371 ",
+          "連結": "https://apps.apple.com/tw/app/康是美/id891609371",
           "查詢": "康是美",
         },
         {
@@ -173,7 +173,7 @@ class Activitys2Controller < ApplicationController
           "說明": "小雞上工",
           "名稱": "安卓(Android)",
           "時間": " ",
-          "連結": "https://play.google.com/store/apps/details?id=tw.com.part518&hl=en_US&gl=US ",
+          "連結": "https://play.google.com/store/apps/details?id=tw.com.part518&hl=en_US&gl=US",
           "查詢": "小雞上工",
         },
     ]

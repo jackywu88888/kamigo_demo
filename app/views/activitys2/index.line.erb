@@ -20,14 +20,14 @@
             text "活動說明", color: "#2600ff", size: :sm, flex: 1
             text activity [:說明], wrap: true, color: "#050403", size: :sm, flex: 5
           end
-          vertical_box spacing: :sm do
-            text "時間", color: "#2600ff", size: :sm, flex: 1
-            text activity[:時間], "wrap": true, color: "#f5002f", size: :sm, flex: 5
-          end
+#          vertical_box spacing: :sm do
+#            text "時間", color: "#2600ff", size: :sm, flex: 1
+#            text activity[:時間], "wrap": true, color: "#f5002f", size: :sm, flex: 5
+#          end
         end
         end
         footer do
-            url_button "前往活動", activity[:連結], style: :primary
+             postback_button "連結", activity[:連結], style: :primary
           #  postback_button "前往開獎", activity[:開獎], style: :primary, margin: :md
 
         end
