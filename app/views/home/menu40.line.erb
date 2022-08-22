@@ -3,41 +3,41 @@ Kamiflex.json(self) do
   alt_text "活動APP安裝"
   bubble size: :giga do
     body do
-      text "活動資訊",color:"#0000ff"
-      text "2022/08/22更新",color:"#0000ff"
-      text "排版文字如有錯誤，依照官方公布為準。",color:"#ff0000"
-      separator color: "#FF0000"
-      text "APP活動",color:"#0000ff"
+    #  text "活動資訊",color:"#0000ff"
+    #  text "2022/08/22更新",color:"#0000ff"
+    #  text "排版文字如有錯誤，依照官方公布為準。",color:"#ff0000"
+      text "APP安裝查詢",color:"#0000ff"
+      separator color: "#FF0000"      
 
       horizontal_box margin: :lg do
-        postback_button "Hami Pay", "APP程式/HamiPay", style: :primary 
-        postback_button "beanfun!", "APP程式/beanfun",  style: :primary, margin: :md
+        postback_button "Hami Pay", "APP程式安裝/HamiPay", style: :primary 
+        postback_button "beanfun!", "APP程式安裝/beanfun",  style: :primary, margin: :md
         end
 
       horizontal_box margin: :lg do  
-        postback_button "FirDay購物", "APP程式/FirDay", style: :primary
-        postback_button "特力愛家卡", "APP程式/特力愛家卡", style: :primary, margin: :md
+        postback_button "FirDay", "APP程式安裝/FirDay", style: :primary
+        postback_button "特力愛家卡", "APP程式安裝/特力愛家卡", style: :primary, margin: :md
         end
 
       horizontal_box margin: :lg do  
-        postback_button "飛比價格", "APP程式/飛比價格", style: :primary 
-		    postback_button "HAPPY GO", "APP程式/HAPPYGO", style: :primary, margin: :md
-		    end
+        postback_button "飛比價格", "APP程式安裝/飛比價格", style: :primary 
+		postback_button "HAPPY GO", "APP程式安裝/HAPPYGO", style: :primary, margin: :md
+		end
 
       horizontal_box margin: :lg do  
-        postback_button "台北", "APP程式/台北", style: :primary 
-        postback_button "beanfun", "APP程式/橘子beanfun", style: :primary, margin: :md
-        end
+		postback_button "UUPON", "APP程式安裝/UUPON", style: :primary 
+		postback_button "電力即點", "APP程式安裝/電力即點", style: :primary, margin: :md
+		end
 
-	    horizontal_box margin: :lg do  
-		    postback_button "UUPON", "APP程式/UUPON", style: :primary 
-		    postback_button "電力即點", "APP程式/電力即點", style: :primary, margin: :md
-		    end
+	  horizontal_box margin: :lg do  
+		postback_button "康是美", "APP程式安裝/康是美", style: :primary
+		postback_button "金石堂", "APP程式安裝/金石堂", style: :primary, margin: :md
+		end
 
-	    horizontal_box margin: :lg do  
-		    postback_button "康是美", "APP程式/康是美", style: :primary
-		    postback_button "金石堂", "APP程式/金石堂", style: :primary, margin: :md
-		    end
+      horizontal_box margin: :lg do  
+        postback_button "小雞上工", "APP程式安裝/小雞上工", style: :primary
+      #  postback_button "金石堂", "APP程式安裝/金石堂", style: :primary, margin: :md
+        end            
         
         horizontal_box margin: :lg do 
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, color: "#ed18a6"

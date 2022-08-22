@@ -27,14 +27,14 @@ class Activitys2Controller < ApplicationController
           "名稱": "蘋果IOS",
           "時間": " ",
           "連結": "https://apps.apple.com/tw/app/beanfun/id1108282446?shortlink=baf45339&pid=User_invite",
-          "查詢": "beanfun!",
+          "查詢": "beanfun",
         },
         {
           "說明": "beanfun!",
           "名稱": "安卓(Android)",
           "時間": " ",
           "連結": "https://play.google.com/store/apps/details?id=com.gamania.beanfun&hl=zh_HK&gl=US",
-          "查詢": "beanfun!",
+          "查詢": "beanfun",
         },
         {
           "說明": "FirDay購物",
