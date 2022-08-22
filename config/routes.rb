@@ -137,6 +137,8 @@ Rails.application.routes.draw do
   get "APP程式安裝/*keyword", to: "activitys2#index" 
   get "LINE遊戲/*keyword", to: "activitys2#index"
 
+  get "關鍵字/*keyword1/*keyword2", to: "activitys3#index"
+
 #  get "簽到活動", to: "activitys1#index" 
 #  get "H5點就玩查詢/*keyword", to: "inquires#index"
 #  get "Y5遊戲查詢/*keyword", to: "inquires2#index"

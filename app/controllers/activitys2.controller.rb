@@ -2,7 +2,7 @@ class Activitys2Controller < ApplicationController
     def index
       @activitys2 = [
         {
-          "說明": "以下的遊戲將會被列入組別與學院經驗值的計算中\nLINE Rangers \nLINE: Disney Tsum Tsum \nLINE 旅遊大亨 \nLINE Bubble 2 \nLINE 熊大農場 \nLINE: 鋼彈大亂鬥 \nLINE 熊貓連連看 \nLINE POKOPOKO \nLINE Pop甜點地圖 \nLINE Bubble \nLINE 熊大物語 \nLINE: ONE PIECE秘寶巡航 \nLINE 熊大上菜\nLINE 貓咪咖啡廳 \nJumputi Heroes 英雄氣泡 \nDisney Tsum Tsum Stadium \nLINE 波兔小鎮 \nLINE 血之聖約 \nLINE 金幣派對",
+          "說明": "以下的遊戲將會被列入組別與學院經驗值的計算中\n2022/5/12 資訊更新\nLINE Rangers \nLINE: Disney Tsum Tsum \nLINE 旅遊大亨 \nLINE Bubble 2 \nLINE 熊大農場 \nLINE: 鋼彈大亂鬥 \nLINE 熊貓連連看 \nLINE POKOPOKO \nLINE Pop甜點地圖 \nLINE Bubble \nLINE 熊大物語 \nLINE: ONE PIECE秘寶巡航 \nLINE 熊大上菜\nLINE 貓咪咖啡廳 \nJumputi Heroes 英雄氣泡 \nDisney Tsum Tsum Stadium \nLINE 波兔小鎮 \nLINE 血之聖約 \nLINE 金幣派對",
           "名稱": "LINE GAME",
           "時間": "2022/5/12 資訊更新",
           "連結": "https://notice2.line.me/LGUNIV/web/document/notice?documentId=20106286&lang=zh-Hant",
