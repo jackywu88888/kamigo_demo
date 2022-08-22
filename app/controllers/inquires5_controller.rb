@@ -2,6 +2,15 @@ class Inquires5Controller < ApplicationController
     def index
       @inquires5 = [
         {
+          "活動": "心動警報響起！那些令你一見鐘情的理想型❤️連續觀看指定戲劇5天得LINE POINTS 5點、VIP 得10點！",
+          "活動主題": "追劇贈點",
+          "限量或VIP": "此檔LINE POINTS 活動點數\\n活動期間內\\n只要完成任務條件即可得點\\n觀看的戲劇集數均不可重複。",
+          "名稱": "《親愛的小美人魚》",
+          "時間": "2022/08/23~2022/08/30",
+          "影片": "https://bnc.lt/MuAd/RXVEM7iwAsb",
+          "圖片": "https://img.linetv.tw/large/campaign/220823_campaign_dokidoki.jpg",
+        }, 
+        {
           "活動": "《沉香如屑》必看虐戀！連續觀看指定戲劇5天得LINE POINTS 5點、VIP 得10點！",
           "活動主題": "追劇贈點",
           "限量或VIP": "此檔LINE POINTS 活動點數\\n活動期間內\\n只要完成任務條件即可得點\\n觀看的戲劇集數均不可重複。",

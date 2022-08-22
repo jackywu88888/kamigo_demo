@@ -1,0 +1,48 @@
+<%= raw(
+Kamiflex.json(self) do
+  alt_text "官方帳號查詢"
+  bubble size: :giga do
+    body do
+      text "官方帳號查詢",wrap:true,color:"#ff0d00",flex: 2
+      text "@XXXXXXXXXX",wrap:true,color:"#ff0d00",flex: 2
+    #  text "或須送出文字，再輸入[關鍵字]。",wrap:true,color:"#ff0d00",flex: 2
+
+      separator color: "#ff00ff" 
+       horizontal_box margin: :lg do
+        postback_button "  ", "", style: :primary
+        postback_button "  ", "", style: :primary, margin: :md
+      end
+      horizontal_box margin: :lg do
+        postback_button "  ", "", style: :primary
+        postback_button "  ", "", style: :primary, margin: :md
+      end
+      horizontal_box margin: :lg do
+        postback_button "  ", "", style: :primary
+        postback_button "  ", "", style: :primary, margin: :md
+      end
+      horizontal_box margin: :lg do
+        postback_button "  ", "", style: :primary
+        postback_button "  ", "", style: :primary, margin: :md
+      end
+      horizontal_box margin: :lg do
+        postback_button "  ", "", style: :primary
+        postback_button "  ", "", style: :primary, margin: :md
+      end
+      horizontal_box margin: :lg do
+        postback_button "  ", "", style: :primary
+        postback_button "  ", "", style: :primary, margin: :md
+      end
+      horizontal_box margin: :lg do
+        postback_button "  ", "", style: :primary
+        postback_button "  ", "", style: :primary, margin: :md
+      end                              
+
+
+      separator color: "#ff00ff"
+      horizontal_box margin: :lg do
+      url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, color: "#ed18a6"
+end
+end
+end
+end
+)%>
