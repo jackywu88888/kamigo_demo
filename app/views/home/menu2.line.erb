@@ -19,10 +19,12 @@ Kamiflex.json(self) do
         postback_button "LINE活動", "LINE活動資訊", style: :primary 
         postback_button "APP活動", "APP活動資訊", style: :primary, margin: :md
       end
-  #    horizontal_box margin: :lg do
-  #      postback_button "其他活動1", "其他活動1", style: :primary
-  #      postback_button "其他活動2", "其他活動2", style: :primary, margin: :md
-  #    end
+
+      horizontal_box margin: :lg do
+        postback_button "LINE遊戲", "LINE遊戲/LINE遊戲", style: :primary
+        postback_button "APP安裝", "APP安裝", style: :primary, margin: :md
+      end
+
       horizontal_box margin: :lg do
   #      postback_button "MOMO簽到", "MOMO簽到CP值過低，暫不更新", style: :primary
         postback_button "推薦碼活動資訊", "推薦碼", style: :primary

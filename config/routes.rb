@@ -134,8 +134,8 @@ Rails.application.routes.draw do
   get "遊戲活動QA/*keyword", to: "inquires#index" 
 
   get "簽到活動/*keyword", to: "activitys1#index" 
-  get "簽到活動2/*keyword", to: "activitys2#index" 
-
+  get "APP程式/*keyword", to: "activitys2#index" 
+  get "LINE遊戲/*keyword", to: "activitys2#index"
 
 #  get "簽到活動", to: "activitys1#index" 
 #  get "H5點就玩查詢/*keyword", to: "inquires#index"
@@ -177,7 +177,8 @@ Rails.application.routes.draw do
 
   get "LINE活動資訊", to: "home#menu31"
   get "APP活動資訊", to: "home#menu32"
-
+  get "安裝", to: "home#menu40"
+  
   # 查天氣
   # get "*location天氣", to: "weather#show"
   # get "(*location)天氣(*other)", to: "weather#show"

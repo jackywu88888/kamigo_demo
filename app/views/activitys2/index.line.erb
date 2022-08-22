@@ -2,12 +2,12 @@
   <% if @keyword.present? %>
   {
     "type": "text",
-    "text": "<%= @keyword %>的活動。"
+    "text": "查詢<%= @keyword %>如下"
   },
   <% end %>
 
   <%= raw (Kamiflex.json(self) do
-    alt_text "各項活動"
+    alt_text "查詢"
   
     carousel do
       bubbles @activitys2 do |activity|
@@ -28,7 +28,7 @@
         end
         footer do
             url_button "前往活動", activity[:連結], style: :primary
-            postback_button "前往開獎", activity[:開獎], style: :primary, margin: :md
+          #  postback_button "前往開獎", activity[:開獎], style: :primary, margin: :md
 
         end
       end
