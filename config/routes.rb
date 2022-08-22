@@ -177,7 +177,7 @@ Rails.application.routes.draw do
 
   get "LINE活動資訊", to: "home#menu31"
   get "APP活動資訊", to: "home#menu32"
-  get "安裝", to: "home#menu40"
+  get "APP安裝", to: "home#menu40"
   
   # 查天氣
   # get "*location天氣", to: "weather#show"
