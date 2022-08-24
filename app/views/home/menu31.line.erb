@@ -47,6 +47,11 @@ Kamiflex.json(self) do
         postback_button "foodpanda", "簽到活動/foodpanda", style: :primary
         postback_button "i運動資訊", "簽到活動/i運動資訊", style: :primary, margin: :md
         end
+
+      horizontal_box margin: :lg do  
+        postback_button "PChome24h", "簽到活動/PChome24h", style: :primary
+      #  postback_button "i運動資訊", "簽到活動/i運動資訊", style: :primary, margin: :md
+        end        
     
         horizontal_box margin: :lg do 
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, color: "#ed18a6"
