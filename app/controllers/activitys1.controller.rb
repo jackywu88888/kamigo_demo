@@ -472,6 +472,20 @@ class Activitys1Controller < ApplicationController
           "連結": "https://www.feds.com.tw/app/fedsappdownload.asp",
           "查詢": "遠東",
         },
+        {
+          "說明": "天天抽，賺分賺優惠好運享美味",
+          "名稱": "麥當勞",
+          "時間": "8/19~8/25",
+          "連結": "https://mcdweb.mcddailyapp.com.tw/game/v2/mcdonald.html?actionType=1&parameters=1553990364156620801&openexternalbrowser=1",
+          "查詢": "麥當勞",
+        },
+        {
+          "說明": "快來填問卷，回饋賺起來",
+          "名稱": "麥當勞",
+          "時間": "8/24~8/30",
+          "連結": "https://mcdweb.mcddailyapp.com.tw/game/v2/mcdonald.html?actionType=1&parameters=1556895652501221378&openexternalbrowser=1",
+          "查詢": "麥當勞",
+        },
   #      {
   #        "說明": "全家APP【好好玩】(H5/全家版)簽到、任務中心回答問題累積積分。\n🎁積分可以兌換霜淇淋、咖啡、衛生紙。",
   #        "名稱": "全家",
