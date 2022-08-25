@@ -72,7 +72,7 @@ class Activitys1Controller < ApplicationController
           "說明": "foodpanda Line官方帳號簽到",
           "名稱": "foodpanda",
           "時間": "我要填問卷 [150點/限乙次]",
-          "連結": "https://line.me/R/oaMessage/@foodpanda.tw/%E6%88%91%E8%A6%81%E9%BB%9E%E6%95%B8%2520%E6%88%91%E8%A6%81%E5%A1%AB%E5%95%8F%E5%8D%B7%EF%BC%81",
+          "連結": "https://line.me/R/oaMessage/@foodpanda.tw/%E6%88%91%E8%A6%81%E9%BB%9E%E6%95%B8%20%E6%88%91%E8%A6%81%E5%A1%AB%E5%95%8F%E5%8D%B7%EF%BC%81",
           "查詢": "foodpanda",
         },
         {
