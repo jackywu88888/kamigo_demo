@@ -8,8 +8,9 @@ Kamiflex.json(self) do
       separator color: "#eeeeee"
 
       horizontal_box margin: :lg do
-        url_button "賺點數官方資訊推播~資訊不漏接", "https://script.google.com/macros/s/AKfycbwfdT3spzAS1nb5MGNtqg_CiRnor0R7sq3t-RDEVozyQZZveTJZCNu7edDoOGOHGZJ-Nw/exec?Title=Register", style: :primary
-        end
+        url_button "LINE Notify推播", "https://script.google.com/macros/s/AKfycbwfdT3spzAS1nb5MGNtqg_CiRnor0R7sq3t-RDEVozyQZZveTJZCNu7edDoOGOHGZJ-Nw/exec?Title=Register", style: :primary
+        postback_button "LINE@代碼查詢", "官方代碼", style: :primary  
+      end
       
     #    horizontal_box margin: :lg do 
     #    postback_button "賺全家購物金100元，第三波期限11/31", "星城", style: :primary, color: "#ff0d00"
@@ -37,8 +38,7 @@ Kamiflex.json(self) do
         end
 
         horizontal_box margin: :lg do
-          postback_button "LINE官方@代碼", "官方代碼", style: :primary
-          url_button "PTT縮網址", "https://ppt.cc/index.php", style: :primary, margin: :md
+          url_button "PTT縮網址", "https://ppt.cc/index.php", style: :primary
           url_button "Reurl縮網址", "https://line.me/R/oaMessage/@nnj0738u/", style: :primary, margin: :md
         end
 
