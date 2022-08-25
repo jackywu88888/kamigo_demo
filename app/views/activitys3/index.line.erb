@@ -1,10 +1,8 @@
 [
-#  <% if @keyword.present? %>
-#  {
-#    "type": "text",
-#    "text": "查詢<%= @keyword %>如下"
-#  },
-#  <% end %>
+  <% if @keyword.present? %>
+
+  
+  <% end %>
 
   <%= raw (Kamiflex.json(self) do
     alt_text "查詢"
