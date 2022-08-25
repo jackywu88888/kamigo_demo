@@ -574,7 +574,7 @@ class Activitys1Controller < ApplicationController
           "說明": "PChome24h購物 搶救BOXMAN\n5P幣、1P幣等總量３萬P幣、折價券",
           "名稱": "PChome24h",
           "時間": "⏰8/9~9/1",
-          "連結": "https://line.me/R/app/1655862347-kZ5jpwQx?gid=x4wlNjqV",
+          "連結": "https://line.me/R/oaMessage/@pchome24h",
           "查詢": "PChome24h",
         },
         {

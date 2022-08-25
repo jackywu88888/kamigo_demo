@@ -2,8 +2,7 @@
   <% if @keyword.present? %>
   {
     "type": "text",
-    "text": "查詢<%= @keyword2 %>如下"
-    
+    "text": "查詢<%= @keyword %>如下"
   },
   <% end %>
 
@@ -28,7 +27,7 @@
         end
         end
         footer do
-             postback_button "連結", activity[:連結], style: :primary
+          postback_button "@官方代碼", activity[:連結], style: :primary
           #  postback_button "前往開獎", activity[:開獎], style: :primary, margin: :md
 
         end
