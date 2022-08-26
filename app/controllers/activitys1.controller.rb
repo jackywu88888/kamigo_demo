@@ -489,8 +489,8 @@ class Activitys1Controller < ApplicationController
         {
           "說明": "天天抽，賺分賺優惠好運享美味",
           "名稱": "麥當勞",
-          "時間": "8/19~8/25",
-          "連結": "https://mcdweb.mcddailyapp.com.tw/game/v2/mcdonald.html?actionType=1&parameters=1553990364156620801&openexternalbrowser=1",
+          "時間": "8/26~9/1",
+          "連結": "%E7%AD%94%E9%A1%8C%E6%8B%BF%E9%BB%9E%E6%95%B8%E2%9C%A8%E5%86%B7%E7%9F%A5%E8%AD%98%E7%8E%8B%E5%B0%B1%E6%98%AF%E4%BD%A0%EF%BC%81",
           "查詢": "麥當勞",
         },
         {
