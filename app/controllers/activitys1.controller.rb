@@ -287,7 +287,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://bit.ly/3N9pSVJ",
           "查詢": "新光人壽",
         },
-        #NO1
+        # "NO1"
         {    
           "說明": "HAPPY GO APP活動\n點點出任務：雅詩蘭黛NO.1粉持久【簽到得點領試用】\n🎁每簽到7天1點HG點",
           "名稱": "HAPPY GO",
@@ -295,7 +295,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://hgapp.page.link/F48Zi7LqXgVK3nf2A",
           "查詢": "HAPPYGO",
         },
-        #NO2
+        # "NO2"
         {
           "說明": "HAPPY GO APP活動\n「點點出任務：雲端益智來挑戰抽20點」每天\n🎁20HG點(600名)。",
           "名稱": "HAPPY GO",
@@ -303,7 +303,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://hgapp.page.link/foec2JWgtpdgg7FU6",
           "查詢": "HAPPYGO",
         },
-        #NO3        
+        # "NO3"        
         {
           "說明": "HAPPY GO APP活動\n「點點出任務：好鄰挖寶巡禮」\n至台北市/板橋區/桃園市/新竹縣市/台中市任一商圈HAPPY GO特店通路打卡拿HG點\n🎁1點HG點\n⚠️每5天可玩一次",
           "名稱": "HAPPY GO",
@@ -311,7 +311,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://hgapp.page.link/kRcJ6LPKnZjXNB6q9",
           "查詢": "HAPPYGO",
         },
-        #NO4
+        # "NO4"
         {
           "說明": "HAPPY GO APP活動\n「點點出任務：簽到得1點」\n🎁每累積指定天數1點HG點(限量700000點)5～10分鐘歸戶，",
           "名稱": "HAPPY GO",
@@ -319,7 +319,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://hgapp.page.link/ZQXsYccqFAQDjCYr5",
           "查詢": "HAPPYGO",
         },
-        #NO5
+        # "NO5"
         {
           "說明": "HAPPY GO APP活動\n「點點出任務：好鄰點點名」\n🎁簽到7天1點HG點(7～9月每月最多1點)立即歸戶\n🎁抽BALMUDA蒸汽烤麵包機",
           "名稱": "HAPPY GO",
@@ -327,7 +327,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://hgapp.page.link/NLCNQmcTkMfj9ucA8",
           "查詢": "HAPPYGO",
         },
-        #NO6
+        # "NO6"
         {
           "說明": "HAPPY GO APP活動\n「王牌編劇挑戰，說出真相拿1點」\n🎁看影片並答題得1點HG點\n🎁答對再抽100點HG點",
           "名稱": "HAPPY GO",
@@ -335,7 +335,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://hgapp.page.link/ENpJvsakd7hrPQVR8",
           "查詢": "HAPPYGO",
         },
-        #NO7
+        # "NO7"
         {
           "說明": "HAPPY GO APP活動\n「板橋走走-私房景點打卡」--打卡地點：新北市立圖書館總館\n🎁10點(前2000名)\n⚠️每一帳號期間內僅能進行一次任務\n📮新北市立圖書館總館➡️新北市板橋區板橋區貴興路139號",
           "名稱": "HAPPYGO",
@@ -343,7 +343,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://hgapp.page.link/GxdyamJBc4Yd1eRX6",
           "查詢": "HAPPYGO",
         },
-        #NO8
+        # "NO8"
         {
           "說明": "HAPPY GO APP活動\n「Big City 巨城打卡贈點樂」於遠東巨城購物中心(不含遠東SOGO百貨)打卡可獲贈HG點\n⚠️每一帳號期間內僅能進行一次任務🎁10點\n📮遠東巨城購物中心➡️新竹市東區中央路229號",
           "名稱": "HAPPYGO",
@@ -351,7 +351,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://hgapp.page.link/usErvFVRyE72nG4AA",
           "查詢": "HAPPYGO",
         },
-        #NO9
+        # "NO9"
         {
           "說明": "HAPPY GO APP活動\n「點點出任務：HAPPY GO綁定發票限定轉盤」5-6月份發票中奬卡友限定\n🎁10萬HG點(1名)、5千HG點(30名)、5百HG點(400名)、其餘5點，人人有奬\n⚠️31天玩一次",
           "名稱": "HAPPY GO",
@@ -359,7 +359,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://hgapp.page.link/ww4FSknVb3qSD8tY9",
           "查詢": "HAPPYGO",
         },
-        #NO10
+        # "N10"
         {
           "說明": "HAPPY GO APP活動\n「台北市打卡消費快樂多10點」\n🎁100點HG點(100名)8/31公告中獎名單",
           "名稱": "HAPPYGO",
@@ -367,7 +367,7 @@ class Activitys1Controller < ApplicationController
           "連結": "https://hgapp.page.link/fuC43WVEVuKQ8xi68",
           "查詢": "HAPPYGO",
         },
-        #NO11
+        # "N11"
         {
           "說明": "HAPPY GO APP活動\n「【觀看抽點數】最好拍的打卡點原來在這」:看影片抽點數\n🎁10點HG點",
           "名稱": "HAPPYGO",
