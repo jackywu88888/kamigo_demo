@@ -36,6 +36,18 @@ Kamiflex.json(self) do
       end
 
       separator color: "#ff00ff"  
+      text "LINE購物｜點藏愛心聚點！",wrap:true,color:"#0000ff",flex: 2
+      text "收藏店家試手氣 最高賺333點 8/29-8/31",wrap:true,color:"#0000ff",flex: 2
+      text "收藏完成指定商家，自動開獎。",wrap:true,color:"#0000ff",flex: 2
+      horizontal_box margin: :lg do
+        url_button "29日收藏1", "https://buy.line.me/u/partner/4747531?utm_source=OA&utm_medium=shopping_luckydraw&utm_campaign=like0829", style: :primary
+        url_button "29日收藏2", "https://buy.line.me/u/partner/880044024232?utm_source=OA&utm_medium=shopping_luckydraw&utm_campaign=like0829", style: :primary, margin: :md
+        url_button "29日收藏3", "https://buy.line.me/u/partner/880045521101?utm_source=OA&utm_medium=shopping_luckydraw&utm_campaign=like0829", style: :primary, margin: :md
+        url_button "得獎紀錄", "https://liff.line.me/1529013389-QwZzgXDV/luckydraw/ugBFIDeyMxcoCaY7HaaGgUUKWaj3xCddVX8EgYXNpzZjTI709fnHfQXZ7h4CHoF0hiYsUYKDLpx96gR_lVQFHg/rewards", style: :primary, margin: :md
+        #postback_button"得獎紀錄", "尚未公布", style: :primary, margin: :md
+      end
+
+      separator color: "#ff00ff"  
       text "8/26~8/31｜LINE購物｜這夏沒玩購！",wrap:true,color:"#0000ff",flex: 2
     #  text "8/26~8/31",wrap:true,color:"#0000ff",flex: 2
       horizontal_box margin: :lg do
