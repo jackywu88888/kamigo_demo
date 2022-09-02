@@ -15,7 +15,7 @@ Kamiflex.json(self) do
 
       horizontal_box margin: :lg do  
         postback_button "南山人壽", "簽到活動/南山人壽", style: :primary
-        postback_button "新光人壽", "簽到活動/新光人壽", style: :primary, margin: :md
+        postback_button "新光人壽", "簽到活動/新光", style: :primary, margin: :md
         end
 
       horizontal_box margin: :lg do  
@@ -51,7 +51,13 @@ Kamiflex.json(self) do
       horizontal_box margin: :lg do  
         postback_button "PChome24h", "簽到活動/PChome24h", style: :primary
         postback_button "屈臣氏", "簽到活動/屈臣氏", style: :primary, margin: :md
+        end  
+
+      horizontal_box margin: :lg do  
+        postback_button "永豐金證券", "簽到活動/永豐金證券", style: :primary
+        postback_button "萊爾富", "簽到活動/萊爾富", style: :primary, margin: :md
         end        
+        
     
         horizontal_box margin: :lg do 
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, color: "#ed18a6"

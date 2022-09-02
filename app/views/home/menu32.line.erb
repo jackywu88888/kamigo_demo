@@ -25,7 +25,7 @@ Kamiflex.json(self) do
 		    end
 
       horizontal_box margin: :lg do  
-        postback_button "台北", "簽到活動/台北", style: :primary 
+        postback_button "台北APP", "簽到活動/台北", style: :primary 
         postback_button "麥當勞", "簽到活動/麥當勞", style: :primary, margin: :md
         end
 
@@ -63,7 +63,22 @@ Kamiflex.json(self) do
         postback_button "Yahoo超級商城", "簽到活動/Yahoo", style: :primary
         postback_button "東森購物網", "簽到活動/東森", style: :primary, margin: :md
         end
-        
+
+      horizontal_box margin: :lg do 
+        postback_button "udn聯合新聞網", "簽到活動/udn聯合新聞網", style: :primary 
+        postback_button "特力愛家卡", "簽到活動/特力愛家卡", style: :primary, margin: :md
+        end
+
+      horizontal_box margin: :lg do 
+        postback_button "合作金庫", "簽到活動/合作金庫", style: :primary 
+        postback_button "台新Richart", "簽到活動/台新", style: :primary, margin: :md
+        end
+
+      horizontal_box margin: :lg do 
+        postback_button "台灣大哥大", "簽到活動/台灣大哥大", style: :primary, margin: :md
+      #  postback_button "", "簽到活動/", style: :primary, margin: :md
+        end    
+
         horizontal_box margin: :lg do 
         url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, color: "#ed18a6"
         end
