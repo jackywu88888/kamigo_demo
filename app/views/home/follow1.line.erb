@@ -1,24 +1,45 @@
 <%= raw(
 Kamiflex.json(self) do
-  alt_text "賺點數社群 向您傳送了訊息"
+  alt_text "功能目錄"
   bubble size: :giga do
     body do
-        text "賺點數社群官方", wrap: true, weight: :bold
-
-        text "眾多官方帳號與商家優惠資訊活動", wrap: true, size: :sm, margin: :md , color: "#0900e6"
-
-     # horizontal_box margin: :lg do
-     #   url_button "請點擊前往投票，感謝您的支持。", "https://reurl.cc/WkkbK9", style: :primary, color: "#ff0d00"
-     #    end
+      text "功能目錄~新功能推播歡迎加入",wrap:true,color:"#0000ff",flex: 2
+    #  text "08/22資訊更新",wrap:true,color:"#0000ff",flex: 2
+      separator color: "#eeeeee"
 
       horizontal_box margin: :lg do
-          postback_button "簽到彙集", "簽到彙集分享活動", style: :primary
-          url_button "速速彙整簽章", "http://bit.ly/fast2signforshell", style: :primary, margin: :md
-        end
+        url_button "LINE Notify推播", "https://script.google.com/macros/s/AKfycbwfdT3spzAS1nb5MGNtqg_CiRnor0R7sq3t-RDEVozyQZZveTJZCNu7edDoOGOHGZJ-Nw/exec?Title=Register", style: :primary
+        postback_button "LINE@代碼查詢", "官方代碼", style: :primary, margin: :md
+      end
+      
+    #    horizontal_box margin: :lg do 
+    #    postback_button "賺全家購物金100元，第三波期限11/31", "星城", style: :primary, color: "#ff0d00"
+    #    end
+
+      horizontal_box margin: :lg do
+          postback_button "活動彙集", "活動簽到彙集", style: :primary
+      #  end
+      #  horizontal_box margin: :lg do
+          postback_button "LINE活動1", "LINE活動簽到1", style: :primary, margin: :md, color: "#5ec1f7"
+          postback_button "LINE活動2", "LINE活動簽到2", style: :primary, margin: :md, color: "#5ec1f7"
+      #    postback_button "LINE活動簽到", "LINE活動簽到", style: :primary, margin: :md
+      #    postback_button "禮物投票活動", "投票", style: :primary,margin: :md, color: "#ff0d00"
+      #    postback_button "禮物投票活動", "投票", style: :primary,margin: :md, color: "#ff0d00"
+        end  
 
         horizontal_box margin: :lg do
           postback_button "LINE_TV課表", "line_tv", style: :primary
           url_button "課表即時發點進度", "https://help.linetv.tw/announcements/ZxULn4Vt5.html", style: :primary, margin: :md
+        end
+
+        horizontal_box margin: :lg do
+          postback_button "活動APP安裝", "APP安裝", style: :primary
+          postback_button "雲端發票歸戶教學", "雲端", style: :primary, margin: :md
+        end
+
+        horizontal_box margin: :lg do
+          url_button "PTT縮網址", "https://ppt.cc/index.php", style: :primary
+          url_button "Reurl縮網址", "https://line.me/R/oaMessage/@nnj0738u/", style: :primary, margin: :md
         end
 
       horizontal_box margin: :lg do
@@ -26,14 +47,9 @@ Kamiflex.json(self) do
           postback_button "信用卡查詢", "信用卡查詢", style: :primary, margin: :md, color: "#0048e8"
         end     
 
-      horizontal_box margin: :lg do
-          postback_button "推薦碼活動資訊", "推薦碼", style: :primary
-          url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary,  margin: :md, color: "#ed18a6"
-        end
-
       horizontal_box margin: :lg do  
-          url_button "賺點數社群", "http://line.me/ti/g2/pouCYoNQTEsXxN_hX7yhkg", style: :primary
-					url_button "利己分享社群", "http://line.me/ti/g2/pUYxGjnCPZkiAaLVWs7EQw", style: :primary, margin: :md
+          url_button "賺點數社群", "http://line.me/ti/g2/pouCYoNQTEsXxN_hX7yhkg", style: :primary  #, color: "#00f723"
+					url_button "利己分享社群", "http://line.me/ti/g2/pUYxGjnCPZkiAaLVWs7EQw", style: :primary, margin: :md   #, color: "#00f723"
         end
 
       horizontal_box margin: :lg do
@@ -45,7 +61,9 @@ Kamiflex.json(self) do
       #  url_button "賺點數官方參考卡米哥影片教學製作", "http://www.youtube.com/c/etrexkuo/videos", style: :primary
       #  end
       horizontal_box margin: :lg do
-          url_button "免稅昇活銷售專員", "http://line.me/ti/g/Q9flP0IUqj", style: :primary
+          url_button "直接加官方帳號", "https://live.staticflickr.com/65535/51961971288_b0ed4247db_n.jpg", style: :primary
+      #   url_button "免稅昇活銷售專員", "http://line.me/ti/g/Q9flP0IUqj", style: :primary, margin: :md
+          url_button "分享給好友", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary,  margin: :md, color: "#ed18a6"
         end
 
       end
