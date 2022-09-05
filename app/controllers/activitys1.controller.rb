@@ -255,7 +255,7 @@ class Activitys1Controller < ApplicationController
           "說明": "富邦健康邦【登記健走步數】\n🎁30點LINE POINTS(100名)",
           "名稱": "富邦健康邦",
           "時間": "9/1~9/30\n⏰8/1～8/31，9/9公佈中獎名單",
-          "連結": "https://line.me/R/oaMessage/@fubonlife/%E6%88%91%E8%A6%81%E7%99%BB%E8%A8%988%E6%9C%88%E4%BB%BD%E7%9A%84%E6%AF%8F%E6%97%A5%E5%81%A5%E8%B5%B0%E6%AD%A5%E6%95%B8",
+          "連結": "https://line.me/R/oaMessage/@fubonlife/%E6%88%91%E8%A6%81%E7%99%BB%E8%A8%989%E6%9C%88%E4%BB%BD%E7%9A%84%E6%AF%8F%E6%97%A5%E5%81%A5%E8%B5%B0%E6%AD%A5%E6%95%B8",
       #   "連結": "line://oaMessage/@fubonlife/我要登記8月份的每日健走步數",
           "查詢": "富邦",
         },      
