@@ -3,10 +3,17 @@ Kamiflex.json(self) do
   alt_text "功能目錄"
   bubble size: :giga do
     body do
+      text "heroku伺服器即將2022/11/28開始收費",wrap:true,color:"#0900e6",flex: 2
+      text "部分查詢功能無法繼續更新",wrap:true,color:"#0900e6",flex: 2
       text "如未及時更新資訊，請自行前往活動查看。",wrap:true,color:"#f5002f",flex: 2
       text "功能目錄~新功能推播歡迎加入",wrap:true,color:"#0000ff",flex: 2
     #  text "08/22資訊更新",wrap:true,color:"#0000ff",flex: 2
       separator color: "#eeeeee"
+
+      horizontal_box margin: :lg do
+        url_button "2022/11/28日無法繼續更新", "https://live.staticflickr.com/65535/52405925726_bf8f77ed21_b.jpg", style: :primary
+#        postback_button "LINE@代碼查詢", "官方代碼", style: :primary, margin: :md
+      end
 
       horizontal_box margin: :lg do
         url_button "LINE Notify推播", "https://script.google.com/macros/s/AKfycbwfdT3spzAS1nb5MGNtqg_CiRnor0R7sq3t-RDEVozyQZZveTJZCNu7edDoOGOHGZJ-Nw/exec?Title=Register", style: :primary
