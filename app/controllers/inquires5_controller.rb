@@ -3,6 +3,16 @@ class Inquires5Controller < ApplicationController
       @inquires5 = [
 
         {
+          "活動": "連假追劇攻略！連續七天觀看指定戲劇一集得5點",
+          "活動主題": "追劇贈點/不限量",
+          "限量或VIP": "此檔LINE POINTS 活動點數\\n活動期間內\\n只要完成任務條件即可得點\\n觀看的戲劇集數均不可重複。",
+          "名稱": "《當你年少時》",
+          "時間": "2022/10/06~2022/10/15",
+          "影片": "https://bnc.lt/MuAd/mIlUa0arPtb",
+          "圖片": "https://img.linetv.tw/large/campaign/POINTS_1006.jpg",
+        },
+
+        {
           "活動": "好友劇一劇，一起看好戲！連續觀看指定戲劇5天得LINE POINTS 5點",
           "活動主題": "追劇贈點/不限量",
           "限量或VIP": "此檔LINE POINTS 活動點數\\n活動期間內\\n只要完成任務條件即可得點\\n觀看的戲劇集數均不可重複。",
@@ -12,15 +22,6 @@ class Inquires5Controller < ApplicationController
           "圖片": "https://img.linetv.tw/raw_images/campaign/20221002_LINEPOINTS.png",
         },
 
-        {
-          "活動": "為老師們送上真摯祝福！連續5天觀看指定戲劇得LINE POINTS 5點",
-          "活動主題": "追劇贈點/不限量",
-          "限量或VIP": "此檔LINE POINTS 活動點數\\n活動期間內\\n只要完成任務條件即可得點\\n觀看的戲劇集數均不可重複。",
-          "名稱": "《當你年少時》",
-          "時間": "2022/09/28~2022/10/05",
-          "影片": "https://bnc.lt/MuAd/J9aIR1liCtb",
-          "圖片": "https://img.linetv.tw/large/campaign/220928_campaign_teacher.jpg",
-        },
 
 
 #        {
