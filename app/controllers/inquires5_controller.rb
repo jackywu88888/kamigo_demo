@@ -10,7 +10,7 @@ class Inquires5Controller < ApplicationController
           "時間": "2022/10/18~2022/10/25",
           "影片": "https://bnc.lt/MuAd/oX9IeVL4aub",
           "圖片": "https://img.linetv.tw/large/campaign/20221018_1025event.jpg",
-        }
+        },
 
         {
           "活動": "秋日好劇大賞！連續五天觀看指定戲劇一集得5點、VIP得10點",
