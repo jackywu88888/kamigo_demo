@@ -48,7 +48,13 @@ class Activitys3Controller < ApplicationController
           "名稱": "LINE購物 夯話題",
           "連結": "https://line.me/R/oaMessage/@twechottopic",
           "查詢": "夯話題",
-        },                        
+        },    
+        {
+          "說明": "官方@代碼",
+          "名稱": "LINE購物商城",
+          "連結": "https://line.me/R/oaMessage/@lineecmall",
+          "查詢": "購物商城",
+        },                    
     ]
 
     @keyword = params[:keyword]
