@@ -132,6 +132,8 @@ Rails.application.routes.draw do
 
   get "測試", to: "videos3#index"
   get "遊戲活動QA/*keyword", to: "inquires#index" 
+  get "台電即點QA/*keyword", to: "inquires6#index" 
+
 
   get "簽到活動/*keyword", to: "activitys1#index" 
   get "APP程式安裝/*keyword", to: "activitys2#index" 
