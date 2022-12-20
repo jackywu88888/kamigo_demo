@@ -993,7 +993,7 @@ class Inquires6Controller < ApplicationController
     if @keyword.present?
         @inquires6.filter! do |inquire|
            inquire[:題目].include? @keyword
+      end
     end
   end
-end
 end
