@@ -37,7 +37,7 @@ Rails.application.routes.draw do
    get "哈啦板查詢/*keyword", to: "friends2#index"
 
   get "遠傳理財查詢/*keyword", to: "videos5#index"
-  get "2022外送整理", to: "videos6#index"
+  get 2022外送整理", to: "videos6#index"
  
 #  get "常態活動簽到", to: "signs0#index"
 #  get "簽到資訊1", to: "signs1#index"
